@@ -1,0 +1,2106 @@
+[
+  {
+    "slug": "caustic-soda-group",
+    "title": "Caustic Soda Group",
+    "products": [
+      {
+        "name": "Caustic Soda Lye",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Sodium Hydroxide (as NaOH)",
+              "% 47.00 min"
+            ],
+            [
+              "2",
+              "Sodium Carbonate (as Na2CO3)",
+              "% 00.20 max"
+            ],
+            [
+              "3",
+              "Chloride (as Cl – )",
+              "% 0.015 max"
+            ],
+            [
+              "4",
+              "Iron (as Fe ++ + )",
+              "ppm 10.00 max"
+            ]
+          ]
+        ],
+        "caution": "Harmful to Animals & Plant tissues Corrosive",
+        "applications": [
+          "Pulp & Paper",
+          "Textiles",
+          "Soaps and Detergents",
+          "Petroleum Products",
+          "Aluminum Metal",
+          "Chemical Process",
+          "Bleach Manufacturing"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/CAUSTIC-SODA-LYE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Caustic-Soda-Lye.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Caustic Soda Flakes",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Sodium Hydroxide (as NaOH) Dry Basis",
+              "% 99.50 min"
+            ],
+            [
+              "2",
+              "Sodium Carbonate (as Na2CO3)",
+              "% 00.40 max"
+            ],
+            [
+              "3",
+              "Chloride (as Cl – )",
+              "% 00.03 max"
+            ],
+            [
+              "4",
+              "Iron (as Fe ++ + )",
+              "ppm 20.00 max"
+            ]
+          ]
+        ],
+        "caution": "Exothermic reaction with water, human tissues",
+        "applications": [
+          "Pulp & Paper",
+          "Textiles",
+          "Soaps and Detergents",
+          "Petroleum Products",
+          "Aluminum Metal",
+          "Chemical Process",
+          "Bleach Manufacturing"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/CAUSTIC-SODA-FLAKES.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Caustic-Soda-Flakes.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Caustic Soda Prills",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Sodium Hydroxide (As NaOH) on dry basis",
+              "% 99.40 min"
+            ],
+            [
+              "2",
+              "Sodium Carbonate (as Na2CO3)",
+              "% 0.60 max"
+            ],
+            [
+              "3",
+              "Chloride (as NaCl)",
+              "% 0.02 max"
+            ],
+            [
+              "4",
+              "+++ Irons (as Fe)",
+              "ppm 10.00 max"
+            ],
+            [
+              "5",
+              "Nickle (as Ni)",
+              "ppm 5.00 max"
+            ],
+            [
+              "6",
+              "Particle Size (nominal)",
+              "mm 0.25 to 1.3"
+            ]
+          ]
+        ],
+        "caution": "Exothermic Reaction with water, human tissues",
+        "applications": [
+          "Pulp & Paper",
+          "Textiles",
+          "Soaps and Detergents",
+          "Petroleum Products",
+          "Aluminum Metal",
+          "Chemical Process",
+          "Bleach Manufacturing"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/CAUSTIC-SODA-PRILLS.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Caustic-Soda-Prills.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Sodium Sulphate (Anhydrous) (Na2SO4)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification",
+              "Typical"
+            ],
+            [
+              "1",
+              "Sodium Sulphate (Min)",
+              "% 99.00",
+              "99.50"
+            ],
+            [
+              "2",
+              "Insoluble in water (Max)",
+              "% 0.25",
+              "Traces"
+            ],
+            [
+              "3",
+              "Chlorides as NaCl (Max)",
+              "% 0.30",
+              "0.10"
+            ],
+            [
+              "4",
+              "Iron as Fe (Max) Moisture",
+              "% 0.50",
+              "0.10"
+            ]
+          ]
+        ],
+        "caution": "",
+        "applications": [
+          "Laundry detergent",
+          "Textile industry",
+          "Pharma industry",
+          "Glass industry",
+          "Wood pulp industry",
+          "Food industry"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/SODIUM-SULPHATE-ANHYDROUS.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Hydrochloric Acid (HCl)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Hydrochloric Acid (as HCl)",
+              "% 30.00 min"
+            ],
+            [
+              "2",
+              "+++ Iron (as Fe)",
+              "ppm 1.00 max"
+            ],
+            [
+              "3",
+              "Free Chlorine & Bromine",
+              "% 0.0020 max"
+            ]
+          ]
+        ],
+        "caution": "Threshold limit5 ppm in air as per ACGIH norms",
+        "applications": [
+          "Steel pickling and scale removal",
+          "Water treatment",
+          "Ore refining",
+          "Food processing",
+          "Manufacture of Chlorine Dioxide",
+          "Activation of Petroleum wells",
+          "Catalyst in Organic process",
+          "Removal of heavy metal from Carbon Black and Activated Carbon",
+          "Leaching Alumina from Crystalline Zeolities",
+          "Hydrolyzing agent"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/HYDROCHLORIC-ACID.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Hydrochloric-Acid.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Sodium Hypochlorite (NaOCl)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Sp. Gravity (15°C/4°C)",
+              "– –"
+            ],
+            [
+              "2",
+              "Available Chlorine",
+              "gpl40 to200"
+            ],
+            [
+              "3",
+              "NaOH",
+              "gpl >5.0"
+            ]
+          ]
+        ],
+        "caution": "",
+        "applications": [
+          "Bleaching agent for rayon pulp and paper, cotton, linen ane jute.",
+          "Disinfectant in dairies and creameries",
+          "Water treatment (Chlorination)",
+          "Pool Chlorination",
+          "Household bleach",
+          "Germicide",
+          "Fungicide",
+          "Hydrolyzing agent"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/SODIUM-HYPOCHLORITE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Sodium-Hypochlorite.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Liquid Chlorine (Cl2)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Chlorine Content",
+              "%v/v 99.80 min"
+            ],
+            [
+              "2",
+              "Moisture",
+              "%w/w 0.01 max"
+            ]
+          ]
+        ],
+        "caution": "Threshold limit1 ppm in air as per ACGIH norms",
+        "applications": [
+          "Manufacturing of:",
+          "PVC (Poly Vinyl Chloride)",
+          "Chlorinated Hydrocarbons",
+          "Chlorinated Paraffin (CP)",
+          "Water Purification",
+          "Bleaching Agent",
+          "Waste & Sewage treatment",
+          "Disinfecting Agent",
+          "Sanitizing agent",
+          "Synthetic Rubber"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/LIQUID-CHLORINE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Liquide-Chlorine.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Compressed Hydrogen Gas (H2)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Purity (as H)2",
+              "%v/v 99.50 min"
+            ]
+          ]
+        ],
+        "caution": "Flammable limit in Air: 4 to75 vol. %. Explosive mixture with Oxygen.",
+        "applications": [
+          "Organic Hydrogenation",
+          "As a Fuel",
+          "Catalytic Reduction",
+          "Hydrochloric Acid Manufacture",
+          "As a Reducing agent",
+          "Ammonia Synthesis",
+          "Hydrogen-fuel cells manufacture used in eco-friendly automobiles"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/COMPRESSED-HYDROGEN-GAS.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Compressed-Hydrogen-Gas.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "caustic-potash-group",
+    "title": "Caustic Potash Group",
+    "products": [
+      {
+        "name": "Caustic Potash Lye (KOH)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Potassium Hydroxide (as KOH)",
+              "% 47.00 min"
+            ],
+            [
+              "2",
+              "Potassium Carbonate (as K2CO3)",
+              "% 00.50 max"
+            ],
+            [
+              "3",
+              "Chloride (as KCl)",
+              "% 150.00 max"
+            ],
+            [
+              "4",
+              "Iron (as Fe) +++",
+              "ppm 20.00 max"
+            ]
+          ]
+        ],
+        "caution": "Harmful to Animals & Plant Tissues; Corrosive",
+        "applications": [
+          "Potassium Carbonate",
+          "Dye Stuff industry",
+          "Rubber Chemicals",
+          "Potassium Permanganate",
+          "Acid Neutralization",
+          "Other Potassium based chemicals",
+          "Pharmaceutical industry"
+        ],
+        "documents": [
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2024/02/Caustic-Potash-Lye.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Caustic Potash Flakes (KOH)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Potassium Hydroxide (as KOH) Gr I",
+              "% 90.00 min"
+            ],
+            [
+              "2",
+              "Potassium Hydroxide (as KOH) Gr II",
+              "% 87.00 min"
+            ],
+            [
+              "3",
+              "Potassium Carbonate (as K2CO3)",
+              "% 1.00 max"
+            ],
+            [
+              "4",
+              "Chloride (as KCl)",
+              "ppm 300.00 max"
+            ],
+            [
+              "5",
+              "Iron (as Fe +++ )",
+              "ppm 20.00 max"
+            ]
+          ]
+        ],
+        "caution": "Harmful to Animals & Plant Tissues; Corrosive",
+        "applications": [
+          "Potassium Carbonate manufacturing",
+          "Dye Stuff industry",
+          "Rubber Chemicals",
+          "Potassium Permanganate manufacture",
+          "Acid Neutralization",
+          "Other Potassium based chemicals",
+          "Pharmaceutical industry",
+          "Pefrolium Refining",
+          "Fertilizer Ind",
+          "Cosmetic Ind"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/CAUSTIC-POTASH-FLAKES.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2024/02/Caustic-Potash-Flakes.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Potassium Carbonate (K2CO3) - Powder & Granules",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Total Alkalinity (as K2CO3) on dry basis",
+              "% 99.00 min"
+            ],
+            [
+              "2",
+              "Free Alkali as KOH",
+              "% 00.20 max"
+            ],
+            [
+              "3",
+              "Bi Carbonate (as KHCO3)",
+              "% 00.40 max"
+            ],
+            [
+              "4",
+              "Chloride (as KCl)",
+              "ppm 150.00 max"
+            ],
+            [
+              "5",
+              "Iron (as Fe +++ )",
+              "ppm 10.00 max"
+            ]
+          ]
+        ],
+        "caution": "Decomposes when heated, emitting toxic fumes",
+        "applications": [
+          "GLS lamps and Ophthalmic glasses",
+          "Fertilizer industry",
+          "Rubber Chemicals",
+          "Pesticide Industry",
+          "Dyes industries and other Potassium based chemicals",
+          "Pharmaceutical Industry",
+          "Agricultural Ind.",
+          "Glass Industries"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/POTASSIUM-CARBONATE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2024/02/Potassium-Carbonate.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chlorotoluene-group",
+    "title": "Chlorotoluene Group",
+    "products": [
+      {
+        "name": "Benzyl Chloride (BCL) (C6H5CH2Cl)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specifications"
+            ],
+            [
+              "1",
+              "Appearance",
+              "Colourless Clear Liquid"
+            ],
+            [
+              "2",
+              "Odour",
+              "Sharp Pungent"
+            ],
+            [
+              "3",
+              "Assay by GLC",
+              "99.5 % (min)"
+            ],
+            [
+              "4",
+              "Low Boiling Impurities",
+              "0.2 % (max)"
+            ],
+            [
+              "5",
+              "High Boiling Impurities:",
+              "0.3 % (max)"
+            ],
+            [
+              "6",
+              "Sp. Gr. At27 °C",
+              "1.094-1.095"
+            ]
+          ]
+        ],
+        "caution": "Hygroscopic and corrosive. Reacts with water generates heat.",
+        "applications": [
+          "Dyes intermediates",
+          "Benzyl Compounds",
+          "Perfumery",
+          "Pharmaceuticals",
+          "Gasoline Gum Inhibitors",
+          "Quaternary Ammonium Compounds",
+          "Personal Care & Cosmetic Products"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2025/05/BCL.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2025/05/MSDS-BENZYL-CHLORIDE.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Benzyl Alcohol (BOH) (C6H5CH2OH)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Appearance",
+              "Clear Liquid"
+            ],
+            [
+              "2",
+              "Assay by GC",
+              "99.5 % (min)"
+            ],
+            [
+              "3",
+              "Colour by Lovibond",
+              "20APHA"
+            ],
+            [
+              "4",
+              "Benzadehyde Content",
+              "0.1 % (max)"
+            ],
+            [
+              "5",
+              "Dibenzyl ether content",
+              "0.1 % (max)"
+            ],
+            [
+              "6",
+              "Water content",
+              "0.1 % (max)"
+            ],
+            [
+              "7",
+              "Sp. Gr. At25 °C",
+              "1.042-1.046"
+            ],
+            [
+              "8",
+              "Refractive Index at20 °C",
+              "1.5380-1.5410"
+            ]
+          ]
+        ],
+        "caution": "Contact with Eyes & Skin may cause irritation, avoid breathing vapours.",
+        "applications": [
+          "As a general solvent for inks, paints lacquers and epoxy resin coatings.",
+          "As a precursor to a variety of esters used in soap, perfume and flavour industries.",
+          "As a medication solution as preservative",
+          "Photography industries.",
+          "Construction Chemicals."
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2025/05/BOH.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2025/05/MSDS-BENZYL-ALCOHOL.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Benzaldehyde (BCHO) (C6H5CHO)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Appearance",
+              "Clear Liquid (Colourless)"
+            ],
+            [
+              "2",
+              "Odour",
+              "Bitter Almond"
+            ],
+            [
+              "3",
+              "Assay by GC",
+              "99.5 % (min)"
+            ],
+            [
+              "4",
+              "Colour by Lovibond",
+              "50APHA"
+            ],
+            [
+              "5",
+              "Low Boiling Impurities",
+              "0.1 % (max)"
+            ],
+            [
+              "6",
+              "High Boiling impurities",
+              "0.4 % (max)"
+            ],
+            [
+              "7",
+              "Sp. Gr. At27 °C",
+              "1.040-1.045"
+            ],
+            [
+              "8",
+              "Acidity as Benzoic acid (Chemical titration)",
+              "0.5% (max)"
+            ]
+          ]
+        ],
+        "caution": "Threshold limit5 ppm in air as per ACGIH norms",
+        "applications": [
+          "Chemical intermediates for dyes, Flavouring Materials, Perfumes and Aromatic Alcohol",
+          "Solvent for Oils, Resins, Some Cellulose ethers, Cellulose Acetate and Nitrate",
+          "Flavouring Compounds in Synthetic Perfumes",
+          "Manufacturing of Cinnamic Acid, Benzoic Acid, Pharmaceuticals, Photographic Chemicals",
+          "Agrochemicals"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/HYDROCHLORIC-ACID.pdf"
+          },
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2025/05/BCHO.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2025/05/MSDS-BENZALDEHYDE.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hydrogen-peroxide-group",
+    "title": "Hydrogen Peroxide Group",
+    "products": [
+      {
+        "name": "Hydrogen Peroxide (H2O2)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Grade",
+              "35% H2O2 w/w",
+              "50% H2O2 w/w",
+              "60% H2O2 w/w"
+            ],
+            [
+              "1",
+              "Stability",
+              "ml. of O /25 ml at2 100°C for30 mins",
+              "0.30 max",
+              "0.30 max",
+              "0.30 max"
+            ],
+            [
+              "2",
+              "Acidity (as H2SO4)",
+              "g/100 m",
+              "0.03 max",
+              "0.03 max",
+              "0.07 max"
+            ],
+            [
+              "3",
+              "Iron (as Fe)",
+              "ppm",
+              "1.00 max",
+              "1.00 max",
+              "1.00 max"
+            ],
+            [
+              "4",
+              "Copper (as Cu)",
+              "ppm",
+              "0.10 max",
+              "0.10 max",
+              "0.10 max"
+            ],
+            [
+              "5",
+              "Arsenic (as As)",
+              "ppm",
+              "2.00 max",
+              "2.00 max",
+              "2.00 max"
+            ],
+            [
+              "6",
+              "Lead (as Pb)",
+              "ppm",
+              "10.0 max",
+              "10.0 max",
+              "10.0 max"
+            ]
+          ]
+        ],
+        "caution": "",
+        "applications": [
+          "As aBleaching agentforPulp,Paper,Textiles, Sugar, Coir & Tobacco Industries",
+          "Antiseptic agent in Pharmaceuticals",
+          "Sterilizing agent in Aseptic packing",
+          "As raw material for Organic and Inorganic chemicals, Dyestuffs and Pesticides",
+          "Effluent treatment",
+          "Propellant for Rockets & Aircrafts",
+          "Oxidizing agent for Silver ornaments",
+          "Neutralizing agent in wine distillation",
+          "Chemical reagent for extraction of different metals: Cobalt, Uranium, Tungsten, etc.",
+          "As an etching & cleaning agent in Electronic industry and Process equipments"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/HYDROGEN-PEROXIDE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Hydrogen-Peroxide.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "special-chlorine-derivative-group",
+    "title": "Special Chlorine Derivative Group",
+    "products": [
+      {
+        "name": "Chlorinated Paraffin (CP)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Grade",
+              "CP – 50 to52",
+              "CP – 60"
+            ],
+            [
+              "2",
+              "Chlorine, %",
+              "50 to52",
+              "60 to62"
+            ],
+            [
+              "3",
+              "Appearance",
+              "White to Pale Yellow viscous liquid",
+              "White to Light Yellow viscous liquid"
+            ],
+            [
+              "4",
+              "PH",
+              "6.0 to 6.5",
+              "6.0 to 6.5"
+            ],
+            [
+              "5",
+              "Sp. Gravity at 27C",
+              "1.280 + 0.01",
+              "1.40 + 0.01"
+            ],
+            [
+              "6",
+              "Heat Stability at 180C for1 hour",
+              "–",
+              "–"
+            ],
+            [
+              "7",
+              "Colour (HU) Max.",
+              "50",
+              "70"
+            ],
+            [
+              "8",
+              "Volatile loss130 ̊C/3Hrs. % Max.",
+              "1.0",
+              "1.0"
+            ],
+            [
+              "9",
+              "Viscocity at27 ̊C (Poise)",
+              "18+6",
+              "1100+300"
+            ],
+            [
+              "10",
+              "Refractive Index at27 ̊C",
+              "1.506+0.002",
+              "1.520+0.002"
+            ],
+            [
+              "11",
+              "Free Mineral Acidity % Max.",
+              "0.001",
+              "0.001"
+            ],
+            [
+              "12",
+              "Paraffin Range",
+              "C14 – C17",
+              "C14 – C17"
+            ]
+          ]
+        ],
+        "caution": "Contact with Eyes & Skin may cause irritation, avoid breathing vapours.",
+        "applications": [
+          "Secondary Plasticiser in PVC compounding, Pipes & Hoses, Cable Compound, Footwear, Leather Cloth",
+          "Additive in Lubricating Oils",
+          "Additive in special grades of paints"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/CHLORINATED-PARAFFIN.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/CHLORINATED-PARAFFIN-1.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Anhydrous Aluminium Chloride (AlCl3)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Unit",
+              "Anhydrous ALC Powder",
+              "Grain I GA",
+              "Grain II GB"
+            ],
+            [
+              "1",
+              "Purity Min.",
+              "%",
+              "99.0",
+              "99.3",
+              "99.3"
+            ],
+            [
+              "2",
+              "Water Insoluble Max.",
+              "%",
+              "0.02",
+              "0.01",
+              "0.01"
+            ],
+            [
+              "3",
+              "Non- Volatile Max.",
+              "%",
+              "0.9",
+              "0.7",
+              "0.9"
+            ],
+            [
+              "4",
+              "Free Aluminium Max.",
+              "ppm",
+              "50",
+              "ppm",
+              "ppm"
+            ],
+            [
+              "5",
+              "Iron as Fe +++ Max",
+              "ppm",
+              "50",
+              "10",
+              "10"
+            ],
+            [
+              "6",
+              "All other metals Max.",
+              "ppm",
+              "150",
+              "150",
+              "150"
+            ],
+            [
+              "7",
+              "Particle Size",
+              "mm",
+              "0-0.85 & 0-1.41",
+              "1.41-4.76",
+              "4.76-10"
+            ]
+          ]
+        ],
+        "caution": "Hygroscopic and corrosive. Reacts with water generates heat.",
+        "applications": [
+          "Reforming Hydrocarbons",
+          "Elecrolytic production of Aluminium",
+          "Manufacturing of Dodecylbenzene",
+          "Ethylbenzene for Styrene",
+          "Anthraquinones",
+          "Acetophenone & Benzophenone",
+          "Titanium Dioxide",
+          "Aromatic Chemicals",
+          "Pesticides & Pharmaceuticals",
+          "Dyes & Pigments"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/ANHYDROUS-ALUMINIUM-CHLORIDE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/ANHYDROUS-ALUMINIUM-CHLORIDE-1.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chloromethane-group",
+    "title": "Chloromethane Group",
+    "products": [
+      {
+        "name": "Methylene Chloride (CH2Cl2 - Dichloromethane)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Colour",
+              "APHA 10.00 max"
+            ],
+            [
+              "2",
+              "Sp. Gravity (15°C/4°C)",
+              "1.332/1.340"
+            ],
+            [
+              "3",
+              "Purity",
+              "% 99.90 min"
+            ],
+            [
+              "4",
+              "Methyl Chloride",
+              "ppm 20.00 max"
+            ],
+            [
+              "5",
+              "Chloroform",
+              "ppm 40.00 max"
+            ],
+            [
+              "6",
+              "Carbon Tetrachloride",
+              "ppm 10.00 max"
+            ],
+            [
+              "7",
+              "Trans 1-2Dichloroethylene",
+              "ppm 80.00 max"
+            ],
+            [
+              "8",
+              "Moisture",
+              "ppm 200.00 max"
+            ],
+            [
+              "9",
+              "Free Chlorine",
+              "ppm 1.00 max"
+            ],
+            [
+              "10",
+              "Acidity as HCL",
+              "ppm 1.00 max"
+            ]
+          ]
+        ],
+        "caution": "Threshold limit50 ppm as per ACGIH norms",
+        "applications": [
+          "Manufacturing of Polycarbonates, Phenolics, Rayon yarn",
+          "Solvent for Cellulose Acetates, Photo-resist, Tablet film coatings",
+          "Paint & Grease removing agent",
+          "Fire fighting agent",
+          "Extractant for Edible fats, Cocoa, Butter and Essences",
+          "Adhesives for Polymethyl Methacrylate",
+          "Aerosol Propellant, Refrigerant",
+          "Chemical reaction media",
+          "Low temperature heat transfer medium",
+          "Pharmaceutical Industry - API/Bulk Drugs"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/METHYLENE-CHLORIDE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Methylene-Chloride.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Carbon Tetrachloride (CCl4 - Tetrachloromethane)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Colour",
+              "APHA 10.00 max"
+            ],
+            [
+              "2",
+              "Sp. Gravity (15˚C/4˚C)",
+              "1.600/1.608"
+            ],
+            [
+              "3",
+              "Purity",
+              "% 99.90 min"
+            ],
+            [
+              "4",
+              "Methylene Chloride",
+              "ppm 10.00 max"
+            ],
+            [
+              "5",
+              "Chloroform",
+              "ppm 100.00 max"
+            ],
+            [
+              "6",
+              "Trichloroethylene",
+              "ppm 100.00 max"
+            ],
+            [
+              "7",
+              "Moisture",
+              "ppm 50.00 max"
+            ],
+            [
+              "8",
+              "Free Chlorine",
+              "ppm 1.00 max"
+            ],
+            [
+              "9",
+              "Acidity as HCL",
+              "ppm 1.00 max"
+            ]
+          ]
+        ],
+        "caution": "Threshold limit10 ppm as per ACGIH norms Hydrolyzes to from Hydrochloric Acid with Water",
+        "applications": [
+          "Fluorocarbon refrigerants and propellants",
+          "Grain fumigants and flour bleaching",
+          "Solvent in chlorinated rubber manufacturing and petroleum refining industry",
+          "Grease removing agent for machinery and tool",
+          "Dry-cleaning fluid",
+          "Fire extinguisher",
+          "Flotation fluid, synthesis of nylon-7",
+          "Pharmaceutical preparations",
+          "Agro chemicals"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/CARBON-TETRACHLORIDE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Carbon-Tetra-Chloride.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Methyl Chloride (CH3Cl - Monochloromethane)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Colour",
+              "APHA 10.00 max"
+            ],
+            [
+              "2",
+              "Purity",
+              "% 99.9% min"
+            ],
+            [
+              "3",
+              "Menthylene Chloride",
+              "ppm80 max"
+            ],
+            [
+              "4",
+              "Chloroform",
+              "%ppm 20.00 max"
+            ],
+            [
+              "5",
+              "Carbon Tetrachloride",
+              "%ppm 10.00 max"
+            ],
+            [
+              "6",
+              "Acidity as HCL",
+              "%ppm1 max"
+            ],
+            [
+              "7",
+              "Free Chlorine",
+              "%ppm1 max"
+            ]
+          ]
+        ],
+        "caution": "",
+        "applications": [
+          "Chlorosilanes monomer manufacture",
+          "Manufacture of Paraquet",
+          "Drug & Pharmaceuticals",
+          "Manufacture of Tetramethyl lead",
+          "Refrigerant",
+          "Methyl Cellulose",
+          "Butyl Rubber",
+          "Aniline dyes"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/METHYLENE-CHLORIDE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Methyl-Chloride.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Chloroform (CHCl3 - Trichloromethane)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Colour",
+              "APHA 10.00 max"
+            ],
+            [
+              "2",
+              "Sp. Gravity (15˚C/4˚C)",
+              "1.498/1.502"
+            ],
+            [
+              "3",
+              "Purity",
+              "% 99.90min"
+            ],
+            [
+              "4",
+              "Methylene Chloride",
+              "ppm 40.00 max"
+            ],
+            [
+              "5",
+              "Carbon Tetrachloride",
+              "ppm 40.00 max"
+            ],
+            [
+              "6",
+              "1.1Dichloroethane",
+              "ppm 80.00 max"
+            ],
+            [
+              "7",
+              "CIS 1-2Dichloroethene",
+              "ppm 130.00 max"
+            ],
+            [
+              "8",
+              "Moisture",
+              "ppm 100.00 max"
+            ],
+            [
+              "9",
+              "Free Chlorine",
+              "ppm 1.00 max"
+            ],
+            [
+              "10",
+              "Acidity as HCL",
+              "ppm 1.00 max"
+            ]
+          ]
+        ],
+        "caution": "Threshold limit10 ppm as per ACGIH norms",
+        "applications": [
+          "Fluorocarbon Refrigerants and Resins",
+          "Fire fighting Agent",
+          "Solvent in Dye and Perfume manufacturing",
+          "Extract ant for Penicillin, Essential Oils, and Alkaloids, Nicotine, etc.",
+          "Soil Fumigants, Mildew Preventives",
+          "Pharmaceutical preparations"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/CHLOROFORM.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Chloroform.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "water-treatment-group",
+    "title": "Water Treatment Group",
+    "products": [
+      {
+        "name": "Bleachwin (Special Grade Hydrogen Peroxide Package)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "Bleachwin Hydrogen Peroxide (H2O2)"
+            ],
+            [
+              "1",
+              "Appearance",
+              "Colourless liquid"
+            ],
+            [
+              "2",
+              "Concentration",
+              "50% w/w"
+            ],
+            [
+              "3",
+              "Stability",
+              "0.3 ml of O / 25ml at2 100°C for30 minutes"
+            ],
+            [
+              "Bleachwin1(Special Stabilizer)"
+            ],
+            [
+              "1",
+              "Appearance",
+              "Clear yellowish Liquid"
+            ],
+            [
+              "2",
+              "Ionic Nature",
+              "Anionic"
+            ],
+            [
+              "Bleachwin2(Special Activator)"
+            ],
+            [
+              "1",
+              "Appearance",
+              "Pale Yellow Powder"
+            ],
+            [
+              "2",
+              "Iron (as Fe)",
+              "6 ppm max"
+            ]
+          ]
+        ],
+        "caution": "Activator should be stored in a cool, dry & well ventilated place. Avoid contact of wood & iron with 50% concentrated Hydrogen Peroxide. Store in a shed avoiding direct sunlight contact.",
+        "applications": [],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/BLEACHWIN.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Scalewin (Water Treatment Chemical)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "Scalewin / Scalewin1"
+            ],
+            [
+              "1",
+              "Appearance",
+              "Colourless to pale yellow liquid"
+            ],
+            [
+              "2",
+              "Sp. Gravity",
+              "1.05+/-0.05 gm/cc"
+            ],
+            [
+              "3",
+              "pH",
+              "Less than2"
+            ],
+            [
+              "Scalewin / Scalewin1"
+            ],
+            [
+              "1",
+              "Appearance",
+              "Pale yellow liquid"
+            ],
+            [
+              "",
+              "Sp. Gravity",
+              "1.10+/-0.05 gm/cc"
+            ]
+          ]
+        ],
+        "caution": "",
+        "applications": [
+          "Power plant cooling tower / cooling water system",
+          "Cooling tower / cooling water system of chemical process plant",
+          "Scalewin1 & 2 are always used in combination in the power plants"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/SCALEWIN.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Poly Aluminium Chloride (PAC)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Unit",
+              "PAC10",
+              "PAC14",
+              "PAC18",
+              "PAC30"
+            ],
+            [
+              "",
+              "",
+              "",
+              "MB",
+              "HB",
+              "",
+              "",
+              "MB (SUL)",
+              "MB (N.SUL)"
+            ],
+            [
+              "1",
+              "Appearance",
+              "",
+              "Light Pale Yellow",
+              "Pale Yellow",
+              "Pale Yellow",
+              "Pale Yellow",
+              "Pale Yellow"
+            ],
+            [
+              "",
+              "",
+              "",
+              "Liq.",
+              "Liq.",
+              "Liq.",
+              "Liq.",
+              "Powder",
+              "Powder"
+            ],
+            [
+              "2",
+              "Aluminium as Al2O3",
+              "% by Mass",
+              "10.0 ± 0.5",
+              "10.0 ± 0.3",
+              "13.5 ± 0.5",
+              "17.5 ± 1.0",
+              "29.0 ± 1.0",
+              "29.0 ± 1.0"
+            ],
+            [
+              "3",
+              "Basicity",
+              "% by Mass",
+              "40.0 ± 5.0",
+              "64(Min)",
+              "–",
+              "45.0 ± 5.0",
+              "40.0 ± 5.0",
+              "40.0 ± 5.0"
+            ],
+            [
+              "4",
+              "Chloride as Cl –",
+              "% by Mass",
+              "11.5 ± 1.0",
+              "9.5 ± 1.0",
+              "20.5 ± 1.5",
+              "20.5 ± 1.5",
+              "35.5 ± 2.0",
+              "33.0 ± 2.0"
+            ],
+            [
+              "5",
+              "Sulphate as SO4 – ,(Max)",
+              "% by Mass",
+              "2.7",
+              "2.5",
+              "Nil",
+              "Nil",
+              "10",
+              ""
+            ],
+            [
+              "6",
+              "Specific Gravity at25 0C",
+              "",
+              "1.2 ± 0.04",
+              "1.2 ± 0.02",
+              "1.32 ± 0.02",
+              "1.37 ± 0.02",
+              "NA"
+            ],
+            [
+              "7",
+              "Bulk Density",
+              "Gm/ml",
+              "NA",
+              "NA",
+              "NA",
+              "NA",
+              "0.65(Min)",
+              "0.65(Min)"
+            ],
+            [
+              "8",
+              "Insolubles,Max",
+              "% by Mass",
+              "0.5",
+              "0.5",
+              "–",
+              "–",
+              "1.5",
+              "9"
+            ],
+            [
+              "9",
+              "pH of5 % Solution",
+              "w/v",
+              "1.8 – 4.5",
+              "2.5 – 4.5",
+              "1.8 – 4.5",
+              "1.8 – 4.5",
+              "1.8 – 4.5",
+              "2.5 – 4.5"
+            ],
+            [
+              "10",
+              "Total Organic Content (TOC)",
+              "ppm",
+              "80",
+              "80",
+              "80",
+              "80",
+              "240",
+              "240"
+            ]
+          ]
+        ],
+        "caution": "Acidic & Hygroscopic (Powder) in nature. MB : Medium Basicity HB : High Basicity",
+        "applications": [
+          "Municipal & Industrial Potable Water treatments",
+          "Municipal & Industrial Waste Water treatments",
+          "Sewage Water treatments",
+          "Separation of slurry in Industrial processes",
+          "Sizing in Paper & Pulp Industry",
+          "Chemical Process",
+          "Decolorisation & Decontamination of dyes in Textile Industry"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/POLY-ALUMINIUM-CHLORIDE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Poly-Aluminium-Chloride.pdf"
+          }
+        ],
+        "note": "Specifications as per IS 15573:2018"
+      },
+      {
+        "name": "Biowin (Water treatment chemical)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Biowin-1",
+              "Biowin-2",
+              "Biowin-3",
+              "Biowin-4"
+            ],
+            [
+              "1",
+              "Appearance",
+              "Colourless to pale yellow liquid",
+              "Colourless to pale yellow liquid",
+              "Colourless to pale yellow liquid",
+              "Colourless"
+            ],
+            [
+              "2",
+              "Specific Gravity",
+              "0.95+0.05",
+              "1.01+0.10",
+              "0.95+0.05",
+              "1.00+0.10"
+            ]
+          ]
+        ],
+        "caution": "",
+        "applications": [
+          "In Power plant cooling tower / cooling water system",
+          "Cooling tower / cooling water system of chemical process plants.",
+          "Biowin 1,2,3 & 4 are always used in combination"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/BIOWIN.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Stable Bleaching Powder (SBP) (CaOCl2)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specifications"
+            ],
+            [
+              "1",
+              "Available Chlorine (as Cl)",
+              "34.0 % min.."
+            ],
+            [
+              "2",
+              "Moisture",
+              "0.3 % max."
+            ],
+            [
+              "3",
+              "Stability",
+              "1/15 max."
+            ]
+          ]
+        ],
+        "caution": "Store in a cool, dry and well ventilated place. Use personal protective equipments during application.",
+        "applications": [
+          "Bleaching agent in Paper, Textile industry, Hand Looms, Power looms & Soaps industry",
+          "Household Bleaching/cleaning applications",
+          "Waste Water treatment and Sewage disposal",
+          "Oxidizing agent",
+          "Disinfecting agent",
+          "Food Processing, beverage and sugar industry"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/STABLE-BLEACHING-POWDER-SBP.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Stable-Bleaching-Powder.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sodium-chlorate-group",
+    "title": "Sodium Chlorate Group",
+    "products": [
+      {
+        "name": "Sodium Chlorate (NaClO3)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification",
+              "Typical"
+            ],
+            [
+              "1",
+              "NaClO3",
+              "% 99.00 min",
+              "99.5"
+            ],
+            [
+              "2",
+              "Nacl",
+              "% 0.20 max",
+              "0.10"
+            ],
+            [
+              "*3",
+              "Moisture",
+              "% 0.10 max",
+              "0.10"
+            ],
+            [
+              "4",
+              "Na2SO4",
+              "ppm 0.02 max",
+              "0.02"
+            ]
+          ]
+        ],
+        "caution": "",
+        "applications": [],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/SODIUM-CHLORATE.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Sodium-Chlorate.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "phosphoric-group",
+    "title": "Phosphoric Group",
+    "products": [
+      {
+        "name": "Phosphoric Acid (H3PO4 - Food Grade)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Phosphoric Acid as H3PO4",
+              "% 85 min"
+            ],
+            [
+              "2",
+              "Iron as Fe +3",
+              "ppm 5.0 max"
+            ],
+            [
+              "3",
+              "Calcium as Ca",
+              "ppm 20.00 max"
+            ],
+            [
+              "4",
+              "Chloride as Cl –",
+              "ppm 200.00 max"
+            ],
+            [
+              "5",
+              "Flouride as F",
+              "ppm 10.00 max"
+            ],
+            [
+              "6",
+              "Sulphate as SO4",
+              "% 0.15 max"
+            ],
+            [
+              "7",
+              "Heavy Metals as Pb (Lead)",
+              "ppm 4.00 max"
+            ],
+            [
+              "8",
+              "Arsenic as As",
+              "ppm 2.00 max"
+            ],
+            [
+              "9",
+              "Total Mercury (as Hg)",
+              "ppm 1.00 max"
+            ],
+            [
+              "10",
+              "Aluminium (as Al)",
+              "ppm 10.000 max"
+            ],
+            [
+              "11",
+              "Copper (as Cu)",
+              "ppm 30.0 max"
+            ],
+            [
+              "12",
+              "Nitrates (as NO3)",
+              "ppm 5.000 max"
+            ],
+            [
+              "13",
+              "MOLYBDENUM (as Mo)",
+              "ppm 10.000 max"
+            ],
+            [
+              "14",
+              "TIN (as Sn)",
+              "ppm 250.000 max"
+            ],
+            [
+              "15",
+              "VOLATILE ACID",
+              "ppm 10.000 max"
+            ],
+            [
+              "16",
+              "CADMIUM (as Cd)",
+              "ppm 1.500 max"
+            ]
+          ]
+        ],
+        "caution": "",
+        "applications": [
+          "Sugar refining",
+          "Edible oil refining",
+          "Beverages",
+          "Food grade phosphates",
+          "PH control in food industry"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/PHOSPHORIC-ACID.pdf"
+          },
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2024/01/Phosphoric-Acid-Food-Grade.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Phosphoric Acid (H3PO4 - Technical Grade)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "H3PO4 concentration",
+              "% 85 min"
+            ],
+            [
+              "*2",
+              "P2O5",
+              "% 62.30"
+            ],
+            [
+              "3",
+              "Iron as Fe",
+              "ppm 10.00 max"
+            ],
+            [
+              "4",
+              "Sulphate as SO4",
+              "ppm 300.00 max"
+            ],
+            [
+              "5",
+              "Chloride as Cl –",
+              "ppm 15.00 max"
+            ],
+            [
+              "6",
+              "Flouride as F",
+              "ppm 100.00 max"
+            ],
+            [
+              "7",
+              "Ca and Mg",
+              "ppm 50.00 max"
+            ],
+            [
+              "8",
+              "Heavy Metals as Pb (Lead)",
+              "ppm 10.00 max"
+            ],
+            [
+              "*9",
+              "Arsenic as As",
+              "ppm 1.00 max"
+            ],
+            [
+              "*10",
+              "Colour",
+              "Water White"
+            ]
+          ]
+        ],
+        "caution": "Toxic by ingestion and inhalation",
+        "applications": [
+          "Pre-metal treatment chemicals",
+          "Sugar refining",
+          "Anodizing",
+          "Stabilizing agent (Hydrogen Peroxide)",
+          "Waster water treatment chemicals",
+          "Activated Carbon",
+          "Soaps and detergents",
+          "Tea-leaf processing"
+        ],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/PHOSPHORIC-ACID.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Phosphoric-Acid-Technical-Grade.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hydrazine-hydrate",
+    "title": "Hydrazine Hydrate Group",
+    "products": [
+      {
+        "name": "Hydrazine Hydrate (HH) (N2H4.H2O)",
+        "specs": [
+          [
+            [
+              "Sr No",
+              "Characteristics",
+              "Specification"
+            ],
+            [
+              "1",
+              "Purity",
+              "80% W/W Min"
+            ],
+            [
+              "2",
+              "Balance Water",
+              ""
+            ],
+            [
+              "3",
+              "Appearance",
+              "Clear Colourless Liquid"
+            ],
+            [
+              "4",
+              "Density",
+              "1.02To 1.07"
+            ],
+            [
+              "5",
+              "Active Content",
+              "Minimum 80% As Hydrazine Hydrate"
+            ],
+            [
+              "6",
+              "Metals",
+              "< 10 ppm"
+            ],
+            [
+              "7",
+              "Ammonia",
+              "< 50Ppm"
+            ],
+            [
+              "8",
+              "Ph",
+              "> 10As Supplied"
+            ]
+          ]
+        ],
+        "caution": ": Store in a cool, dry and well-ventilated place. Use personal protective equipment during the application.",
+        "applications": [],
+        "documents": [
+          {
+            "label": "Leaflet",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/HYDRAZINE-HYDRATE-HH.pdf"
+          },
+          {
+            "label": "MSDS",
+            "url": "https://gacl.com/wp-content/uploads/2023/12/Hydrazine-Hydrate.pdf"
+          }
+        ]
+      }
+    ]
+  }
+]

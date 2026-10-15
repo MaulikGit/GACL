@@ -1,0 +1,234 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHero from "../../components/PageHero.astro";
+import { journey } from "../../data/site";
+
+const tagLabel = { growth: "Growth", green: "Sustainability", first: "Industry first", award: "Award" } as const;
+const archive = [
+  { year: 1974, src: "/images/history-1974.webp", caption: "Foundation stone plaque, 1974" },
+  { year: 1976, src: "/images/history-1976.webp", caption: "Commissioning of the Vadodara plant, 1976" },
+  { year: 1982, src: "/images/history-1982.webp", caption: "Vadodara complex under expansion, 1982" },
+  { year: 1987, src: "/images/history-1987.webp", caption: "First export consignment, 1987" },
+  { year: 1990, src: "/images/history-1990.webp", caption: "Process plant, 1990" },
+];
+---
+
+<Base title="Our Journey" description="GACL’s history from incorporation in 1973 to India’s largest chlorotoluenes plant in 2025.">
+  <PageHero
+    eyebrow="Our journey"
+    title="Rich history, radiant future."
+    lead="From a single caustic soda plant at Ranoli to four integrated complexes, here are the milestones that shaped GACL."
+    crumbs={[{ label: "Company", href: "/company/" }, { label: "Our Journey" }]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <ol class="timeline">
+        {
+          journey.map((m, i) => (
+            <li class:list={["tl reveal", i % 2 ? "tl--right" : "tl--left"]}>
+              <div class="tl__year">{m.year}</div>
+              <span class:list={["tl__dot", m.tag && `tl__dot--${m.tag}`]} />
+              <article class="tl__card">
+                {m.tag && <span class:list={["chip", { "chip--green": m.tag === "green" }]}>{tagLabel[m.tag]}</span>}
+                <h2 class="h3">{m.title}</h2>
+                <ul>
+                  {m.points.map((p) => (
+                    <li>{p}</li>
+                  ))}
+                </ul>
+              </article>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">From the archive</p>
+        <h2 class="h2">The early years</h2>
+      </div>
+      <div class="archive">
+        {
+          archive.map((a) => (
+            <figure class="reveal">
+              <img src={a.src} alt={a.caption} loading="lazy" />
+              <figcaption>
+                <strong>{a.year}</strong> {a.caption}
+              </figcaption>
+            </figure>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .timeline {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 28px;
+  }
+
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 19px;
+    width: 2px;
+    background: linear-gradient(var(--green-500), var(--brand-500) 40%, var(--brand-100));
+  }
+
+  .tl {
+    position: relative;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 10px 20px;
+  }
+
+  .tl__year {
+    grid-column: 2;
+    font-family: var(--font-display);
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--brand-700);
+    line-height: 1;
+  }
+
+  .tl__dot {
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid var(--brand-500);
+  }
+
+  .tl__dot--green {
+    border-color: var(--green-500);
+  }
+
+  .tl__dot--first {
+    border-color: var(--sun);
+  }
+
+  .tl__card {
+    grid-column: 2;
+    display: grid;
+    gap: 10px;
+    justify-items: start;
+    padding: 22px 24px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: #fff;
+    transition: box-shadow 0.3s, border-color 0.3s;
+  }
+
+  .tl__card:hover {
+    box-shadow: var(--shadow-2);
+    border-color: var(--brand-200);
+  }
+
+  .tl__card ul {
+    margin: 0;
+    padding-left: 1.1em;
+    color: var(--ink-2);
+    font-size: 15px;
+    display: grid;
+    gap: 6px;
+  }
+
+  .tl__card li::marker {
+    color: var(--brand-500);
+  }
+
+  @media (min-width: 900px) {
+    .timeline::before {
+      left: 50%;
+      transform: translateX(-1px);
+    }
+
+    .tl {
+      grid-template-columns: 1fr 1fr;
+      gap: 0 64px;
+    }
+
+    .tl__dot {
+      left: calc(50% - 8px);
+    }
+
+    .tl--left .tl__year {
+      grid-column: 2;
+      grid-row: 1;
+      padding-top: 2px;
+    }
+
+    .tl--left .tl__card {
+      grid-column: 1;
+      grid-row: 1;
+      justify-self: end;
+      max-width: 520px;
+      width: 100%;
+    }
+
+    .tl--right .tl__year {
+      grid-column: 1;
+      grid-row: 1;
+      text-align: right;
+      padding-top: 2px;
+    }
+
+    .tl--right .tl__card {
+      grid-column: 2;
+      grid-row: 1;
+      max-width: 520px;
+      width: 100%;
+    }
+  }
+
+  .archive {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+
+  .archive figure {
+    margin: 0;
+    display: grid;
+    gap: 10px;
+  }
+
+  .archive img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 14px;
+    filter: grayscale(1) contrast(1.05);
+    transition: filter 0.4s;
+  }
+
+  .archive figure:hover img {
+    filter: none;
+  }
+
+  .archive figcaption {
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  .archive strong {
+    color: var(--ink);
+    margin-right: 4px;
+  }
+</style>

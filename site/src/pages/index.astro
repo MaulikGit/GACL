@@ -1,0 +1,1128 @@
+---
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import { stats, highlights, industries, sectors, journey, news, investorLinks } from "../data/site";
+import { groups } from "../lib/products";
+
+const industryImages: Record<string, string> = {
+  "Soaps & Detergents": "/images/ind-soaps.webp",
+  Agrochemicals: "/images/ind-agro.webp",
+  "Water Treatment": "/images/ind-water.webp",
+  "Pulp & Paper": "/images/ind-paper.webp",
+  Pharmaceuticals: "/images/ind-pharma.webp",
+  Textiles: "/images/ind-textiles.webp",
+};
+const keyYears = journey.filter((m) => [1973, 1989, 1995, 2014, 2022, 2025].includes(m.year)).reverse();
+const fmtDate = (d: string) => new Date(d).toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" });
+---
+
+<Base>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__lamp" aria-hidden="true"></div>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <a href="/company/journey/" class="hero__pill reveal">
+          <span class="chip chip--green">New</span>
+          India’s largest chlorotoluenes plant is live at Dahej
+          <Icon name="arrow" size={16} />
+        </a>
+        <h1 class="display reveal" style="--d:.05s">
+          Essential chemistry for a <span class="text-gradient">self‑reliant India.</span>
+        </h1>
+        <p class="lead reveal" style="--d:.1s">
+          Since 1973, Gujarat Alkalies and Chemicals Limited has grown into India’s second largest caustic soda maker —
+          supplying 35+ chlor-alkali products to more than 5,000 customers in over 60 countries.
+        </p>
+        <div class="hero__actions reveal" style="--d:.15s">
+          <a href="/products/" class="btn">Explore products <Icon name="arrow" /></a>
+          <a href="/company/" class="btn btn--ghost">About GACL</a>
+        </div>
+        <ul class="hero__trust reveal" style="--d:.2s">
+          <li><Icon name="shield" size={18} /> Promoted by Govt. of Gujarat</li>
+          <li><Icon name="badge" size={18} /> ISO 9001 · 14001 · 45001 · 50001</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual reveal" style="--d:.1s">
+        <div class="hero__frame">
+          <img src="/images/hero-plant.webp" alt="GACL’s chlorotoluenes plant at the Dahej complex" width="1600" height="1200" fetchpriority="high" />
+        </div>
+        <div class="float float--a">
+          <span class="icon-tile icon-tile--green"><Icon name="leaf" /></span>
+          <span><strong>208 MW</strong><small>Renewable power</small></span>
+        </div>
+        <div class="float float--b">
+          <span class="icon-tile"><Icon name="spark" /></span>
+          <span><strong>1989</strong><small>India’s first membrane cell</small></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-band" aria-label="GACL in numbers">
+    <div class="container">
+      <dl class="stats">
+        {
+          stats.map((s, i) => (
+            <div class="stat reveal" style={`--d:${i * 0.06}s`}>
+              <dt class="sr-only">{s.label}</dt>
+              <dd>
+                <span class="stat__value">
+                  <span data-count={s.value}>{s.display ?? s.value}</span>
+                  <span class="stat__suffix">{s.suffix}</span>
+                </span>
+                <span class="stat__label">{s.label}</span>
+              </dd>
+            </div>
+          ))
+        }
+      </dl>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section">
+    <div class="container about">
+      <div class="about__media reveal">
+        <img src="/images/plant-night.webp" alt="GACL Vadodara complex at night" loading="lazy" width="1440" height="800" />
+        <div class="about__badge">
+          <span class="about__badge-num">50+</span>
+          <span>years of chlor-alkali excellence</span>
+        </div>
+      </div>
+      <div class="about__copy">
+        <p class="eyebrow reveal">Our company</p>
+        <h2 class="h2 reveal">Rooted in Gujarat, built for the nation.</h2>
+        <p class="lead reveal">
+          We started with one caustic soda plant at Ranoli, Vadodara. Today four integrated complexes at Vadodara and Dahej
+          hold over 20% of India’s caustic soda market and make products that end up in water, food, medicine, clothes
+          and paper every day.
+        </p>
+        <div class="about__list">
+          {
+            highlights.map((h, i) => (
+              <div class="about__item reveal" style={`--d:${i * 0.05}s`}>
+                <span class:list={["icon-tile", { "icon-tile--green": h.icon === "leaf" }]}>
+                  <Icon name={h.icon} />
+                </span>
+                <div>
+                  <h3>{h.title}</h3>
+                  <p class="muted">{h.text}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+        <a href="/company/" class="link-arrow reveal">More about GACL <Icon name="arrow" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products bento -->
+  <section class="section section--tint">
+    <div class="container">
+      <div class="section-head section-head--split">
+        <div>
+          <p class="eyebrow reveal">Our products</p>
+          <h2 class="h2 reveal">Ten product groups. One integrated chlor-alkali chain.</h2>
+        </div>
+        <p class="lead reveal">
+          From caustic soda to hydrazine hydrate, each product comes with published specifications, leaflets and safety data
+          sheets.
+        </p>
+      </div>
+      <div class="bento">
+        {
+          groups.map((g, i) => (
+            <a href={`/products/${g.slug}/`} class:list={["bento__card reveal", { "bento__card--feature": i === 0 }]} style={`--d:${(i % 4) * 0.05}s`}>
+              {i === 0 && <img src={g.image} alt="" loading="lazy" class="bento__img" />}
+              <div class="bento__top">
+                <span class="icon-tile"><Icon name={g.icon} /></span>
+                <span class="chip chip--plain">{g.products.length} {g.products.length === 1 ? "product" : "products"}</span>
+              </div>
+              <div class="bento__body">
+                <h3 class="h3">{g.title}</h3>
+                <p>{g.summary}</p>
+              </div>
+              <span class="bento__go" aria-hidden="true">
+                <Icon name="arrow-up-right" size={20} />
+              </span>
+            </a>
+          ))
+        }
+        <div class="bento__cta reveal">
+          <div>
+            <h3 class="h3">Need a specification, sample or quote?</h3>
+            <p>Our marketing team handles domestic and export enquiries for every product group.</p>
+          </div>
+          <div class="hero__actions">
+            <a href="/contact/" class="btn">Send an enquiry <Icon name="arrow" /></a>
+            <a href="/products/" class="btn btn--ghost">All products</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <p class="eyebrow reveal">Industries we serve</p>
+        <h2 class="h2 reveal">Part of everyday life, everywhere.</h2>
+        <p class="lead reveal">Our chemistry goes into the things people use every day, from the soap in the bathroom to the paper on a school desk.</p>
+      </div>
+      <div class="industries">
+        {
+          industries.map((ind, i) => (
+            <article class="industry reveal" style={`--d:${(i % 3) * 0.06}s`}>
+              <img src={industryImages[ind.name]} alt="" loading="lazy" width="1000" height="556" />
+              <div class="industry__shade" />
+              <div class="industry__copy">
+                <h3>{ind.name}</h3>
+                <p>{ind.groups.join(" · ")}</p>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Sustainability -->
+  <section class="section section--tint">
+    <div class="container green">
+      <div class="green__copy">
+        <p class="eyebrow eyebrow--green reveal">Sustainability</p>
+        <h2 class="h2 reveal">Cleaner chemistry, powered by wind and sun.</h2>
+        <p class="lead reveal">
+          We were the first in India to drop mercury cells for membrane technology, and we capture the hydrogen from
+          electrolysis as a green by-product. Today more than a quarter of our electricity comes from our own renewable
+          plants.
+        </p>
+        <div class="green__metrics">
+          <div class="metric reveal"><Icon name="wind" /><strong>171.45 MW</strong><span>Wind power</span></div>
+          <div class="metric reveal" style="--d:.05s"><Icon name="sun" /><strong>36.62 MW</strong><span>Solar power</span></div>
+          <div class="metric reveal" style="--d:.1s"><Icon name="h2" /><strong>Green H₂</strong><span>From electrolysis</span></div>
+        </div>
+        <div class="hero__actions reveal">
+          <a href="/sustainability/" class="btn">Our sustainability story <Icon name="arrow" /></a>
+          <a href="/sustainability/csr/" class="btn btn--ghost">CSR</a>
+        </div>
+      </div>
+      <div class="green__media reveal">
+        <img src="/images/renewables.webp" alt="Solar panels and wind turbines" loading="lazy" width="1440" height="800" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Journey teaser -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head section-head--split">
+        <div>
+          <p class="eyebrow reveal">Our journey</p>
+          <h2 class="h2 reveal">Five decades of firsts.</h2>
+        </div>
+        <a href="/company/journey/" class="link-arrow reveal" style="justify-self:start">See the full timeline <Icon name="arrow" /></a>
+      </div>
+      <ol class="rail">
+        {
+          keyYears.map((m, i) => (
+            <li class="rail__item reveal" style={`--d:${i * 0.06}s`}>
+              <span class="rail__year">{m.year}</span>
+              <span class="rail__dot" />
+              <h3>{m.title}</h3>
+              <p class="muted">{m.points[0]}</p>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <!-- Sectors marquee -->
+  <section class="marquee" aria-label="Sectors served">
+    <div class="marquee__track">
+      {[0, 1].map((n) => (
+        <ul aria-hidden={n === 1 ? "true" : undefined}>
+          {sectors.map((s) => <li>{s}</li>)}
+        </ul>
+      ))}
+    </div>
+  </section>
+
+  <!-- News & investors -->
+  <section class="section">
+    <div class="container split">
+      <div>
+        <div class="split__head">
+          <p class="eyebrow reveal">Latest news</p>
+          <a href="/media/" class="link-arrow">All news <Icon name="arrow" /></a>
+        </div>
+        <div class="news">
+          {
+            news.map((n, i) => (
+              <a href={n.href} class="news__item reveal" style={`--d:${i * 0.05}s`} target="_blank" rel="noopener">
+                <time datetime={n.date}>{fmtDate(n.date)}</time>
+                <h3>{n.title}</h3>
+                <Icon name="arrow-up-right" size={18} />
+              </a>
+            ))
+          }
+        </div>
+      </div>
+      <div>
+        <div class="split__head">
+          <p class="eyebrow reveal">For investors</p>
+          <a href="/investors/" class="link-arrow">Investor centre <Icon name="arrow" /></a>
+        </div>
+        <div class="inv">
+          {
+            investorLinks.slice(0, 4).map((l, i) => (
+              <a href={l.href} class="card inv__card reveal" style={`--d:${i * 0.05}s`} target="_blank" rel="noopener">
+                <span class="icon-tile">
+                  <Icon name={l.icon} />
+                </span>
+                <h3>{l.title}</h3>
+                <p class="muted">{l.text}</p>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  /* Hero */
+  .hero {
+    position: relative;
+    overflow: hidden;
+    padding-block: clamp(48px, 7vw, 96px) clamp(64px, 8vw, 112px);
+  }
+
+  .hero__lamp {
+    position: absolute;
+    left: 50%;
+    top: -340px;
+    width: min(1200px, 140vw);
+    height: 720px;
+    transform: translateX(-50%);
+    background:
+      radial-gradient(50% 50% at 50% 50%, rgb(23 130 216 / 0.18), transparent 70%),
+      conic-gradient(from 180deg at 50% 0%, transparent 35%, rgb(23 130 216 / 0.08) 50%, transparent 65%);
+    filter: blur(10px);
+    pointer-events: none;
+  }
+
+  .hero__grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgb(11 47 87 / 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(11 47 87 / 0.05) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(70% 60% at 50% 20%, #000 20%, transparent 75%);
+    pointer-events: none;
+  }
+
+  .hero__inner {
+    position: relative;
+    display: grid;
+    gap: 56px;
+    align-items: center;
+  }
+
+  @media (min-width: 1000px) {
+    .hero__inner {
+      grid-template-columns: 1.1fr 1fr;
+      gap: 64px;
+    }
+  }
+
+  .hero__copy {
+    display: grid;
+    gap: 24px;
+    justify-items: start;
+  }
+
+  .hero__pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 14px 5px 5px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink-2);
+    box-shadow: var(--shadow-1);
+    transition: border-color 0.2s;
+  }
+
+  .hero__pill:hover {
+    border-color: var(--brand-200);
+  }
+
+  .hero__pill .chip {
+    padding: 3px 10px;
+    font-size: 12px;
+  }
+
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero__trust {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  .hero__trust li {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .hero__trust :global(svg) {
+    color: var(--brand-500);
+  }
+
+  .hero__visual {
+    position: relative;
+    padding: 0 12px 24px;
+  }
+
+  .hero__frame {
+    border-radius: 28px;
+    overflow: hidden;
+    box-shadow: var(--shadow-3);
+    aspect-ratio: 4 / 3.4;
+    border: 6px solid #fff;
+    outline: 1px solid var(--line);
+  }
+
+  .hero__frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .float {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 18px 12px 12px;
+    background: rgb(255 255 255 / 0.92);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: var(--shadow-2);
+    animation: bob 6s ease-in-out infinite;
+  }
+
+  .float strong {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 20px;
+    line-height: 1.1;
+  }
+
+  .float small {
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  .float--a {
+    left: -8px;
+    bottom: 0;
+  }
+
+  .float--b {
+    right: -4px;
+    top: 28px;
+    animation-delay: -3s;
+  }
+
+  @keyframes bob {
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @media (max-width: 520px) {
+    .float--b {
+      display: none;
+    }
+  }
+
+  /* Stats */
+  .stats-band {
+    border-block: 1px solid var(--line);
+    background: linear-gradient(180deg, #fff, var(--surface));
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+  }
+
+  @media (min-width: 900px) {
+    .stats {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .stat {
+    padding: clamp(28px, 4vw, 44px) clamp(12px, 2vw, 28px);
+    border-right: 1px solid var(--line);
+  }
+
+  .stat:nth-child(2n) {
+    border-right: 0;
+  }
+
+  @media (min-width: 900px) {
+    .stat:nth-child(2n) {
+      border-right: 1px solid var(--line);
+    }
+
+    .stat:last-child {
+      border-right: 0;
+    }
+  }
+
+  @media (max-width: 899px) {
+    .stat:nth-child(-n + 2) {
+      border-bottom: 1px solid var(--line);
+    }
+  }
+
+  .stat dd {
+    margin: 0;
+    display: grid;
+    gap: 8px;
+  }
+
+  .stat__value {
+    white-space: nowrap;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(30px, 3.6vw, 46px);
+    letter-spacing: -0.03em;
+    color: var(--brand-700);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .stat__suffix {
+    font-size: 0.55em;
+    color: var(--brand-500);
+    margin-left: 2px;
+  }
+
+  .stat__label {
+    font-size: 14px;
+    color: var(--muted);
+    max-width: 240px;
+  }
+
+  /* About */
+  .about {
+    display: grid;
+    gap: 48px;
+    align-items: center;
+  }
+
+  @media (min-width: 1000px) {
+    .about {
+      grid-template-columns: 1fr 1.05fr;
+      gap: 80px;
+    }
+  }
+
+  .about__media {
+    position: relative;
+  }
+
+  .about__media img {
+    border-radius: var(--radius-lg);
+    aspect-ratio: 4 / 4.4;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .about__badge {
+    position: absolute;
+    right: -12px;
+    bottom: 32px;
+    display: grid;
+    gap: 2px;
+    max-width: 190px;
+    padding: 20px 22px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: var(--shadow-2);
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  @media (max-width: 600px) {
+    .about__badge {
+      right: 12px;
+    }
+  }
+
+  .about__badge-num {
+    font-family: var(--font-display);
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--brand-600);
+    line-height: 1;
+  }
+
+  .about__copy {
+    display: grid;
+    gap: 20px;
+    justify-items: start;
+  }
+
+  .about__list {
+    display: grid;
+    gap: 22px;
+    margin-block: 12px;
+  }
+
+  @media (min-width: 640px) {
+    .about__list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .about__item {
+    display: flex;
+    gap: 14px;
+  }
+
+  .about__item h3 {
+    font-size: 16.5px;
+    margin-bottom: 4px;
+  }
+
+  .about__item p {
+    font-size: 14.5px;
+  }
+
+  /* Bento */
+  .bento {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 680px) {
+    .bento {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1080px) {
+    .bento {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .bento__card--feature {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+  }
+
+  .bento__cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px 32px;
+    padding: 28px;
+    border-radius: 20px;
+    background: linear-gradient(120deg, var(--brand-50), #fff 60%);
+    border: 1px dashed var(--brand-200);
+  }
+
+  .bento__cta p {
+    color: var(--muted);
+    margin-top: 6px;
+    max-width: 440px;
+  }
+
+  @media (min-width: 680px) {
+    .bento__cta {
+      grid-column: span 2;
+    }
+  }
+
+  @media (min-width: 1080px) {
+    .bento__cta {
+      grid-column: span 3;
+    }
+  }
+
+  .bento__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 240px;
+    padding: 24px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: border-color 0.3s var(--ease), box-shadow 0.3s var(--ease), transform 0.3s var(--ease);
+  }
+
+  .bento__card:hover {
+    border-color: var(--brand-200);
+    box-shadow: var(--shadow-2);
+    transform: translateY(-3px);
+  }
+
+  .bento__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    z-index: 1;
+  }
+
+  .bento__body {
+    display: grid;
+    gap: 8px;
+    margin-top: auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .bento__body p {
+    font-size: 14.5px;
+    color: var(--muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .bento__go {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--brand-50);
+    color: var(--brand-600);
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.3s var(--ease), transform 0.3s var(--ease);
+    z-index: 1;
+  }
+
+  .bento__card:hover .bento__go {
+    opacity: 1;
+    transform: none;
+  }
+
+  .bento__card:not(.bento__card--feature) .bento__body {
+    padding-right: 36px;
+  }
+
+  @media (max-width: 679px) {
+    .bento__card {
+      min-height: 0;
+    }
+  }
+
+  .bento__card--feature {
+    color: #fff;
+    border: 0;
+    min-height: 360px;
+  }
+
+  .bento__img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s var(--ease);
+  }
+
+  .bento__card--feature::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgb(6 47 87 / 0.1) 20%, rgb(6 47 87 / 0.88));
+  }
+
+  .bento__card--feature:hover .bento__img {
+    transform: scale(1.04);
+  }
+
+  .bento__card--feature .bento__body p {
+    color: rgb(255 255 255 / 0.85);
+    -webkit-line-clamp: 4;
+    max-width: 520px;
+  }
+
+  .bento__card--feature .h3 {
+    font-size: clamp(24px, 2.6vw, 32px);
+  }
+
+  .bento__card--feature .chip {
+    background: rgb(255 255 255 / 0.9);
+    border: 0;
+  }
+
+  .bento__card--feature .icon-tile {
+    background: rgb(255 255 255 / 0.92);
+  }
+
+  /* Industries */
+  .industries {
+    display: grid;
+    gap: 16px;
+  }
+
+  @media (min-width: 640px) {
+    .industries {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .industries {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .industry {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 16 / 11;
+    isolation: isolate;
+  }
+
+  .industry img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s var(--ease);
+  }
+
+  .industry:hover img {
+    transform: scale(1.05);
+  }
+
+  .industry__shade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 35%, rgb(6 30 56 / 0.9));
+  }
+
+  .industry__copy {
+    position: absolute;
+    left: 22px;
+    right: 22px;
+    bottom: 20px;
+    color: #fff;
+  }
+
+  .industry__copy h3 {
+    font-size: 22px;
+    margin-bottom: 4px;
+  }
+
+  .industry__copy p {
+    font-size: 14px;
+    color: rgb(255 255 255 / 0.85);
+  }
+
+  /* Sustainability */
+  .green {
+    display: grid;
+    gap: 48px;
+    align-items: center;
+  }
+
+  @media (min-width: 1000px) {
+    .green {
+      grid-template-columns: 1fr 1fr;
+      gap: 72px;
+    }
+  }
+
+  .green__copy {
+    display: grid;
+    gap: 22px;
+    justify-items: start;
+  }
+
+  .green__metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    width: 100%;
+  }
+
+  .metric {
+    display: grid;
+    gap: 4px;
+    padding: 18px;
+    border-radius: 16px;
+    background: #fff;
+    border: 1px solid var(--line);
+  }
+
+  .metric :global(svg) {
+    color: var(--green-500);
+    margin-bottom: 6px;
+  }
+
+  .metric strong {
+    font-family: var(--font-display);
+    font-size: clamp(17px, 2vw, 22px);
+    letter-spacing: -0.02em;
+  }
+
+  .metric span {
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  @media (max-width: 480px) {
+    .green__metrics {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .green__media img {
+    width: 100%;
+    border-radius: var(--radius-lg);
+    aspect-ratio: 5 / 4;
+    object-fit: cover;
+    box-shadow: var(--shadow-2);
+  }
+
+  /* Rail timeline */
+  .rail {
+    display: grid;
+    gap: 28px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  @media (min-width: 900px) {
+    .rail {
+      grid-template-columns: repeat(6, 1fr);
+      gap: 24px;
+    }
+
+    .rail::before {
+      content: "";
+      position: absolute;
+      top: 52px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--brand-100), var(--brand-500), var(--green-500));
+      border-radius: 2px;
+    }
+  }
+
+  .rail__item {
+    display: grid;
+    gap: 10px;
+    align-content: start;
+    position: relative;
+  }
+
+  .rail__year {
+    font-family: var(--font-display);
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--brand-700);
+    letter-spacing: -0.03em;
+  }
+
+  .rail__dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid var(--brand-500);
+    position: relative;
+    z-index: 1;
+  }
+
+  .rail__item h3 {
+    font-size: 16.5px;
+  }
+
+  .rail__item p {
+    font-size: 14px;
+  }
+
+  /* Marquee */
+  .marquee {
+    border-block: 1px solid var(--line);
+    overflow: hidden;
+    padding-block: 22px;
+    background: var(--surface);
+    mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  }
+
+  .marquee__track {
+    display: flex;
+    width: max-content;
+    animation: marquee 60s linear infinite;
+  }
+
+  .marquee:hover .marquee__track {
+    animation-play-state: paused;
+  }
+
+  .marquee ul {
+    display: flex;
+    gap: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0 7px;
+  }
+
+  .marquee li {
+    padding: 10px 20px;
+    border-radius: 999px;
+    background: #fff;
+    border: 1px solid var(--line);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--ink-2);
+    white-space: nowrap;
+  }
+
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* News + investors */
+  .split {
+    display: grid;
+    gap: 56px;
+  }
+
+  @media (min-width: 1000px) {
+    .split {
+      grid-template-columns: 1.1fr 1fr;
+      gap: 72px;
+    }
+  }
+
+  .split__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .news {
+    display: grid;
+    border-top: 1px solid var(--line);
+  }
+
+  .news__item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 6px 20px;
+    padding: 22px 4px;
+    border-bottom: 1px solid var(--line);
+    transition: background 0.2s;
+  }
+
+  .news__item time {
+    grid-column: 1 / -1;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--brand-600);
+  }
+
+  .news__item h3 {
+    font-size: 18px;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+
+  .news__item :global(svg) {
+    color: var(--muted);
+    transition: transform 0.25s var(--ease), color 0.2s;
+  }
+
+  .news__item:hover h3 {
+    color: var(--brand-700);
+  }
+
+  .news__item:hover :global(svg) {
+    color: var(--brand-600);
+    transform: translate(2px, -2px);
+  }
+
+  .inv {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 480px) {
+    .inv {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .inv__card {
+    display: grid;
+    gap: 10px;
+    align-content: start;
+    padding: 22px;
+  }
+
+  .inv__card h3 {
+    font-size: 17px;
+  }
+
+  .inv__card p {
+    font-size: 14px;
+  }
+</style>

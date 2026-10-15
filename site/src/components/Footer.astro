@@ -1,0 +1,285 @@
+---
+import Icon from "./Icon.astro";
+import { company, locations, quickLogins } from "../data/site";
+import { groups } from "../lib/products";
+
+const columns = [
+  {
+    title: "Company",
+    links: [
+      { label: "The Corporate World", href: "/company/" },
+      { label: "Corporate Philosophy", href: "/company/philosophy/" },
+      { label: "Governing Body", href: "/company/governing-body/" },
+      { label: "Our Journey", href: "/company/journey/" },
+      { label: "Honours & Recognitions", href: "/company/honours/" },
+      { label: "Careers", href: "/careers/" },
+      { label: "Media", href: "/media/" },
+    ],
+  },
+  { title: "Products", links: groups.map((g) => ({ label: g.short, href: `/products/${g.slug}/` })) },
+  {
+    title: "Stakeholders",
+    links: [
+      { label: "Investors", href: "/investors/" },
+      { label: "Sustainability", href: "/sustainability/" },
+      { label: "CSR", href: "/sustainability/csr/" },
+      { label: "Materials & Services", href: "/partners/" },
+      { label: "Tenders", href: "/partners/tenders/" },
+      { label: "Dealer Network", href: "/partners/dealers/" },
+      { label: "Contact", href: "/contact/" },
+    ],
+  },
+];
+const socials = [
+  { name: "linkedin", href: company.social.linkedin },
+  { name: "facebook", href: company.social.facebook },
+  { name: "instagram", href: company.social.instagram },
+  { name: "youtube", href: company.social.youtube },
+];
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__cta">
+      <div>
+        <p class="eyebrow">Work with GACL</p>
+        <h2 class="h2">Chemistry that keeps India moving.</h2>
+      </div>
+      <div class="footer__cta-actions">
+        <a href="/contact/" class="btn">Send a sales enquiry <Icon name="arrow" /></a>
+        <a href="/partners/dealers/" class="btn btn--ghost">Find a dealer</a>
+      </div>
+    </div>
+
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="/brand/gacl-logo.png" alt="GACL" width="110" height="87" loading="lazy" />
+        <p>{company.name}<br /><span class="muted">{company.promoter}</span></p>
+        <div class="footer__social">
+          {
+            socials.map((s) => (
+              <a href={s.href} aria-label={s.name} target="_blank" rel="noopener">
+                <Icon name={s.name} size={20} />
+              </a>
+            ))
+          }
+        </div>
+      </div>
+      {
+        columns.map((col) => (
+          <nav aria-label={col.title}>
+            <h3 class="footer__title">{col.title}</h3>
+            <ul>
+              {col.links.map((l) => (
+                <li>
+                  <a href={l.href}>{l.label}</a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ))
+      }
+    </div>
+
+    <div class="footer__sites">
+      {
+        locations.map((loc) => (
+          <div class="site">
+            <h3 class="footer__title">{loc.name}</h3>
+            <p>{loc.address}</p>
+            {loc.phones.map((p) => (
+              <p class="site__phone">
+                <Icon name="phone" size={14} /> {p}
+              </p>
+            ))}
+          </div>
+        ))
+      }
+      <div class="site">
+        <h3 class="footer__title">Portals</h3>
+        <ul class="footer__logins">
+          {quickLogins.map((l) => <li><a href={l.href}>{l.label}</a></li>)}
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__legal">
+      <p>© {year} {company.name}. All rights reserved.</p>
+      <p>CIN {company.cin} · GSTIN {company.gstin}</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    padding-top: clamp(56px, 7vw, 88px);
+    font-size: 14.5px;
+    color: var(--ink-2);
+  }
+
+  .footer__cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    padding: clamp(28px, 4vw, 48px);
+    margin-bottom: clamp(48px, 6vw, 72px);
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .footer__cta::after {
+    content: "";
+    position: absolute;
+    right: -120px;
+    top: -160px;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(23 130 216 / 0.14), transparent 65%);
+    pointer-events: none;
+  }
+
+  .footer__cta h2 {
+    margin-top: 10px;
+    max-width: 560px;
+  }
+
+  .footer__cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .footer__grid {
+    display: grid;
+    gap: 36px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 900px) {
+    .footer__grid {
+      grid-template-columns: 1.4fr repeat(3, 1fr);
+    }
+  }
+
+  .footer__brand {
+    grid-column: 1 / -1;
+    display: grid;
+    gap: 16px;
+    align-content: start;
+  }
+
+  @media (min-width: 900px) {
+    .footer__brand {
+      grid-column: auto;
+    }
+  }
+
+  .footer__brand img {
+    width: 96px;
+    height: auto;
+  }
+
+  .footer__social {
+    display: flex;
+    gap: 8px;
+  }
+
+  .footer__social a {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid var(--line);
+    color: var(--ink-2);
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .footer__social a:hover {
+    color: var(--brand-600);
+    border-color: var(--brand-200);
+  }
+
+  .footer__title {
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 14px;
+  }
+
+  .footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 9px;
+  }
+
+  .footer a:not(.btn) {
+    transition: color 0.2s;
+  }
+
+  .footer a:not(.btn):hover {
+    color: var(--brand-600);
+  }
+
+  .footer__sites {
+    display: grid;
+    gap: 28px;
+    margin-top: 48px;
+    padding-top: 40px;
+    border-top: 1px solid var(--line);
+  }
+
+  @media (min-width: 700px) {
+    .footer__sites {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .footer__sites {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .site p {
+    max-width: 300px;
+  }
+
+  .site__phone {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    color: var(--muted);
+  }
+
+  .footer__legal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px 24px;
+    margin-top: 40px;
+    padding-block: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>

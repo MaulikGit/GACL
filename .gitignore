@@ -1,0 +1,4 @@
+# Raw downloaded images (97 MB); re-download with:
+#   python scraper/crawl_gacl.py --images-only
+scrape/output/assets/
+__pycache__/

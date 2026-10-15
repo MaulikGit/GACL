@@ -1,0 +1,250 @@
+[
+  {
+    "label": "Company",
+    "url": "https://gacl.com/",
+    "children": [
+      {
+        "label": "The Corporate World",
+        "url": "https://gacl.com/the-corporate-world/",
+        "children": []
+      },
+      {
+        "label": "Corporate Philosophy",
+        "url": "https://gacl.com/corporate-philosophy/",
+        "children": []
+      },
+      {
+        "label": "Governing Body",
+        "url": "https://gacl.com/governing-body/",
+        "children": []
+      },
+      {
+        "label": "Our Journey",
+        "url": "https://gacl.com/our-journey/",
+        "children": []
+      },
+      {
+        "label": "Honours & Recognitions",
+        "url": "https://gacl.com/honours-recognitions/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "Products",
+    "url": "https://gacl.com/",
+    "children": [
+      {
+        "label": "Caustic Soda Group",
+        "url": "https://gacl.com/caustic-soda-group/",
+        "children": []
+      },
+      {
+        "label": "Caustic Potash Group",
+        "url": "https://gacl.com/caustic-potash-group/",
+        "children": []
+      },
+      {
+        "label": "Chlorotoluene Group",
+        "url": "https://gacl.com/chlorotoluene-group/",
+        "children": []
+      },
+      {
+        "label": "Hydrogen Peroxide Group",
+        "url": "https://gacl.com/hydrogen-peroxide-group/",
+        "children": []
+      },
+      {
+        "label": "Special Chlorine Derivative Group",
+        "url": "https://gacl.com/special-chlorine-derivative-group/",
+        "children": []
+      },
+      {
+        "label": "Chloromethane Group",
+        "url": "https://gacl.com/chloromethane-group/",
+        "children": []
+      },
+      {
+        "label": "Water Treatment Group",
+        "url": "https://gacl.com/water-treatment-group/",
+        "children": []
+      },
+      {
+        "label": "Sodium Chlorate Group",
+        "url": "https://gacl.com/sodium-chlorate-group/",
+        "children": []
+      },
+      {
+        "label": "Phosphoric Acid Group",
+        "url": "https://gacl.com/phosphoric-group/",
+        "children": []
+      },
+      {
+        "label": "Hydrazine Hydrate Group",
+        "url": "https://gacl.com/hydrazine-hydrate/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "Sustainability",
+    "url": "https://gacl.com/",
+    "children": [
+      {
+        "label": "Environment",
+        "url": "https://gacl.com/environment/",
+        "children": []
+      },
+      {
+        "label": "Governance",
+        "url": "https://gacl.com/governance/",
+        "children": []
+      },
+      {
+        "label": "CSR",
+        "url": "https://gacl.com/csr/",
+        "children": []
+      },
+      {
+        "label": "Our Certificates",
+        "url": "https://gacl.com/certificates/",
+        "children": []
+      },
+      {
+        "label": "Safety & Compliances",
+        "url": "https://gacl.com/safety-compliance/",
+        "children": []
+      },
+      {
+        "label": "BRSR Reports",
+        "url": "https://gacl.com/brsr-reports/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "Materials & Services",
+    "url": "https://gacl.com/",
+    "children": [
+      {
+        "label": "Vendor Pre-Qualification",
+        "url": "https://gacl.com/vendor-prequalification/",
+        "children": []
+      },
+      {
+        "label": "Vendor Registration",
+        "url": "https://gacl.com/online-vendor-registration/",
+        "children": []
+      },
+      {
+        "label": "Salt Vendor Registration",
+        "url": "https://gacl.com/salt-vendor-registration/",
+        "children": []
+      },
+      {
+        "label": "Major Raw Materials",
+        "url": "https://gacl.com/major-raw-materials/",
+        "children": []
+      },
+      {
+        "label": "Scrap For Disposal",
+        "url": "https://gacl.com/scrap-for-disposal/",
+        "children": []
+      },
+      {
+        "label": "Tenders",
+        "url": "https://gacl.com/tenders/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "Investors",
+    "url": "https://gacl.com/",
+    "children": [
+      {
+        "label": "Financials",
+        "url": "https://gacl.com/financials/",
+        "children": []
+      },
+      {
+        "label": "Shareholding Pattern",
+        "url": "https://gacl.com/shareholding-pattern/",
+        "children": []
+      },
+      {
+        "label": "Corporate Governance",
+        "url": "https://gacl.com/corporate-governance/",
+        "children": []
+      },
+      {
+        "label": "Investors Connect",
+        "url": "https://gacl.com/investors-connect/",
+        "children": []
+      },
+      {
+        "label": "Credit Rating",
+        "url": "https://gacl.com/credit-rating/",
+        "children": []
+      },
+      {
+        "label": "Other Information",
+        "url": "https://gacl.com/other-financial-information/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "Career",
+    "url": "https://gacl.com/",
+    "children": [
+      {
+        "label": "Life at GACL",
+        "url": "https://gacl.com/life-at-gacl/",
+        "children": []
+      },
+      {
+        "label": "GACL Advantage",
+        "url": "https://gacl.com/gacl-advantage/",
+        "children": []
+      },
+      {
+        "label": "Current Openings",
+        "url": "https://gaclportal.gacl.co.in/hrportal/#b",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "Media",
+    "url": "https://gacl.com/",
+    "children": [
+      {
+        "label": "News",
+        "url": "https://gacl.com/gacl-news/",
+        "children": []
+      },
+      {
+        "label": "Events",
+        "url": "https://gacl.com/gacl-events/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "Contact",
+    "url": "https://gacl.com/",
+    "children": [
+      {
+        "label": "Locations",
+        "url": "https://gacl.com/locations/",
+        "children": []
+      },
+      {
+        "label": "Network",
+        "url": "https://gacl.com/dealer-network/",
+        "children": []
+      }
+    ]
+  }
+]

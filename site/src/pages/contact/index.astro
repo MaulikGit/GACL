@@ -1,0 +1,288 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHero from "../../components/PageHero.astro";
+import Icon from "../../components/Icon.astro";
+import { company, locations } from "../../data/site";
+
+const desks = [
+  { key: "marketing", label: "Marketing & domestic sales", email: company.emails.marketing, icon: "chart" },
+  { key: "export", label: "Export", email: company.emails["export"], icon: "globe" },
+  { key: "purchase", label: "Purchase", email: company.emails.purchase, icon: "truck" },
+  { key: "investor", label: "Investor relations", email: company.emails.investor, icon: "pie" },
+  { key: "feedback", label: "Feedback", email: company.emails.feedback, icon: "heart" },
+];
+---
+
+<Base title="Contact" description="Contact Gujarat Alkalies and Chemicals Limited: sales, export, purchase and investor desks, and addresses of our Vadodara and Dahej complexes.">
+  <PageHero
+    eyebrow="Contact"
+    title="Get in touch."
+    lead="Tell us what you need and the right team will respond. For urgent matters, call our registered office."
+    crumbs={[{ label: "Contact" }]}
+  />
+
+  <section class="section">
+    <div class="container contact">
+      <form class="form card" data-form novalidate>
+        <h2 class="h3">Send an enquiry</h2>
+        <div class="row">
+          <label>Full name<span aria-hidden="true">*</span><input name="name" required autocomplete="name" /></label>
+          <label>Email<span aria-hidden="true">*</span><input name="email" type="email" required autocomplete="email" /></label>
+        </div>
+        <div class="row">
+          <label>Company<input name="company" autocomplete="organization" /></label>
+          <label>Enquiry for
+            <select name="desk">
+              {desks.map((d) => <option value={d.email}>{d.label}</option>)}
+            </select>
+          </label>
+        </div>
+        <label>Subject<input name="subject" /></label>
+        <label>Message<span aria-hidden="true">*</span><textarea name="message" rows="5" required></textarea></label>
+        <p class="form__error" data-error hidden>Please fill in your name, a valid email and a message.</p>
+        <button class="btn" type="submit">Send enquiry <Icon name="arrow" /></button>
+        <p class="form__hint muted">This opens your email app with the message addressed to the selected desk.</p>
+      </form>
+
+      <div class="side">
+        <div class="desks">
+          {
+            desks.map((d) => (
+              <a href={`mailto:${d.email}`} class="desk">
+                <span class="icon-tile">
+                  <Icon name={d.icon} />
+                </span>
+                <span>
+                  <strong>{d.label}</strong>
+                  <span>{d.email}</span>
+                </span>
+              </a>
+            ))
+          }
+        </div>
+        <div class="card phone">
+          <Icon name="phone" />
+          <div>
+            <strong>Registered office</strong>
+            <a href={`tel:${company.phone.replace(/\s/g, "")}`}>{company.phone}</a>
+            <span class="muted">Fax {company.fax}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Locations</p>
+        <h2 class="h2">Our complexes</h2>
+      </div>
+      <div class="grid grid-3">
+        {
+          locations.map((l) => (
+            <article class="card loc">
+              <span class="icon-tile">
+                <Icon name="pin" />
+              </span>
+              <h3 class="h3">{l.name}</h3>
+              <p class="muted">{l.sub}</p>
+              <p>{l.address}</p>
+              {l.phones.map((p) => (
+                <p class="loc__phone">
+                  <Icon name="phone" size={15} /> {p}
+                </p>
+              ))}
+              <a href={l.map} class="link-arrow" target="_blank" rel="noopener">
+                Get directions <Icon name="arrow-up-right" />
+              </a>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>("[data-form]")!;
+  const error = form.querySelector<HTMLElement>("[data-error]")!;
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const data = new FormData(form);
+    const name = String(data.get("name") || "").trim();
+    const email = String(data.get("email") || "").trim();
+    const message = String(data.get("message") || "").trim();
+    const ok = name && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) && message;
+    error.hidden = !!ok;
+    if (!ok) return;
+    const subject = String(data.get("subject") || "Website enquiry");
+    const body = [message, "", "— " + name, String(data.get("company") || ""), email].join("\n");
+    location.href = "mailto:" + data.get("desk") + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  });
+</script>
+
+<style>
+  .contact {
+    display: grid;
+    gap: 32px;
+    align-items: start;
+  }
+
+  @media (min-width: 1000px) {
+    .contact {
+      grid-template-columns: 1.3fr 1fr;
+      gap: 48px;
+    }
+  }
+
+  .form {
+    display: grid;
+    gap: 18px;
+    padding: clamp(24px, 3vw, 40px);
+  }
+
+  .row {
+    display: grid;
+    gap: 18px;
+  }
+
+  @media (min-width: 640px) {
+    .row {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  label {
+    display: grid;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink-2);
+  }
+
+  label span {
+    color: var(--brand-600);
+    margin-left: 2px;
+  }
+
+  input,
+  select,
+  textarea {
+    font: inherit;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--ink);
+    padding: 12px 14px;
+    border: 1px solid var(--line-strong);
+    border-radius: 12px;
+    background: #fff;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    width: 100%;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: 0;
+    border-color: var(--brand-500);
+    box-shadow: 0 0 0 4px var(--brand-50);
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  .form .btn {
+    justify-self: start;
+  }
+
+  .form__error {
+    color: #b42318;
+    font-size: 14px;
+  }
+
+  .form__hint {
+    font-size: 13px;
+  }
+
+  .side {
+    display: grid;
+    gap: 16px;
+  }
+
+  .desks {
+    display: grid;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .desk {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 18px;
+    transition: background 0.2s;
+  }
+
+  .desk + .desk {
+    border-top: 1px solid var(--line);
+  }
+
+  .desk:hover {
+    background: var(--brand-50);
+  }
+
+  .desk > span:last-child {
+    display: grid;
+    min-width: 0;
+  }
+
+  .desk strong {
+    font-size: 15px;
+  }
+
+  .desk > span:last-child > span {
+    font-size: 14px;
+    color: var(--brand-600);
+    overflow-wrap: anywhere;
+  }
+
+  .phone {
+    display: flex;
+    gap: 14px;
+  }
+
+  .phone > :global(svg) {
+    color: var(--brand-500);
+    flex-shrink: 0;
+  }
+
+  .phone div {
+    display: grid;
+    gap: 2px;
+  }
+
+  .phone a {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--brand-700);
+  }
+
+  .loc {
+    display: grid;
+    gap: 10px;
+    align-content: start;
+  }
+
+  .loc__phone {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+</style>

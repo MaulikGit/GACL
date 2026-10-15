@@ -1,0 +1,998 @@
+{
+  "https://gacl.com/": {
+    "slug": "home",
+    "status": 200,
+    "depth": 0,
+    "final_url": "https://gacl.com/",
+    "title": "Home - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/the-corporate-world/": {
+    "slug": "the-corporate-world",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/the-corporate-world/",
+    "title": "Corporate World - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/corporate-philosophy/": {
+    "slug": "corporate-philosophy",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/corporate-philosophy/",
+    "title": "Corporate Philosophy - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/governing-body/": {
+    "slug": "governing-body",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/governing-body/",
+    "title": "Governing Body - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/our-journey/": {
+    "slug": "our-journey",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/our-journey/",
+    "title": "Our Journey - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/honours-recognitions/": {
+    "slug": "honours-recognitions",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/honours-recognitions/",
+    "title": "Honours & Recognitions - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/caustic-soda-group/": {
+    "slug": "caustic-soda-group",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/caustic-soda-group/",
+    "title": "Caustic Soda Group - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/caustic-potash-group/": {
+    "slug": "caustic-potash-group",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/caustic-potash-group/",
+    "title": "Caustic Potash Group - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/chlorotoluene-group/": {
+    "slug": "chlorotoluene-group",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/chlorotoluene-group/",
+    "title": "Chlorotoluene Group - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/hydrogen-peroxide-group/": {
+    "slug": "hydrogen-peroxide-group",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/hydrogen-peroxide-group/",
+    "title": "Hydrogen Peroxide Group - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/special-chlorine-derivative-group/": {
+    "slug": "special-chlorine-derivative-group",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/special-chlorine-derivative-group/",
+    "title": "Special Chlorine Derivative Group - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/chloromethane-group/": {
+    "slug": "chloromethane-group",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/chloromethane-group/",
+    "title": "Chloromethane Group - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/water-treatment-group/": {
+    "slug": "water-treatment-group",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/water-treatment-group/",
+    "title": "Water Treatment Group - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/sodium-chlorate-group/": {
+    "slug": "sodium-chlorate-group",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/sodium-chlorate-group/",
+    "title": "Sodium Chlorate Group - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/phosphoric-group/": {
+    "slug": "phosphoric-group",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/phosphoric-group/",
+    "title": "Phosphoric Group - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/hydrazine-hydrate/": {
+    "slug": "hydrazine-hydrate",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/hydrazine-hydrate/",
+    "title": "HYDRAZINE HYDRATE - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/environment/": {
+    "slug": "environment",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/environment/",
+    "title": "Environment - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/governance/": {
+    "slug": "governance",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/governance/",
+    "title": "Governance - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/csr/": {
+    "slug": "csr",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/csr/",
+    "title": "CSR - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/certificates/": {
+    "slug": "certificates",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/certificates/",
+    "title": "Certificates - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/safety-compliance/": {
+    "slug": "safety-compliance",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/safety-compliance/",
+    "title": "Safety & Compliance - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/brsr-reports/": {
+    "slug": "brsr-reports",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/brsr-reports/",
+    "title": "BRSR Reports - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/vendor-prequalification/": {
+    "slug": "vendor-prequalification",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/vendor-prequalification/",
+    "title": "Vendor Prequalification - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/online-vendor-registration/": {
+    "slug": "online-vendor-registration",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/online-vendor-registration/",
+    "title": "Online Vendor Registration - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/salt-vendor-registration/": {
+    "slug": "salt-vendor-registration",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/salt-vendor-registration/",
+    "title": "Salt-Vendor-Registration - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/major-raw-materials/": {
+    "slug": "major-raw-materials",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/major-raw-materials/",
+    "title": "Major Raw Materials - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/scrap-for-disposal/": {
+    "slug": "scrap-for-disposal",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/scrap-for-disposal/",
+    "title": "Scrap for Disposal - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/tenders/": {
+    "slug": "tenders",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/tenders/",
+    "title": "Tenders - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/financials/": {
+    "slug": "financials",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/financials/",
+    "title": "Financials - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/shareholding-pattern/": {
+    "slug": "shareholding-pattern",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/shareholding-pattern/",
+    "title": "Shareholding Pattern - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/corporate-governance/": {
+    "slug": "corporate-governance",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/corporate-governance/",
+    "title": "Corporate Governance - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/investors-connect/": {
+    "slug": "investors-connect",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/investors-connect/",
+    "title": "Investors Connect - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/credit-rating/": {
+    "slug": "credit-rating",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/credit-rating/",
+    "title": "Credit Rating - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/other-financial-information/": {
+    "slug": "other-financial-information",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/other-financial-information/",
+    "title": "Other Financial Information - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/life-at-gacl/": {
+    "slug": "life-at-gacl",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/life-at-gacl/",
+    "title": "Life at GACL - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-advantage/": {
+    "slug": "gacl-advantage",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/gacl-advantage/",
+    "title": "GACL Advantage - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-news/": {
+    "slug": "gacl-news",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/gacl-news/",
+    "title": "GACL News - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-events/": {
+    "slug": "gacl-events",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/gacl-events/",
+    "title": "GACL Events - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/locations/": {
+    "slug": "locations",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/locations/",
+    "title": "Locations - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/dealer-network/": {
+    "slug": "dealer-network",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/dealer-network/",
+    "title": "Dealer Network - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-flags-off-first-dispatch-of-benzyl-alcohol-and-benzaldehyde-from-indias-largest-chlorotoluenes-plant/": {
+    "slug": "gacl-flags-off-first-dispatch-of-benzyl-alcohol-and-benzaldehyde-from-indias-largest-chlorotoluenes-plant",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/gacl-flags-off-first-dispatch-of-benzyl-alcohol-and-benzaldehyde-from-indias-largest-chlorotoluenes-plant/",
+    "title": "GACL Flags Off First Dispatch of Benzyl Alcohol and Benzaldehyde from India’s Largest Chlorotoluenes Plant - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-flags-off-first-dispatch-of-benzyl-chloride-from-indias-largest-chlorotoluenes-plant/": {
+    "slug": "gacl-flags-off-first-dispatch-of-benzyl-chloride-from-indias-largest-chlorotoluenes-plant",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/gacl-flags-off-first-dispatch-of-benzyl-chloride-from-indias-largest-chlorotoluenes-plant/",
+    "title": "GACL Flags Off First Dispatch of Benzyl Chloride from India’s Largest Chlorotoluenes Plant - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/honourable-chief-minister-of-gujarat-shri-bhupendra-patel-virtually-dedicated-the-countrys-largest-chlorotoluenes-plant-of-gacl-a-company-promoted-by-the-government-of-gujarat-to-the-nation/": {
+    "slug": "honourable-chief-minister-of-gujarat-shri-bhupendra-patel-virtually-dedicated-the-countrys-largest-chlorotoluenes-plant-of-gacl-a-company-promoted-by-",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/honourable-chief-minister-of-gujarat-shri-bhupendra-patel-virtually-dedicated-the-countrys-largest-chlorotoluenes-plant-of-gacl-a-company-promoted-by-the-government-of-gujarat-to-the-nation/",
+    "title": "Honourable Chief Minister of Gujarat, Shri Bhupendra Patel, virtually dedicated the country’s largest Chlorotoluenes plant of GACL, a company promoted by the Government of Gujarat, to the Nation. - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/fill-inquiry-form/": {
+    "slug": "fill-inquiry-form",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/fill-inquiry-form/",
+    "title": "Fill Inquiry Form - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/smart-odr-links/": {
+    "slug": "smart-odr-links",
+    "status": 200,
+    "depth": 1,
+    "final_url": "https://gacl.com/smart-odr-links/",
+    "title": "Smart ODR Links - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/team/dr-hasmukh-adhia/": {
+    "slug": "team__dr-hasmukh-adhia",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/team/dr-hasmukh-adhia/",
+    "title": "Dr. Hasmukh Adhia, IAS (Retd.) - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/team/dr-t-natarajan-ias/": {
+    "slug": "team__dr-t-natarajan-ias",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/team/dr-t-natarajan-ias/",
+    "title": "Dr. T Natarajan, IAS - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/team/shri-bimal-julka-ias/": {
+    "slug": "team__shri-bimal-julka-ias",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/team/shri-bimal-julka-ias/",
+    "title": "Shri Bimal Julka, IAS (Retd.) - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/team/shri-nitin-shukla/": {
+    "slug": "team__shri-nitin-shukla",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/team/shri-nitin-shukla/",
+    "title": "Shri Nitin Shukla - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/team/smt-shridevi-shukla/": {
+    "slug": "team__smt-shridevi-shukla",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/team/smt-shridevi-shukla/",
+    "title": "Smt. Shridevi Shukla - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/team/dr-chinmay-ghoroi/": {
+    "slug": "team__dr-chinmay-ghoroi",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/team/dr-chinmay-ghoroi/",
+    "title": "Dr. Chinmay Ghoroi - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/team/shri-sanjay-joshi/": {
+    "slug": "team__shri-sanjay-joshi",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/team/shri-sanjay-joshi/",
+    "title": "Shri Sanjay Joshi - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/team/smt-avantika-singh-aulakh-ias/": {
+    "status": "error",
+    "error": "Failed to perform, curl: (7) Redirect to internal IP 127.0.0.1 rejected (SSRF protection). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "depth": 2
+  },
+  "https://gacl.com/services/competency-strengthening/": {
+    "slug": "services__competency-strengthening",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/services/competency-strengthening/",
+    "title": "Competency Strengthening - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/services/procedural-discipline/": {
+    "slug": "services__procedural-discipline",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/services/procedural-discipline/",
+    "title": "Procedural Discipline - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/services/incident-monitoring/": {
+    "slug": "services__incident-monitoring",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/services/incident-monitoring/",
+    "title": "Incident Monitoring - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/services/safety-promotion/": {
+    "slug": "services__safety-promotion",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/services/safety-promotion/",
+    "title": "Safety Promotion - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/services/quality-enhancement/": {
+    "slug": "services__quality-enhancement",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/services/quality-enhancement/",
+    "title": "Quality Enhancement - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/services/regulatory-compliance/": {
+    "slug": "services__regulatory-compliance",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/services/regulatory-compliance/",
+    "title": "Regulatory Compliance - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/For-March-31-2022-XBRL-Format.html": {
+    "slug": "wp-content__uploads__2023__12__For-March-31-2022-XBRL-Format",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/For-March-31-2022-XBRL-Format.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/For-September-30-2021-1.html": {
+    "slug": "wp-content__uploads__2023__12__For-September-30-2021-1",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/For-September-30-2021-1.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2026/10/As-on-30.09.2026.html": {
+    "slug": "wp-content__uploads__2026__10__As-on-30.09.2026",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2026/10/As-on-30.09.2026.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2026/07/As-on-30.06.2026.html": {
+    "slug": "wp-content__uploads__2026__07__As-on-30.06.2026",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2026/07/As-on-30.06.2026.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2026/04/As-On-31.03.2026.html": {
+    "slug": "wp-content__uploads__2026__04__As-On-31.03.2026",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2026/04/As-On-31.03.2026.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2026/01/As-On-31.1.2.2025.html": {
+    "slug": "wp-content__uploads__2026__01__As-On-31.1.2.2025",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2026/01/As-On-31.1.2.2025.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2025/10/N-BSE-SHP-300925-WEBSITE.html": {
+    "slug": "wp-content__uploads__2025__10__N-BSE-SHP-300925-WEBSITE",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2025/10/N-BSE-SHP-300925-WEBSITE.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2025/07/As-on-30.06.2025.html": {
+    "slug": "wp-content__uploads__2025__07__As-on-30.06.2025",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2025/07/As-on-30.06.2025.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2025/04/As-On-31.03.2025.html": {
+    "slug": "wp-content__uploads__2025__04__As-On-31.03.2025",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2025/04/As-On-31.03.2025.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2025/01/Shareholding-Pattern.xlsm.html": {
+    "slug": "wp-content__uploads__2025__01__Shareholding-Pattern.xlsm",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2025/01/Shareholding-Pattern.xlsm.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2024/10/W_Shareholding-Pattern.xlsm.html": {
+    "slug": "wp-content__uploads__2024__10__W_Shareholding-Pattern.xlsm",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2024/10/W_Shareholding-Pattern.xlsm.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2024/07/WEBSITE-Shareholding-Pattern.html": {
+    "slug": "wp-content__uploads__2024__07__WEBSITE-Shareholding-Pattern",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2024/07/WEBSITE-Shareholding-Pattern.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2024/04/FOR-WEBSITE-Shareholding-Pattern.xlsm.html": {
+    "slug": "wp-content__uploads__2024__04__FOR-WEBSITE-Shareholding-Pattern.xlsm",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2024/04/FOR-WEBSITE-Shareholding-Pattern.xlsm.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2024/01/Shareholding-Pattern.xlsm-WEBSITE.html": {
+    "slug": "wp-content__uploads__2024__01__Shareholding-Pattern.xlsm-WEBSITE",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2024/01/Shareholding-Pattern.xlsm-WEBSITE.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As_on_30_09_2023.html": {
+    "slug": "wp-content__uploads__2023__12__As_on_30_09_2023",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As_on_30_09_2023.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2023.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.06.2023",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2023.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2023.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.03.2023",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2023.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2022.html": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.12.2022",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2022.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2022.html": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.09.2022",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2022.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2024/03/As-On-30.06.2022.html": {
+    "slug": "wp-content__uploads__2024__03__As-On-30.06.2022",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2024/03/As-On-30.06.2022.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2022.html": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.03.2022",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2022.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2021.html": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.12.2021",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2021.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2021.html": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.09.2021",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2021.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2021.html": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.06.2021",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2021.html",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2021.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.03.2021",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2021.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2020.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.12.2020",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2020.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2020.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.09.2020",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2020.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2020.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.06.2020",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2020.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2020.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.03.2020",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2020.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2019.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.12.2019",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2019.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2019.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.09.2019",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2019.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2019.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.06.2019",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2019.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2019.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.03.2019",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2019.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2018.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.12.2018",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2018.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2018.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.09.2018",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2018.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2018.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.06.2018",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2018.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2018.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.03.2018",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2018.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2017.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.12.2017",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2017.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2017.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.09.2017",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2017.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2017.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.06.2017",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2017.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2017.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.03.2017",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2017.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2016.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-31.12.2016",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2016.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2016.htm": {
+    "slug": "wp-content__uploads__2023__12__As-On-30.09.2016",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2016.htm",
+    "title": ""
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q4-2021-22.html": {
+    "slug": "wp-content__uploads__2023__12__CG-Report-Q4-2021-22",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q4-2021-22.html",
+    "title": ""
+  },
+  "https://gacl.com/notice-for-special-window-for-transfer-and-dematerialisation-of-physical-securities": {
+    "status": "error",
+    "error": "Failed to perform, curl: (7) Redirect to internal IP 127.0.0.1 rejected (SSRF protection). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "depth": 2
+  },
+  "https://gacl.com/notice-for-special-window-for-re-lodgement-of-transfer-requests-of-physical-shares/": {
+    "slug": "notice-for-special-window-for-re-lodgement-of-transfer-requests-of-physical-shares",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/notice-for-special-window-for-re-lodgement-of-transfer-requests-of-physical-shares/",
+    "title": "Notice for Special Window for re-lodgement of Transfer Requests of Physical Shares - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/registrar-agent/": {
+    "slug": "registrar-agent",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/registrar-agent/",
+    "title": "Registrar Agent - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/wp-content/uploads/2023/12/Ministry-of-Corporate-Affairs.html": {
+    "slug": "wp-content__uploads__2023__12__Ministry-of-Corporate-Affairs",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/wp-content/uploads/2023/12/Ministry-of-Corporate-Affairs.html",
+    "title": "Ministry of Corporate Affairs"
+  },
+  "https://gacl.com/update-register-e-mail-pan-nomination-download-forms/": {
+    "slug": "update-register-e-mail-pan-nomination-download-forms",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/update-register-e-mail-pan-nomination-download-forms/",
+    "title": "Update/ Register E-Mail, PAN, Nomination & Download Forms - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2025/07/05/": {
+    "slug": "2025__07__05",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2025/07/05/",
+    "title": "5 Jul 2025 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2025/04/21/": {
+    "slug": "2025__04__21",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2025/04/21/",
+    "title": "21 Apr 2025 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2025/03/29/": {
+    "slug": "2025__03__29",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2025/03/29/",
+    "title": "29 Mar 2025 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/international-delegates-visit-gacl-dahej-logistic-park-for-multimodal-logistics-training-under-itec-programme/": {
+    "slug": "international-delegates-visit-gacl-dahej-logistic-park-for-multimodal-logistics-training-under-itec-programme",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/international-delegates-visit-gacl-dahej-logistic-park-for-multimodal-logistics-training-under-itec-programme/",
+    "title": "International Delegates Visit GACL Dahej Logistic Park for Multimodal Logistics Training Under ITEC Programme - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2025/03/27/": {
+    "slug": "2025__03__27",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2025/03/27/",
+    "title": "27 Mar 2025 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-dispatches-first-consignment-of-pac-30-powder-from-new-plant-at-coelho-complex-vadodara/": {
+    "slug": "gacl-dispatches-first-consignment-of-pac-30-powder-from-new-plant-at-coelho-complex-vadodara",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/gacl-dispatches-first-consignment-of-pac-30-powder-from-new-plant-at-coelho-complex-vadodara/",
+    "title": "GACL Dispatches First Consignment of PAC-30 (Powder) from New Plant at Coelho Complex, Vadodara - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2025/02/07/": {
+    "slug": "2025__02__07",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2025/02/07/",
+    "title": "7 Feb 2025 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-honoured-with-runner-up-trophy-at-gujarat-cleaner-production-award-2017-18/": {
+    "slug": "gacl-honoured-with-runner-up-trophy-at-gujarat-cleaner-production-award-2017-18",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/gacl-honoured-with-runner-up-trophy-at-gujarat-cleaner-production-award-2017-18/",
+    "title": "GACL Honoured with Runner Up Trophy at Gujarat Cleaner Production Award 2017-18 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2024/09/19/": {
+    "slug": "2024__09__19",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2024/09/19/",
+    "title": "19 Sep 2024 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-celebrates-78th-independence-day-with-pride-and-patriotism/": {
+    "slug": "gacl-celebrates-78th-independence-day-with-pride-and-patriotism",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/gacl-celebrates-78th-independence-day-with-pride-and-patriotism/",
+    "title": "GACL Celebrates 78th Independence Day with Pride and Patriotism - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2024/08/15/": {
+    "slug": "2024__08__15",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2024/08/15/",
+    "title": "15 Aug 2024 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-showcases-its-cutting-edge-industrial-chemicals-at-chemexpo-exhibition-mumbai/": {
+    "slug": "gacl-showcases-its-cutting-edge-industrial-chemicals-at-chemexpo-exhibition-mumbai",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/gacl-showcases-its-cutting-edge-industrial-chemicals-at-chemexpo-exhibition-mumbai/",
+    "title": "GACL Showcases its Cutting-Edge Industrial Chemicals at ChemExpo Exhibition, Mumbai - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2024/04/25/": {
+    "slug": "2024__04__25",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2024/04/25/",
+    "title": "25 Apr 2024 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-hosts-sectoral-workshop-on-best-practices-in-energy-efficiency-in-chlor-alkali-sector/": {
+    "slug": "gacl-hosts-sectoral-workshop-on-best-practices-in-energy-efficiency-in-chlor-alkali-sector",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/gacl-hosts-sectoral-workshop-on-best-practices-in-energy-efficiency-in-chlor-alkali-sector/",
+    "title": "GACL Hosts Sectoral Workshop on Best Practices in Energy Efficiency in Chlor-Alkali Sector - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2024/02/27/": {
+    "slug": "2024__02__27",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2024/02/27/",
+    "title": "27 Feb 2024 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-celebrated-75th-republic-day-with-great-pride/": {
+    "slug": "gacl-celebrated-75th-republic-day-with-great-pride",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/gacl-celebrated-75th-republic-day-with-great-pride/",
+    "title": "GACL celebrated 75th Republic Day with great pride - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2024/01/26/": {
+    "slug": "2024__01__26",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2024/01/26/",
+    "title": "26 Jan 2024 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-signs-memorandum-of-understanding-with-vedanta-ltd-aluminium-business/": {
+    "slug": "gacl-signs-memorandum-of-understanding-with-vedanta-ltd-aluminium-business",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/gacl-signs-memorandum-of-understanding-with-vedanta-ltd-aluminium-business/",
+    "title": "GACL signs Memorandum of Understanding with Vedanta Ltd (Aluminium Business) - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2023/12/29/": {
+    "slug": "2023__12__29",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2023/12/29/",
+    "title": "29 Dec 2023 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-dispatches-the-first-consignment-of-food-grade-phosphoric-acid/": {
+    "slug": "gacl-dispatches-the-first-consignment-of-food-grade-phosphoric-acid",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/gacl-dispatches-the-first-consignment-of-food-grade-phosphoric-acid/",
+    "title": "GACL dispatches the first consignment of Food Grade Phosphoric Acid - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2023/12/25/": {
+    "slug": "2023__12__25",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/2023/12/25/",
+    "title": "25 Dec 2023 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-news/?a4dfadb-paged=2": {
+    "slug": "gacl-news__a308d867",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/gacl-news/?a4dfadb-paged=2",
+    "title": "GACL News - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-news/?fb823f2-paged=2": {
+    "slug": "gacl-news__10ccc8a6",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/gacl-news/?fb823f2-paged=2",
+    "title": "GACL News - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/dealer-network/www.korchems.com": {
+    "slug": "dealer-network__www.korchems.com",
+    "status": 404,
+    "depth": 2,
+    "final_url": "https://gacl.com/dealer-network/www.korchems.com"
+  },
+  "https://gacl.com/category/gacl-news/": {
+    "slug": "category__gacl-news",
+    "status": 200,
+    "depth": 2,
+    "final_url": "https://gacl.com/category/gacl-news/",
+    "title": "GACL News Archives - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/category/uncategorized/": {
+    "slug": "category__uncategorized",
+    "status": 200,
+    "depth": 3,
+    "final_url": "https://gacl.com/category/uncategorized/",
+    "title": "Uncategorized Archives - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-flags-off-the-first-dispatch-of-import-substitute-hydrazine-hydrate-and-purified-phosphoric-acid/": {
+    "slug": "gacl-flags-off-the-first-dispatch-of-import-substitute-hydrazine-hydrate-and-purified-phosphoric-acid",
+    "status": 200,
+    "depth": 3,
+    "final_url": "https://gacl.com/gacl-flags-off-the-first-dispatch-of-import-substitute-hydrazine-hydrate-and-purified-phosphoric-acid/",
+    "title": "GACL Flags Off the first dispatch of import substitute Hydrazine Hydrate and Purified Phosphoric Acid - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2023/07/08/": {
+    "slug": "2023__07__08",
+    "status": 200,
+    "depth": 3,
+    "final_url": "https://gacl.com/2023/07/08/",
+    "title": "8 Jul 2023 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-expands-its-caustic-soda-lye-project-and-commissions-the-largest-capacity-caustic-evaporation-unit-in-india-at-dahej/": {
+    "slug": "gacl-expands-its-caustic-soda-lye-project-and-commissions-the-largest-capacity-caustic-evaporation-unit-in-india-at-dahej",
+    "status": 200,
+    "depth": 3,
+    "final_url": "https://gacl.com/gacl-expands-its-caustic-soda-lye-project-and-commissions-the-largest-capacity-caustic-evaporation-unit-in-india-at-dahej/",
+    "title": "GACL expands its Caustic Soda Lye Project and commissions the largest capacity Caustic Evaporation Unit in India at Dahej - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2023/02/28/": {
+    "slug": "2023__02__28",
+    "status": 200,
+    "depth": 3,
+    "final_url": "https://gacl.com/2023/02/28/",
+    "title": "28 Feb 2023 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/honourable-pm-dedicates-gacls-chloromethanes-caustic-soda-expansion-hydrazine-hydrate-and-gnal-project-to-the-nation/": {
+    "slug": "honourable-pm-dedicates-gacls-chloromethanes-caustic-soda-expansion-hydrazine-hydrate-and-gnal-project-to-the-nation",
+    "status": 200,
+    "depth": 3,
+    "final_url": "https://gacl.com/honourable-pm-dedicates-gacls-chloromethanes-caustic-soda-expansion-hydrazine-hydrate-and-gnal-project-to-the-nation/",
+    "title": "Honourable PM dedicates GACL’s Chloromethanes, Caustic Soda Expansion, Hydrazine Hydrate and GNAL project to the Nation - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/2022/10/10/": {
+    "slug": "2022__10__10",
+    "status": 200,
+    "depth": 3,
+    "final_url": "https://gacl.com/2022/10/10/",
+    "title": "10 Oct 2022 - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-news/?fb823f2-paged=2&a4dfadb-paged=2": {
+    "slug": "gacl-news__a1bc3652",
+    "status": 200,
+    "depth": 3,
+    "final_url": "https://gacl.com/gacl-news/?fb823f2-paged=2&a4dfadb-paged=2",
+    "title": "GACL News - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/gacl-news/?a4dfadb-paged=2&fb823f2-paged=2": {
+    "slug": "gacl-news__432d5cb1",
+    "status": 200,
+    "depth": 3,
+    "final_url": "https://gacl.com/gacl-news/?a4dfadb-paged=2&fb823f2-paged=2",
+    "title": "GACL News - Gujarat Alkalies and Chemicals Limited"
+  },
+  "https://gacl.com/category/gacl-news/page/2/": {
+    "slug": "category__gacl-news__page__2",
+    "status": 200,
+    "depth": 3,
+    "final_url": "https://gacl.com/category/gacl-news/page/2/",
+    "title": "GACL News Archives - Page 2 of 2 - Gujarat Alkalies and Chemicals Limited"
+  }
+}

@@ -1,0 +1,105 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHero from "../../components/PageHero.astro";
+import Icon from "../../components/Icon.astro";
+import { philosophy } from "../../data/site";
+---
+
+<Base title="Corporate Philosophy" description="GACL’s vision, mission and core values: integrity, excellence, corporate governance and social responsibility.">
+  <PageHero
+    eyebrow="Corporate philosophy"
+    title="Enduring ethics. Modern chemistry."
+    lead="Four values guide every decision we make, from the plant floor to the boardroom."
+    crumbs={[{ label: "Company", href: "/company/" }, { label: "Corporate Philosophy" }]}
+  />
+
+  <section class="section">
+    <div class="container vm">
+      <article class="vm__card vm__card--vision reveal">
+        <span class="icon-tile"><Icon name="spark" /></span>
+        <p class="eyebrow">Vision</p>
+        <p class="vm__text">{philosophy.vision}</p>
+      </article>
+      <article class="vm__card reveal" style="--d:.06s">
+        <span class="icon-tile icon-tile--green"><Icon name="leaf" /></span>
+        <p class="eyebrow eyebrow--green">Mission</p>
+        <p class="vm__text">{philosophy.mission}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">Core values</p>
+        <h2 class="h2">What we stand for</h2>
+      </div>
+      <div class="grid grid-4">
+        {
+          philosophy.values.map((v, i) => (
+            <article class="card value reveal" style={`--d:${i * 0.05}s`}>
+              <span class="value__num">0{i + 1}</span>
+              <span class="icon-tile">
+                <Icon name={v.icon} />
+              </span>
+              <h3 class="h3">{v.title}</h3>
+              <p class="muted">{v.text}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .vm {
+    display: grid;
+    gap: 20px;
+  }
+
+  @media (min-width: 900px) {
+    .vm {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .vm__card {
+    display: grid;
+    gap: 16px;
+    align-content: start;
+    padding: clamp(28px, 4vw, 48px);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--line);
+    background: linear-gradient(160deg, var(--green-50), #fff 55%);
+  }
+
+  .vm__card--vision {
+    background: linear-gradient(160deg, var(--brand-50), #fff 55%);
+  }
+
+  .vm__text {
+    font-family: var(--font-display);
+    font-size: clamp(22px, 2.4vw, 30px);
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+  }
+
+  .value {
+    position: relative;
+    display: grid;
+    gap: 14px;
+    align-content: start;
+  }
+
+  .value__num {
+    position: absolute;
+    top: 22px;
+    right: 24px;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 32px;
+    color: var(--surface-2);
+  }
+</style>

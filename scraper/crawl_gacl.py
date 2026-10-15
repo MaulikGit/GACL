@@ -124,6 +124,11 @@ def extract_content(page, url: str) -> dict:
         src = img.attrib.get("src") or img.attrib.get("data-src") or img.attrib.get("data-lazy-src")
         if src and not src.startswith("data:"):
             images.append({"src": page.urljoin(src), "alt": clean(img.attrib.get("alt"))})
+    for img in page.css("img[srcset], source[srcset], img[data-srcset]"):
+        srcset = img.attrib.get("srcset") or img.attrib.get("data-srcset") or ""
+        for candidate in srcset.split(","):
+            if candidate.strip():
+                images.append({"src": page.urljoin(candidate.split()[0]), "alt": clean(img.attrib.get("alt"))})
     for el in page.css("[style*='background']"):
         for bg in re.findall(r"url\(['\"]?([^'\")]+)", el.attrib.get("style", "")):
             images.append({"src": page.urljoin(bg), "alt": "", "background": True})
@@ -212,6 +217,24 @@ class Crawler:
         self.assets[url] = rel
         return rel
 
+    def download_all_images(self):
+        """Download every same-site image referenced anywhere in the saved HTML
+        (src, srcset, lazy-load attributes, inline CSS), skipping WordPress
+        resized copies when the original is also referenced."""
+        pattern = re.compile(
+            r"https?://(?:www\.)?" + re.escape(self.host) +
+            r"/[^\s\"'()<>]+?\.(?:png|jpe?g|gif|webp|svg|avif|ico)", re.I)
+        urls: set[str] = set()
+        for html in self.pages_dir.glob("*.html"):
+            text = html.read_text(encoding="utf-8", errors="ignore").replace("\\/", "/")
+            urls.update(pattern.findall(text))
+        originals = {re.sub(r"-\d+x\d+(?=\.\w+$)", "", u) for u in urls}
+        wanted = sorted(u for u in urls if u in originals or re.sub(r"-\d+x\d+(?=\.\w+$)", "", u) not in urls)
+        print(f"Downloading {len(wanted)} images ({len(urls)} referenced)")
+        manifest = {u: self.download(u) for u in wanted}
+        (self.out / "images.json").write_text(json.dumps(manifest, indent=2))
+        print(f"Saved {sum(1 for v in manifest.values() if v)} images -> {self.assets_dir}")
+
     def run(self):
         queue = deque([(self.start, 0)])
         self.seen.add(normalize(self.start))
@@ -288,7 +311,16 @@ def main():
     parser.add_argument("--no-fallback", action="store_true", help="never fall back to Chromium")
     parser.add_argument("--no-assets", action="store_true", help="skip image downloads")
     parser.add_argument("--documents", action="store_true", help="download linked PDFs/DOCs too")
-    Crawler(parser.parse_args()).run()
+    parser.add_argument("--images-only", action="store_true",
+                        help="skip crawling; download every image referenced in already-saved pages")
+    args = parser.parse_args()
+    crawler = Crawler(args)
+    if args.images_only:
+        crawler.download_all_images()
+        return
+    crawler.run()
+    if not args.no_assets:
+        crawler.download_all_images()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,111 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHero from "../../components/PageHero.astro";
+import Icon from "../../components/Icon.astro";
+
+const pillars = [
+  { title: "Competency strengthening", text: "Regular training for employees, contractors, transporters and neighbouring communities." },
+  { title: "Procedural discipline", text: "Standard operating procedures, permits and inspections followed without exception." },
+  { title: "Incident monitoring", text: "Every near miss is reported, investigated and shared so it is not repeated." },
+  { title: "Safety promotion", text: "Open discussions, campaigns, bulletins and literature that keep safety front of mind." },
+  { title: "Quality enhancement", text: "An integrated management system certified to ISO 9001, 14001, 45001 and 50001." },
+  { title: "Regulatory compliance", text: "SAP-based audits and maintenance tracking, plus regular statutory inspections." },
+];
+const practices = [
+  { icon: "users", title: "Principal Safety Committee", text: "Members from every cadre, including senior management, review safety performance across sites." },
+  { icon: "search", title: "Internal & cross-functional audits", text: "Dedicated audit teams look for improvements beyond what regulations require." },
+  { icon: "warning", title: "Emergency preparedness", text: "Regular mock drills built around identified maximum credible accident scenarios." },
+  { icon: "heartbeat", title: "Occupational health", text: "A 24×7 occupational health centre and regular medical check-ups for our people." },
+];
+---
+
+<Base title="Safety & Health" description="GACL’s ‘No Harm’ approach to safety and health across its chemical complexes.">
+  <PageHero
+    eyebrow="Safety & health"
+    title="Safety first, always."
+    lead="In large-scale chemical manufacturing, safety underpins everything we do. Our goal is simple: no harm to people, plants, communities or the environment."
+    image="/images/cell-house.webp"
+    imageAlt="Inside a GACL plant"
+    crumbs={[{ label: "Sustainability", href: "/sustainability/" }, { label: "Safety & Health" }]}
+  />
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head section-head--split">
+        <div>
+          <p class="eyebrow">Our approach</p>
+          <h2 class="h2">Six pillars of a collective safety culture.</h2>
+        </div>
+        <p class="lead">Everyone at GACL is responsible for operating safely. Safety counts towards the annual performance review of each employee and of the organisation as a whole.</p>
+      </div>
+      <ol class="pillars">
+        {
+          pillars.map((p, i) => (
+            <li class="card pillar reveal" style={`--d:${(i % 3) * 0.05}s`}>
+              <span class="pillar__num">{String(i + 1).padStart(2, "0")}</span>
+              <h3 class="h3">{p.title}</h3>
+              <p class="muted">{p.text}</p>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">In practice</p>
+        <h2 class="h2">How we keep our sites safe.</h2>
+      </div>
+      <div class="grid grid-2">
+        {
+          practices.map((p) => (
+            <article class="card practice reveal">
+              <span class="icon-tile">
+                <Icon name={p.icon} />
+              </span>
+              <div>
+                <h3 class="h3">{p.title}</h3>
+                <p class="muted">{p.text}</p>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .pillars {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+
+  .pillar {
+    display: grid;
+    gap: 10px;
+    align-content: start;
+  }
+
+  .pillar__num {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 15px;
+    color: var(--brand-500);
+  }
+
+  .practice {
+    display: flex;
+    gap: 18px;
+  }
+
+  .practice h3 {
+    margin-bottom: 6px;
+  }
+</style>

@@ -1,0 +1,529 @@
+---
+import Icon from "./Icon.astro";
+import { nav, company } from "../data/site";
+import { groups } from "../lib/products";
+
+const path = Astro.url.pathname;
+const menu = nav.map((g) =>
+  g.label === "Products"
+    ? { ...g, items: groups.map((p) => ({ label: p.short, href: `/products/${p.slug}/`, desc: `${p.products.length} products` })) }
+    : g,
+);
+const isActive = (href: string) => (href === "/" ? path === "/" : path.startsWith(href));
+---
+
+<header class="site-header" data-header>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <span class="topbar__note"><span class="dot"></span>{company.promoter} · An ISO certified company</span>
+      <nav class="topbar__links" aria-label="Utility">
+        <a href="/partners/tenders/">Tenders</a>
+        <a href="/investors/">Investors</a>
+        <a href="/careers/">Join Us</a>
+        <a href={`tel:${company.phone.replace(/\s/g, "")}`}><Icon name="phone" size={14} /> {company.phone}</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="bar">
+    <div class="container bar__inner">
+      <a href="/" class="brand" aria-label="GACL home">
+        <img src="/brand/gacl-logo.png" alt="GACL — Promoting Green Technology" width="143" height="113" />
+        <span class="brand__text">
+          <strong>Gujarat Alkalies</strong>
+          <span>and Chemicals Limited</span>
+        </span>
+      </a>
+
+      <nav class="menu" aria-label="Main">
+        <ul class="menu__list">
+          {
+            menu.map((group) => (
+              <li class="menu__item" data-has-panel={group.items.length > 0 ? "" : undefined}>
+                <a href={group.href} class:list={["menu__link", { "is-active": isActive(group.href) }]}>
+                  {group.label}
+                  {group.items.length > 0 && <Icon name="chevron" size={16} class="menu__chev" />}
+                </a>
+                {group.items.length > 0 && (
+                  <div class:list={["panel", { "panel--wide": group.label === "Products" }]}>
+                    <div class="panel__grid">
+                      {group.items.map((item) => (
+                        <a href={item.href} class="panel__link">
+                          <span class="panel__label">{item.label}</span>
+                          {item.desc && <span class="panel__desc">{item.desc}</span>}
+                        </a>
+                      ))}
+                    </div>
+                    {group.label === "Products" && (
+                      <a href="/products/" class="panel__all">
+                        View all product groups <Icon name="arrow" size={16} />
+                      </a>
+                    )}
+                    {group.feature && (
+                      <a href={group.feature.href} class="panel__feature">
+                        <span class="eyebrow">{group.feature.title}</span>
+                        <span>{group.feature.text}</span>
+                        <span class="link-arrow">
+                          Explore our journey <Icon name="arrow" />
+                        </span>
+                      </a>
+                    )}
+                  </div>
+                )}
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <div class="bar__actions">
+        <a href="/contact/" class="btn btn--sm">Sales enquiry <Icon name="arrow" /></a>
+        <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer" data-burger>
+          <Icon name="menu" />
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="drawer" id="drawer" data-drawer hidden>
+    <div class="drawer__head">
+      <a href="/" class="brand"><img src="/brand/gacl-logo.png" alt="GACL" width="72" height="57" /></a>
+      <button class="burger" type="button" aria-label="Close menu" data-close><Icon name="close" /></button>
+    </div>
+    <nav class="drawer__nav" aria-label="Mobile">
+      {
+        menu.map((group) =>
+          group.items.length ? (
+            <details class="drawer__group">
+              <summary>
+                {group.label}
+                <Icon name="chevron" size={18} />
+              </summary>
+              <a href={group.href} class="drawer__sub drawer__sub--strong">{group.label} overview</a>
+              {group.items.map((item) => (
+                <a href={item.href} class="drawer__sub">{item.label}</a>
+              ))}
+            </details>
+          ) : (
+            <a href={group.href} class="drawer__top">{group.label}</a>
+          ),
+        )
+      }
+      <a href="/contact/" class="drawer__top">Contact</a>
+    </nav>
+    <a href="/contact/" class="btn drawer__cta">Sales enquiry <Icon name="arrow" /></a>
+  </div>
+</header>
+
+<script>
+  const header = document.querySelector<HTMLElement>("[data-header]")!;
+  const drawer = document.querySelector<HTMLElement>("[data-drawer]")!;
+  const burger = document.querySelector<HTMLButtonElement>("[data-burger]")!;
+  const close = drawer.querySelector<HTMLButtonElement>("[data-close]")!;
+
+  const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 24);
+  onScroll();
+  addEventListener("scroll", onScroll, { passive: true });
+
+  const setOpen = (open: boolean) => {
+    drawer.hidden = !open;
+    burger.setAttribute("aria-expanded", String(open));
+    document.body.style.overflow = open ? "hidden" : "";
+    if (open) close.focus();
+    else burger.focus();
+  };
+  burger.addEventListener("click", () => setOpen(true));
+  close.addEventListener("click", () => setOpen(false));
+  addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !drawer.hidden) setOpen(false);
+  });
+</script>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .topbar {
+    background: var(--brand-900);
+    color: rgb(255 255 255 / 0.8);
+    font-size: 13px;
+  }
+
+  .topbar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    min-height: 36px;
+  }
+
+  .topbar__note {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--green-500);
+    box-shadow: 0 0 0 3px rgb(58 169 53 / 0.25);
+  }
+
+  .topbar__links {
+    display: none;
+    gap: 22px;
+  }
+
+  .topbar__links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.2s;
+  }
+
+  .topbar__links a:hover {
+    color: #fff;
+  }
+
+  @media (min-width: 900px) {
+    .topbar__links {
+      display: flex;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .topbar {
+      display: none;
+    }
+  }
+
+  .bar {
+    background: rgb(255 255 255 / 0.86);
+    backdrop-filter: saturate(1.6) blur(14px);
+    -webkit-backdrop-filter: saturate(1.6) blur(14px);
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+
+  .is-scrolled .bar {
+    border-color: var(--line);
+    box-shadow: 0 6px 24px rgb(11 47 87 / 0.06);
+  }
+
+  .bar__inner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-height: 76px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+
+  .brand img {
+    height: 52px;
+    width: auto;
+  }
+
+  .brand__text {
+    display: none;
+    flex-direction: column;
+    line-height: 1.15;
+    font-size: 12.5px;
+    color: var(--muted);
+    border-left: 1px solid var(--line);
+    padding-left: 12px;
+  }
+
+  .brand__text strong {
+    font-family: var(--font-display);
+    font-size: 15px;
+    color: var(--brand-700);
+    letter-spacing: -0.01em;
+  }
+
+  @media (min-width: 1360px) {
+    .brand__text {
+      display: flex;
+    }
+  }
+
+  .menu {
+    display: none;
+    margin-inline: auto;
+  }
+
+  @media (min-width: 1100px) {
+    .menu {
+      display: block;
+    }
+  }
+
+  .menu__list {
+    display: flex;
+    gap: 2px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu__item {
+    position: relative;
+  }
+
+  .menu__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink-2);
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .menu__link:hover,
+  .menu__item:focus-within > .menu__link {
+    background: var(--surface);
+    color: var(--ink);
+  }
+
+  .menu__link.is-active {
+    color: var(--brand-600);
+  }
+
+  .menu__chev {
+    transition: transform 0.25s var(--ease);
+    opacity: 0.6;
+  }
+
+  .menu__item:hover .menu__chev,
+  .menu__item:focus-within .menu__chev {
+    transform: rotate(180deg);
+  }
+
+  .panel {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    width: 360px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    box-shadow: var(--shadow-3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, 8px);
+    transition: opacity 0.22s var(--ease), transform 0.22s var(--ease), visibility 0.22s;
+  }
+
+  .panel::before {
+    content: "";
+    position: absolute;
+    inset: -14px 0 auto;
+    height: 14px;
+  }
+
+  .panel--wide {
+    width: 560px;
+  }
+
+  .panel--wide .panel__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menu__item:hover .panel,
+  .menu__item:focus-within .panel {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 0);
+  }
+
+  .panel__grid {
+    display: grid;
+    gap: 2px;
+  }
+
+  .panel__link {
+    display: grid;
+    gap: 2px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    transition: background 0.2s;
+  }
+
+  .panel__link:hover {
+    background: var(--brand-50);
+  }
+
+  .panel__label {
+    font-weight: 600;
+    font-size: 14.5px;
+    color: var(--ink);
+  }
+
+  .panel__desc {
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  .panel__all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    background: var(--surface);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--brand-700);
+  }
+
+  .panel__feature {
+    display: grid;
+    gap: 6px;
+    margin-top: 8px;
+    padding: 16px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, var(--brand-50), #fff);
+    border: 1px solid var(--brand-100);
+    font-size: 14px;
+    color: var(--ink-2);
+  }
+
+  .bar__actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+  }
+
+  @media (min-width: 1100px) {
+    .bar__actions {
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .bar__actions .btn {
+      display: none;
+    }
+  }
+
+  .burger {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  @media (min-width: 1100px) {
+    .bar .burger {
+      display: none;
+    }
+  }
+
+  .drawer {
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    background: #fff;
+    padding: 16px var(--gutter) 32px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    animation: drawer-in 0.3s var(--ease);
+  }
+
+  .drawer[hidden] {
+    display: none;
+  }
+
+  @keyframes drawer-in {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+  }
+
+  .drawer__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .drawer__head img {
+    height: 48px;
+    width: auto;
+  }
+
+  .drawer__nav {
+    display: grid;
+    border-top: 1px solid var(--line);
+  }
+
+  .drawer__group summary,
+  .drawer__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 4px;
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .drawer__group summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .drawer__group[open] summary svg {
+    transform: rotate(180deg);
+  }
+
+  .drawer__group[open] {
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .drawer__group[open] summary {
+    border-bottom: 0;
+  }
+
+  .drawer__sub {
+    display: block;
+    padding: 10px 12px;
+    color: var(--ink-2);
+    border-radius: 10px;
+  }
+
+  .drawer__sub--strong {
+    color: var(--brand-600);
+    font-weight: 600;
+  }
+
+  .drawer__cta {
+    margin-top: auto;
+  }
+</style>
