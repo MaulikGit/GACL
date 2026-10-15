@@ -1,0 +1,408 @@
+---
+import { nav, href } from "../lib/content";
+
+const path = Astro.url.pathname;
+const items = nav.map((group) => ({
+  ...group,
+  // The Products menu gets a landing page in the new site.
+  href: group.label === "Products" ? "/products/" : group.href,
+}));
+const isActive = (g: (typeof items)[number]) =>
+  g.children.some((c) => c.href === path) || (g.href !== "/" && path === g.href);
+---
+
+<header class="gnav" data-gnav>
+  <nav class="gnav__bar" aria-label="Global">
+    <div class="gnav__inner">
+      <a href="/" class="gnav__logo" aria-label="GACL home">
+        <img src="/brand/gacl-logo.png" alt="GACL — Promoting Green Technology" width="143" height="113" />
+      </a>
+      <ul class="gnav__list">
+        {
+          items.map((g, i) => (
+            <li class="gnav__item" data-item>
+              {g.children.length ? (
+                <button class:list={["gnav__link", { "is-active": isActive(g) }]} type="button" aria-expanded="false" aria-controls={`fly-${i}`} data-trigger>
+                  {g.label}
+                </button>
+              ) : (
+                <a class:list={["gnav__link", { "is-active": isActive(g) }]} href={href(g.href)}>
+                  {g.label}
+                </a>
+              )}
+              {g.children.length > 0 && (
+                <div class="fly" id={`fly-${i}`} data-fly>
+                  <div class="fly__inner">
+                    <div class="fly__col">
+                      <p class="fly__label">{g.label}</p>
+                      <ul class:list={["fly__links", { "fly__links--two": g.children.length > 6 }]}>
+                        {g.children.map((c) => (
+                          <li>
+                            <a href={href(c.href)}>{c.label}</a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    {g.label === "Products" && (
+                      <div class="fly__col fly__col--aside">
+                        <p class="fly__label">Explore</p>
+                        <ul class="fly__small">
+                          <li><a href="/products/">All product groups</a></li>
+                          <li><a href={href("/dealer-network/")}>Dealer Network</a></li>
+                          <li><a href={href("/fill-inquiry-form/")}>Sales Enquiry</a></li>
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+            </li>
+          ))
+        }
+      </ul>
+      <button class="gnav__burger" type="button" aria-label="Menu" aria-expanded="false" data-burger>
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="gnav__scrim" data-scrim></div>
+
+  <div class="mnav" data-mnav hidden>
+    <ul>
+      {
+        items.map((g) =>
+          g.children.length ? (
+            <li>
+              <details>
+                <summary>{g.label}</summary>
+                <ul>
+                  {g.children.map((c) => (
+                    <li><a href={href(c.href)}>{c.label}</a></li>
+                  ))}
+                </ul>
+              </details>
+            </li>
+          ) : (
+            <li><a class="mnav__top" href={href(g.href)}>{g.label}</a></li>
+          ),
+        )
+      }
+    </ul>
+  </div>
+</header>
+
+<script>
+  const root = document.querySelector<HTMLElement>("[data-gnav]")!;
+  const items = [...root.querySelectorAll<HTMLElement>("[data-item]")];
+  const scrim = root.querySelector<HTMLElement>("[data-scrim]")!;
+  let timer: number | undefined;
+
+  const close = () => {
+    items.forEach((i) => {
+      i.classList.remove("open");
+      i.querySelector("[data-trigger]")?.setAttribute("aria-expanded", "false");
+    });
+    root.classList.remove("has-open");
+  };
+  const open = (item: HTMLElement) => {
+    clearTimeout(timer);
+    if (!item.querySelector("[data-fly]")) return close();
+    items.forEach((i) => i !== item && i.classList.remove("open"));
+    item.classList.add("open");
+    item.querySelector("[data-trigger]")?.setAttribute("aria-expanded", "true");
+    root.classList.add("has-open");
+  };
+
+  const fine = matchMedia("(hover: hover) and (min-width: 1024px)");
+  items.forEach((item) => {
+    item.addEventListener("mouseenter", () => fine.matches && open(item));
+    item.addEventListener("mouseleave", () => {
+      if (fine.matches) timer = window.setTimeout(close, 180);
+    });
+    item.querySelector("[data-trigger]")?.addEventListener("click", () =>
+      item.classList.contains("open") ? close() : open(item),
+    );
+  });
+  scrim.addEventListener("click", close);
+  addEventListener("keydown", (e) => e.key === "Escape" && (close(), setMobile(false)));
+
+  const burger = root.querySelector<HTMLButtonElement>("[data-burger]")!;
+  const mnav = root.querySelector<HTMLElement>("[data-mnav]")!;
+  const setMobile = (on: boolean) => {
+    mnav.hidden = !on;
+    root.classList.toggle("mobile-open", on);
+    burger.setAttribute("aria-expanded", String(on));
+    document.body.style.overflow = on ? "hidden" : "";
+  };
+  burger.addEventListener("click", () => setMobile(mnav.hidden));
+
+  const onScroll = () => root.classList.toggle("scrolled", scrollY > 8);
+  onScroll();
+  addEventListener("scroll", onScroll, { passive: true });
+</script>
+
+<style>
+  .gnav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .gnav__bar {
+    position: relative;
+    z-index: 2;
+    background: rgb(251 251 253 / 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid transparent;
+    transition: background 0.3s var(--ease), border-color 0.3s;
+  }
+
+  .scrolled .gnav__bar,
+  .has-open .gnav__bar {
+    border-color: var(--hair);
+  }
+
+  .has-open .gnav__bar {
+    background: #fff;
+  }
+
+  .gnav__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    height: var(--nav-h);
+    max-width: calc(1080px + var(--gutter) * 2);
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+  }
+
+  .gnav__logo img {
+    height: 40px;
+    width: auto;
+  }
+
+  .gnav__list {
+    display: none;
+    flex: 1;
+    justify-content: space-between;
+    max-width: 880px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (min-width: 1024px) {
+    .gnav__list {
+      display: flex;
+    }
+  }
+
+  .gnav__link {
+    display: block;
+    padding: 0 8px;
+    line-height: var(--nav-h);
+    background: none;
+    border: 0;
+    font: inherit;
+    font-size: 12.5px;
+    letter-spacing: -0.01em;
+    color: rgb(0 0 0 / 0.8);
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+
+  .gnav__link:hover,
+  .gnav__item.open .gnav__link {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .gnav__link.is-active {
+    color: var(--accent);
+  }
+
+  .fly {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: var(--nav-h);
+    background: #fff;
+    border-bottom: 1px solid var(--hair);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-6px);
+    transition: opacity 0.24s var(--ease), transform 0.3s var(--ease), visibility 0.24s;
+    box-shadow: 0 30px 40px -30px rgb(0 0 0 / 0.15);
+  }
+
+  .gnav__item.open .fly {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+  }
+
+  .fly__inner {
+    display: flex;
+    gap: 80px;
+    max-width: calc(1080px + var(--gutter) * 2);
+    margin: 0 auto;
+    padding: 40px var(--gutter) 56px;
+  }
+
+  .fly__col--aside {
+    padding-left: 0;
+  }
+
+  .fly__label {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 14px;
+  }
+
+  .fly__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px 64px;
+  }
+
+  .fly__links--two {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .fly__links a {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    line-height: 1.2;
+  }
+
+  .fly__links a:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .fly__small {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+  }
+
+  .fly__small a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink-2);
+  }
+
+  .gnav__scrim {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background: rgb(232 232 237 / 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s var(--ease), visibility 0.3s;
+  }
+
+  .has-open .gnav__scrim {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .gnav__burger {
+    display: grid;
+    gap: 6px;
+    place-content: center;
+    width: 44px;
+    height: 44px;
+    margin-right: -12px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .gnav__burger span {
+    display: block;
+    width: 18px;
+    height: 1.5px;
+    background: var(--ink);
+    transition: transform 0.3s var(--ease);
+  }
+
+  .mobile-open .gnav__burger span:first-child {
+    transform: translateY(3.75px) rotate(45deg);
+  }
+
+  .mobile-open .gnav__burger span:last-child {
+    transform: translateY(-3.75px) rotate(-45deg);
+  }
+
+  @media (min-width: 1024px) {
+    .gnav__burger {
+      display: none;
+    }
+  }
+
+  .mnav {
+    position: fixed;
+    inset: var(--nav-h) 0 0;
+    z-index: 3;
+    background: #fff;
+    overflow-y: auto;
+    padding: 16px var(--gutter) 48px;
+    animation: mnav-in 0.35s var(--ease);
+  }
+
+  .mnav[hidden] {
+    display: none;
+  }
+
+  @keyframes mnav-in {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+  }
+
+  .mnav > ul,
+  .mnav ul ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mnav summary,
+  .mnav__top {
+    display: block;
+    padding: 12px 0;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .mnav summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mnav ul ul {
+    padding: 4px 0 16px;
+  }
+
+  .mnav ul ul a {
+    display: block;
+    padding: 8px 0;
+    font-size: 17px;
+    color: var(--ink-2);
+  }
+</style>

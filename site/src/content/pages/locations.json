@@ -1,0 +1,85 @@
+{
+ "title": "Locations",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Contact Us"
+    },
+    {
+     "type": "heading",
+     "level": 5,
+     "text": "Email"
+    },
+    {
+     "type": "image",
+     "src": "/media/IMG_4817-1024x768-e2a209.webp",
+     "alt": "",
+     "caption": "",
+     "href": ""
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Registered office & Vadodara Complex"
+    },
+    {
+     "type": "text",
+     "html": "P.O.: Ranoli – 391 350, Vadodara, Gujarat, India.<br>Phone: +91 265 6111000 | Fax: +91 265 6111012"
+    },
+    {
+     "type": "embed",
+     "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "DAHEJ COMPLEX - 1"
+    },
+    {
+     "type": "text",
+     "html": "P.O. Dahej-392 130, Taluka-Vagra, Dist. Bharuch, Gujarat, India.<br>Phone: +91 2641 613200 (Reception), +91 2641 613256 (Security Reception)"
+    },
+    {
+     "type": "embed",
+     "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "DAHEJ COMPLEX - 2"
+    },
+    {
+     "type": "text",
+     "html": "Plot No. DII/9, GIDC Dahej, PCPIR, Near GNFC-TDI Plant, Village: Rahiad,<br>Taluka: Vagra, Dist.: Bharuch, Gujarat-392 130, India."
+    },
+    {
+     "type": "embed",
+     "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg=="
+    }
+   ]
+  }
+ ],
+ "slug": "locations",
+ "path": "/locations/"
+}

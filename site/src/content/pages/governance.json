@@ -1,0 +1,69 @@
+{
+ "title": "Governance",
+ "description": "",
+ "hero": "/media/GACL-Governance-img-1024x766-4c6ac3.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "At GACL, we firmly believe that success is meaningful only when achieved responsibly and ethically. Our unwavering commitment to robust corporate governance has been the foundation of our journey. Key elements of our corporate governance include:"
+    },
+    {
+     "type": "accordion",
+     "items": [
+      {
+       "title": "High Ethical Standards",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "We adhere to stringent ethical standards in all our interactions, prioritizing transparency, honesty, and fairness in every endeavour."
+        }
+       ]
+      },
+      {
+       "title": "Pillars of Integrity, Excellence, and Responsibility",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "These principles have been our guiding light for over five decades, ensuring that we maintain accountability, fairness, and transparency in our actions."
+        }
+       ]
+      },
+      {
+       "title": "Excellence",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Upholding excellence is not merely an aspiration; it is the way we conduct every facet of our business, from product quality to customer service. By upholding the principles of corporate governance, we establish a robust framework of policies and practices that guide our decision-making processes. This guarantees accountability, fairness, and transparency in all our actions, thereby fostering trust among our stakeholders."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "governance",
+ "path": "/governance/"
+}

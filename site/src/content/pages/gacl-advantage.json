@@ -1,0 +1,569 @@
+{
+ "title": "GACL Advantage",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "At GACL we keep your dreams and aspirations as the top priority. We encourage our employees to take initiative in their field, recognizing every soul’s purpose in life, and encouraging a journey of personal and professional achievement and growth."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "GACL Advantage: Why GACL"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "accordion",
+     "items": [
+      {
+       "title": "Employee Well-being",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "At GACL, our commitment to our employees’ well-being drives everything we do. Understanding that a healthy and motivated workforce is pivotal to our success, we have fostered a supportive environment that prioritizes both personal and professional growth. Our initiatives, from comprehensive wellness programs to robust professional development opportunities, aim to empower every member of the GACL Parivaar."
+        },
+        {
+         "type": "text",
+         "html": "In alignment with this ethos, we have invested in a state-of-the-art Gymnasium, ensuring our employees have access to top-notch fitness facilities. Regular medical check-ups are integral to our approach, promoting health awareness among our team and fostering informed health choices. Complementing this, our health and wellbeing workshops equip our employees with the knowledge to prioritize their wellness."
+        },
+        {
+         "type": "text",
+         "html": "Furthermore, our round-the-clock in-house Occupational Health Centre stands ready to support our employees’ health needs. We have taken a proactive step by partnering with renowned laboratories and hospitals in Vadodara, Surat, and Bharuch, ensuring access to world-class healthcare treatments for all our employees. Our commitment to their well-being goes beyond words—it’s embedded in every aspect of our operations."
+        },
+        {
+         "type": "image",
+         "src": "/media/GYM-IMG_8680-scaled-deb032.webp",
+         "alt": "GYM IMG_8680"
+        },
+        {
+         "type": "image",
+         "src": "/media/GYM-IMG_8716-scaled-faa4e9.webp",
+         "alt": "GYM IMG_8716"
+        },
+        {
+         "type": "image",
+         "src": "/media/01-2-304e67.webp",
+         "alt": "01"
+        },
+        {
+         "type": "image",
+         "src": "/media/02-2-367e3a.webp",
+         "alt": "02"
+        },
+        {
+         "type": "image",
+         "src": "/media/03-2-862bd2.webp",
+         "alt": "03"
+        },
+        {
+         "type": "image",
+         "src": "/media/Periodic-Medical-Checkup-Camp-scaled-d3cc23.webp",
+         "alt": "Periodic Medical Checkup Camp"
+        },
+        {
+         "type": "image",
+         "src": "/media/OHC-Occupational-Health-Center-7e3b26.webp",
+         "alt": "OHC -Occupational Health Center"
+        },
+        {
+         "type": "text",
+         "html": "At GACL, we prioritize the health and wellness of our employees. To translate our care, we have established a state-of-the-art gymnasium. Our gymnasium is fully equipped with a variety of facilities, including cardiovascular machines, weightlifting equipment, treadmills, a multi-gym setup, bench presses, elliptical trainers, and more. This ensures that our team has access to diverse fitness options for their well-being."
+        },
+        {
+         "type": "text",
+         "html": "In alignment with the spirit of International Yoga Day on June 21st, we embrace the universal appeal of yoga by organizing revitalizing sessions for our employees. Recognizing its significance, these sessions cultivate a culture of health and mindfulness among our team."
+        },
+        {
+         "type": "text",
+         "html": "Our Occupational Health Centre is a dedicated hub for comprehensive on-site medical care. It is equipped with qualified professionals, emergency services, health programmes, and surveillance for a safe and healthy work environment."
+        },
+        {
+         "type": "list",
+         "ordered": false,
+         "items": [
+          "Round-the-clock availability of Qualified Doctors and Paramedics, Ambulance services with Basic Life Support equipment.",
+          "Equipped with all essential and emergency medical equipment, medicines, and supplies.",
+          "24×7 on-site First aid and Emergency services for the management of injuries and illnesses at work.",
+          "Health awareness and wellness training programmes.",
+          "Heath surveillance – Pre-employment, Periodic and Special medical examination for workers."
+         ]
+        },
+        {
+         "type": "text",
+         "html": "We conduct an onsite Annual Health Checkup Camp for all workers with all necessary and required work-specific tests. Organizing an annual health checkup camp for workers is a proactive step that provides the following benefits."
+        },
+        {
+         "type": "list",
+         "ordered": false,
+         "items": [
+          "Early Disease Detection",
+          "Creating Health Awareness",
+          "Improved Employee Productivity",
+          "Enhanced Employee Morale",
+          "Promoting a Healthy Workforce Culture"
+         ]
+        },
+        {
+         "type": "text",
+         "html": "GACL is providing medical assistance for their employees &amp; their dependents. Medical treatment expenses are reimbursed as per company’s rules &amp; regulations."
+        },
+        {
+         "type": "text",
+         "html": "<strong>Medical Benefits under the scheme</strong>"
+        },
+        {
+         "type": "list",
+         "ordered": false,
+         "items": [
+          "Hospitalization &amp; Day Care Treatment",
+          "Lab Tests",
+          "Long Term Diseases",
+          "IVF Treatment",
+          "Homeopathy/Ayurvedic Treatment",
+          "Physiotherapy Treatment",
+          "Dental Treatment"
+         ]
+        },
+        {
+         "type": "text",
+         "html": "The company has cashless tie up facility with renowned hospitals and diagnostic centers for hospitalization treatment as well as pathology and radiology tests."
+        }
+       ]
+      },
+      {
+       "title": "Employee Well-being",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "At GACL, we prioritize the health and wellness of our employees. To translate our care, we have established a state-of-the-art gymnasium. Our gymnasium is fully equipped with a variety of facilities, including cardiovascular machines, weightlifting equipment, treadmills, a multi-gym setup, bench presses, elliptical trainers, and more. This ensures that our team has access to diverse fitness options for their well-being."
+        }
+       ]
+      },
+      {
+       "title": "Employee Benefits",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "In alignment with the spirit of International Yoga Day on June 21st, we embrace the universal appeal of yoga by organizing revitalizing sessions for our employees. Recognizing its significance, these sessions cultivate a culture of health and mindfulness among our team."
+        }
+       ]
+      },
+      {
+       "title": "Employee Benefits",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Our Occupational Health Centre is a dedicated hub for comprehensive on-site medical care. It is equipped with qualified professionals, emergency services, health programmes, and surveillance for a safe and healthy work environment."
+        },
+        {
+         "type": "list",
+         "ordered": false,
+         "items": [
+          "Round-the-clock availability of Qualified Doctors and Paramedics, Ambulance services with Basic Life Support equipment.",
+          "Equipped with all essential and emergency medical equipment, medicines, and supplies.",
+          "24×7 on-site First aid and Emergency services for the management of injuries and illnesses at work.",
+          "Health awareness and wellness training programmes.",
+          "Heath surveillance – Pre-employment, Periodic and Special medical examination for workers."
+         ]
+        }
+       ]
+      },
+      {
+       "title": "Training & Career Development",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "We conduct an onsite Annual Health Checkup Camp for all workers with all necessary and required work-specific tests. Organizing an annual health checkup camp for workers is a proactive step that provides the following benefits."
+        },
+        {
+         "type": "list",
+         "ordered": false,
+         "items": [
+          "Early Disease Detection",
+          "Creating Health Awareness",
+          "Improved Employee Productivity",
+          "Enhanced Employee Morale",
+          "Promoting a Healthy Workforce Culture"
+         ]
+        }
+       ]
+      },
+      {
+       "title": "Training & Career Development",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "GACL is providing medical assistance for their employees &amp; their dependents. Medical treatment expenses are reimbursed as per company’s rules &amp; regulations."
+        },
+        {
+         "type": "text",
+         "html": "<strong>Medical Benefits under the scheme</strong>"
+        },
+        {
+         "type": "list",
+         "ordered": false,
+         "items": [
+          "Hospitalization &amp; Day Care Treatment",
+          "Lab Tests",
+          "Long Term Diseases",
+          "IVF Treatment",
+          "Homeopathy/Ayurvedic Treatment",
+          "Physiotherapy Treatment",
+          "Dental Treatment"
+         ]
+        },
+        {
+         "type": "text",
+         "html": "The company has cashless tie up facility with renowned hospitals and diagnostic centers for hospitalization treatment as well as pathology and radiology tests."
+        }
+       ]
+      },
+      {
+       "title": "Equal Opportunity Employer",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Our commitment to our employees goes beyond the workplace. We believe in fostering a holistic and supportive environment that extends well into the lives of our valued team members."
+        },
+        {
+         "type": "text",
+         "html": "At GACL, our employee benefits are more than just perks – they embody our commitment to the well-being, growth, and prosperity of our extended family. Explore how we go above and beyond for our employees, creating a workplace that truly cares."
+        },
+        {
+         "type": "image",
+         "src": "/media/IMG_7286-1-1024x683-014a01.webp",
+         "alt": ""
+        },
+        {
+         "type": "text",
+         "html": "Here’s a glimpse into the array of employee benefits we offer,"
+        },
+        {
+         "type": "text",
+         "html": "Supporting our retired colleagues is paramount at GACL. To ensure their well-being post-employment, we offer a fixed medical insurance premium reimbursement, prioritizing their health and easing the transition into retirement life for both the employee and their dependent spouse."
+        },
+        {
+         "type": "text",
+         "html": "Our one-day salary contribution scheme embodies employees’ voluntary goodwill, offering financial support to the family of a deceased colleague. In the event of an employee’s passing, nominated dependents receive collective one-day salary support from the company’s workforce, ensuring compassionate assistance during difficult times."
+        },
+        {
+         "type": "text",
+         "html": "At GACL, we prioritize recognizing top-performing employees by offering accelerated promotions as a reward for consistently exceptional performance and increased responsibilities over a three-year period."
+        },
+        {
+         "type": "text",
+         "html": "Supporting our employees during significant life events like their children’s weddings is a cornerstone of our values at GACL. We extend financial assistance through fixed loans to ease the financial strain of our employees during their daughter’s or son’s marriage. The repayment occurs in manageable installments throughout their tenure with the company."
+        },
+        {
+         "type": "text",
+         "html": "We take pride in fostering a supportive environment for our employees’ aspirations of home ownership. Our exclusive home loan scheme offers our valued team members special rates, ensuring accessibility and ease in achieving the dream of owning a home."
+        }
+       ]
+      },
+      {
+       "title": "Equal Opportunity Employer",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Supporting our retired colleagues is paramount at GACL. To ensure their well-being post-employment, we offer a fixed medical insurance premium reimbursement, prioritizing their health and easing the transition into retirement life for both the employee and their dependent spouse."
+        }
+       ]
+      },
+      {
+       "title": "Facilities",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Our one-day salary contribution scheme embodies employees’ voluntary goodwill, offering financial support to the family of a deceased colleague. In the event of an employee’s passing, nominated dependents receive collective one-day salary support from the company’s workforce, ensuring compassionate assistance during difficult times."
+        }
+       ]
+      },
+      {
+       "title": "Facilities",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "At GACL, we prioritize recognizing top-performing employees by offering accelerated promotions as a reward for consistently exceptional performance and increased responsibilities over a three-year period."
+        }
+       ]
+      },
+      {
+       "title": "Gymnasium",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Supporting our employees during significant life events like their children’s weddings is a cornerstone of our values at GACL. We extend financial assistance through fixed loans to ease the financial strain of our employees during their daughter’s or son’s marriage. The repayment occurs in manageable installments throughout their tenure with the company."
+        }
+       ]
+      },
+      {
+       "title": "Yoga Day",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "We take pride in fostering a supportive environment for our employees’ aspirations of home ownership. Our exclusive home loan scheme offers our valued team members special rates, ensuring accessibility and ease in achieving the dream of owning a home."
+        }
+       ]
+      },
+      {
+       "title": "Occupational Health Center – Facilities & Services",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "/media/MG_2576-scaled-8814d4.webp",
+         "alt": "_MG_2576"
+        },
+        {
+         "type": "image",
+         "src": "/media/IMG_4823-scaled-11dbd8.webp",
+         "alt": "IMG_4823"
+        },
+        {
+         "type": "text",
+         "html": "When new hands join in we make sure that we get to know them just the way they try to know us. Our induction and Orientation programmes are planned in such a way that facilitate the career of an employee through systematic gearing."
+        },
+        {
+         "type": "text",
+         "html": "At GACL, our Training and Career Development programmes are tailored specifically for the dynamic and ever-evolving chemical industry. We understand that staying competitive and thriving in this field requires continuous learning and skill enhancement."
+        },
+        {
+         "type": "text",
+         "html": "Our Learning Management System platform is designed specifically to empower our GACL Parivaar through specialized programs and workshops."
+        },
+        {
+         "type": "text",
+         "html": "Leadership is a quality that caters to the working of any and every organization, it is that oar that only a best fisherman can stir through a voracious sea. Through our Management Development Programmes we strive to develop such leaders who no matter what shall always stand tall in need and deed."
+        }
+       ]
+      },
+      {
+       "title": "Periodic Medical Checkup Camp",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "When new hands join in we make sure that we get to know them just the way they try to know us. Our induction and Orientation programmes are planned in such a way that facilitate the career of an employee through systematic gearing."
+        }
+       ]
+      },
+      {
+       "title": "GACL Medical Assistance Scheme",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "At GACL, our Training and Career Development programmes are tailored specifically for the dynamic and ever-evolving chemical industry. We understand that staying competitive and thriving in this field requires continuous learning and skill enhancement."
+        },
+        {
+         "type": "text",
+         "html": "Our Learning Management System platform is designed specifically to empower our GACL Parivaar through specialized programs and workshops."
+        }
+       ]
+      },
+      {
+       "title": "Post Retirement Mediclaim Premium Reimbursement",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Leadership is a quality that caters to the working of any and every organization, it is that oar that only a best fisherman can stir through a voracious sea. Through our Management Development Programmes we strive to develop such leaders who no matter what shall always stand tall in need and deed."
+        }
+       ]
+      },
+      {
+       "title": "One-day Salary Contribution",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Our commitment to our employees goes beyond the workplace. We believe in fostering a holistic and supportive environment that extends well into the lives of our valued team members."
+        },
+        {
+         "type": "text",
+         "html": "At GACL, our employee benefits are more than just perks – they embody our commitment to the well-being, growth, and prosperity of our extended family. Explore how we go above and beyond for our employees, creating a workplace that truly cares."
+        },
+        {
+         "type": "image",
+         "src": "/media/Equal-Opportunity-Employer-1024x683-a7937a.webp",
+         "alt": ""
+        },
+        {
+         "type": "text",
+         "html": "We strive to build an inclusive workplace culture that promotes fairness, openness, and mutual respect among all employees. Our commitment to fostering an environment free from discrimination and harassment ensures that every member of our team feels supported and has the opportunity to thrive personally and professionally."
+        },
+        {
+         "type": "text",
+         "html": "At GACL, we believe that talent knows no boundaries. We provide equal opportunities for career growth, advancement, and professional development for all employees. Our merit-based approach ensures that individuals are recognized and rewarded based on their skills, contributions, and dedication, irrespective of background or identity."
+        },
+        {
+         "type": "text",
+         "html": "Our recruitment and hiring practices are designed to attract diverse talent. We actively seek candidates from various backgrounds and actively work to eliminate biases in our selection processes. We aim to build a workforce that reflects the diverse communities we serve, fostering innovation and creativity through a multitude of perspectives. We understand that true success is built on sustained dedication and collaboration. Our goal isn’t simply to hire employees; it’s to establish lasting partnerships with talented individuals who align with our values, vision, and aspirations."
+        },
+        {
+         "type": "text",
+         "html": "We are committed to providing a workplace that is accessible to everyone. We ensure reasonable accommodations for individuals with disabilities to create an inclusive environment where all employees can fully participate, contribute, and succeed."
+        }
+       ]
+      },
+      {
+       "title": "Fast-track promotion",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "At GACL, we believe that talent knows no boundaries. We provide equal opportunities for career growth, advancement, and professional development for all employees. Our merit-based approach ensures that individuals are recognized and rewarded based on their skills, contributions, and dedication, irrespective of background or identity."
+        }
+       ]
+      },
+      {
+       "title": "Marriage Loan facility for Family members",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Our recruitment and hiring practices are designed to attract diverse talent. We actively seek candidates from various backgrounds and actively work to eliminate biases in our selection processes. We aim to build a workforce that reflects the diverse communities we serve, fostering innovation and creativity through a multitude of perspectives. We understand that true success is built on sustained dedication and collaboration. Our goal isn’t simply to hire employees; it’s to establish lasting partnerships with talented individuals who align with our values, vision, and aspirations."
+        }
+       ]
+      },
+      {
+       "title": "Housing Loan Facility",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "We are committed to providing a workplace that is accessible to everyone. We ensure reasonable accommodations for individuals with disabilities to create an inclusive environment where all employees can fully participate, contribute, and succeed."
+        }
+       ]
+      },
+      {
+       "title": "Induction & Orientation",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "/media/Library-IMG_8746-scaled-db016d.webp",
+         "alt": "Library IMG_8746"
+        },
+        {
+         "type": "image",
+         "src": "/media/Library-IMG_8753-scaled-f0df7c.webp",
+         "alt": "Library IMG_8753"
+        },
+        {
+         "type": "image",
+         "src": "/media/2-024574.webp",
+         "alt": "2"
+        },
+        {
+         "type": "image",
+         "src": "/media/3-96f3a7.webp",
+         "alt": "3"
+        },
+        {
+         "type": "image",
+         "src": "/media/4-8555a1.webp",
+         "alt": "4"
+        },
+        {
+         "type": "image",
+         "src": "/media/1-663c6c.webp",
+         "alt": "1"
+        },
+        {
+         "type": "image",
+         "src": "/media/Samvad-Auditorium-Baroda-7f1843.webp",
+         "alt": "Samvad Auditorium - Baroda"
+        },
+        {
+         "type": "image",
+         "src": "/media/IMG_4823-scaled-11dbd8.webp",
+         "alt": "IMG_4823"
+        },
+        {
+         "type": "image",
+         "src": "/media/01-3-bbad71.webp",
+         "alt": "01"
+        },
+        {
+         "type": "image",
+         "src": "/media/02-3-357226.webp",
+         "alt": "02"
+        },
+        {
+         "type": "image",
+         "src": "/media/03-3-90394a.webp",
+         "alt": "03"
+        },
+        {
+         "type": "text",
+         "html": "Library at GACL has a treasure trove of knowledge and resources dedicated to fostering learning, innovation, and excellence within our industry. Our world-class library houses an extensive collection of resources, spanning research papers, journals, textbooks, case studies, and industry reports. Curated to encompass diverse facets of the industry. Our library is an invaluable repository of information containing resources dedicated to fostering learning, innovation, and excellence within our industry."
+        },
+        {
+         "type": "text",
+         "html": "We have our township in Bharuch. We are more than just a residential community – we are a thriving, inclusive hub designed to foster a harmonious and fulfilling lifestyle for our employees. Nestled within the embrace of GACL and surrounded by the natural beauty of our surroundings, our township offers a host of amenities and services that cater to every aspect of modern living."
+        },
+        {
+         "type": "text",
+         "html": "We have state-of-the-art training infrastructure at both our locations to facilitate employee learning and development."
+        }
+       ]
+      },
+      {
+       "title": "Skill and Subject specific Trainings",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "Library at GACL has a treasure trove of knowledge and resources dedicated to fostering learning, innovation, and excellence within our industry. Our world-class library houses an extensive collection of resources, spanning research papers, journals, textbooks, case studies, and industry reports. Curated to encompass diverse facets of the industry. Our library is an invaluable repository of information containing resources dedicated to fostering learning, innovation, and excellence within our industry."
+        }
+       ]
+      },
+      {
+       "title": "Leadership Development Programmes",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "We have our township in Bharuch. We are more than just a residential community – we are a thriving, inclusive hub designed to foster a harmonious and fulfilling lifestyle for our employees. Nestled within the embrace of GACL and surrounded by the natural beauty of our surroundings, our township offers a host of amenities and services that cater to every aspect of modern living."
+        }
+       ]
+      },
+      {
+       "title": "Equal Opportunities for Growth",
+       "blocks": [
+        {
+         "type": "text",
+         "html": "We have state-of-the-art training infrastructure at both our locations to facilitate employee learning and development."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "/media/CHECMICAL-cta-scaled-92edd8.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "slug": "gacl-advantage",
+ "path": "/gacl-advantage/"
+}

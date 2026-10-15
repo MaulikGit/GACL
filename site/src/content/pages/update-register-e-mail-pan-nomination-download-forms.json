@@ -1,0 +1,76 @@
+{
+ "title": "Update/ Register E-Mail, PAN, Nomination & Download Forms",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "UPDATE / REGISTER EMAIL, PAN, KYC, NOMINATION & DOWNLOAD FORMS"
+    },
+    {
+     "type": "text",
+     "html": "<b>IMPORTANT: Information to be provided to RTA, if holding shares in physical form</b>"
+    },
+    {
+     "type": "text",
+     "html": "As per SEBI circulars, all the listed companies to record PAN, Address with PIN code, Mobile Number, Bank Account details, Specimen Signature of physical securities. Email Address and Nomination of shareholders are optional, the security holders are requested to register Nomination and email address to avail online services. This is applicable for all security holders holding shares in physical mode. The salient features and requirements of the SEBI circular are as follows:"
+    },
+    {
+     "type": "text",
+     "html": "A) In case of non-updation of PAN or Contact Details or Mobile Number or Bank Account Details or Specimen Signature in respect of physical folios, dividend/interest etc. shall be paid only through electronic mode with effect from April 01, 2024 upon furnishing all the aforesaid details in entirety."
+    },
+    {
+     "type": "text",
+     "html": "B) If a security holder updates the PAN, Contact Details including Mobile Number, Bank Account Details and Specimen Signature after April 01, 2024, then the security holder would receive all the dividends/interest etc. declared during that period (from April 01, 2024 till date of updation) pertaining to the securities held after the said updation automatically."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2024/08/MASTER-CIRCULAR-7.5.2024.pdf\">SEBI Circular for updation of PAN, KYC details and Nomination</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/6bf69_News_Paper_Adv-Email-PAN-KYC-Nomi-1.pdf\">SHAREHOLDERS TO UPDATE / REGISTER THEIR EMAIL ADDRESS, PAN, KYC AND NOMINATION DETAILS</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Form-ISR-1.pdf\">Form ISR-1 - Request For Registering PAN, KYC Details Or Changes / Updation Thereof</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Form-ISR-2.pdf\">Form ISR-2 - Confirmation Of Signature Of Securities Holder By The Banker</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Form-ISR-3.pdf\">Form ISR-3 - Declaration Form For Opting-Out Of Nomination</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/07d5c_Form-ISR-4.docx\">Form ISR-4 - Request For Issue Of Duplicate Certificate And Other Service Requests</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/e93d7_Form-ISR-5.docx\">Form ISR-5 - Request For Transmission Of Securities By Nominee Or Legal Heir</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/4b28a_form_sh_13.pdf\">FORM SH-13 - Nomination Form</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/de833_form_sh_14.pdf\">FORM SH-14 - Cancellation Or Variation Of Nomination</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/bdb81_business_reply_inland_letter.pdf\">Request Letter For Electronic Annual Report-Green Initiative</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/0e634_App_for_Unclaimed_Dividend.pdf\">Application For Unclaimed Dividend</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "/media/CHECMICAL-cta-scaled-92edd8.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "slug": "update-register-e-mail-pan-nomination-download-forms",
+ "path": "/update-register-e-mail-pan-nomination-download-forms/"
+}

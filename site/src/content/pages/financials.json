@@ -1,0 +1,936 @@
+{
+ "title": "Financials",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Financials"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Financial Data Information"
+    },
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "text",
+     "html": "﻿Quarterly Financial Results 2026-27"
+    },
+    {
+     "type": "text",
+     "html": "Q1 Result 2027 Q1 Result 2027"
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results 2025-26"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 2026 Q4 Result 2026",
+       "href": "https://gacl.com/wp-content/uploads/2026/05/Q4-Result-2026.pdf",
+       "cta": "Q4 Result 2026"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 2026 Q3 Result 2026",
+       "href": "https://gacl.com/wp-content/uploads/2026/02/Q3-Result-2026.pdf",
+       "cta": "Q3 Result 2026"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 2026 Q2 Result 2026",
+       "href": "https://gacl.com/wp-content/uploads/2025/11/Q2-2026-Results.pdf",
+       "cta": "Q2 Result 2026"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 2026 Q1 Result 2026",
+       "href": "https://gacl.com/wp-content/uploads/2025/08/Q1-2026-Results.pdf",
+       "cta": "Q1 Result 2026"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results 2024-25"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 2025 Q4 Result 2025",
+       "href": "https://gacl.com/wp-content/uploads/2025/05/Q4-2025-Results.pdf",
+       "cta": "Q4 Result 2025"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 2025 Q3 Result 2025",
+       "href": "https://gacl.com/wp-content/uploads/2025/02/Integreted-FR-Q3-2024-25.pdf",
+       "cta": "Q3 Result 2025"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 2025 Q2 Result 2025",
+       "href": "https://gacl.com/wp-content/uploads/2024/11/Q2-FR-2024-25.pdf",
+       "cta": "Q2 Result 2025"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 2025 Q1 Result 2025",
+       "href": "https://gacl.com/wp-content/uploads/2024/08/Q1_Financial_202425_S.pdf",
+       "cta": "Q1 Result 2025"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results 2023-24"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 2024 Q4 Result 2024",
+       "href": "https://gacl.com/wp-content/uploads/2024/05/Q-4-Results-for-the-FY-2023-24.pdf",
+       "cta": "Q4 Result 2024"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 2024 Q3 Result 2024",
+       "href": "https://gacl.com/wp-content/uploads/2024/02/Unaudited-Financial-Results-For-The-Quarter-Ended-31st-Dec-2023.pdf",
+       "cta": "Q3 Result 2024"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 2024 Q2 Result 2024",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Unaudited-Financial-Results-For-The-Quarter-Ended-30th-September-2023-1.pdf",
+       "cta": "Q2 Result 2024"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 2024 Q1 Result 2024",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Unaudited-Financial-Results-For-The-Quarter-Ended-30th-June-2023.pdf",
+       "cta": "Q1 Result 2024"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results 2022-23"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 2023 Q4 Result 2023",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q4-Result-2023.pdf",
+       "cta": "Q4 Result 2023"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 2023 Q3 Result 2023",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q3-Result-2023.pdf",
+       "cta": "Q3 Result 2023"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 2023 Q2 Result 2023",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q2-Result-2023.pdf",
+       "cta": "Q2 Result 2023"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 2023 Q1 Result 2023",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q1-Result-2023.pdf",
+       "cta": "Q1 Result 2023"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results 2021-22"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 2022 Q4 Result 2022",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q4-Result-2022.pdf",
+       "cta": "Q4 Result 2022"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 2022 Q3 Result 2022",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q3-Result-2022.pdf",
+       "cta": "Q3 Result 2022"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 2022 Q2 Result 2022",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q2-Result-2022.pdf",
+       "cta": "Q2 Result 2022"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 2022 Q1 Result 2022",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q1-Result-2022.pdf",
+       "cta": "Q1 Result 2022"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results 2020-21"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 2021 Q4 Result 2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q4-Result-2021.pdf",
+       "cta": "Q4 Result 2021"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 2021 Q3 Result 2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q3-Result-2021.pdf",
+       "cta": "Q3 Result 2021"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 2021 Q2 Result 2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q2-Result-2021.pdf",
+       "cta": "Q2 Result 2021"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 2021 Q1 Result 2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q1-Result-2021.pdf",
+       "cta": "Q1 Result 2021"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results <br>2019-20"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 19-20 Q4 Result 19-20",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q4-Result-1920.pdf",
+       "cta": "Q4 Result 19-20"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 19-20 Q3 Result 19-20",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q3-Result-1920.pdf",
+       "cta": "Q3 Result 19-20"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 19-20 Q2 Result 19-20",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q2-Result-1920.pdf",
+       "cta": "Q2 Result 19-20"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 19-20 Q1 Result 19-20",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q1-Result-1920.pdf",
+       "cta": "Q1 Result 19-20"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results 2018-19"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 18-19 Q4 Result 18-19",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q4-Result-1819.pdf",
+       "cta": "Q4 Result 18-19"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 18-19 Q3 Result 18-19",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q3-Result-1819.pdf",
+       "cta": "Q3 Result 18-19"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 18-19 Q2 Result 18-19",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q2-Result-1819.pdf",
+       "cta": "Q2 Result 18-19"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 18-19 Q1 Result 18-19",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q1-Result-1819.pdf",
+       "cta": "Q1 Result 18-19"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results <br>2017-18"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 17-18 Q4 Result 17-18",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q4-Result-1718.pdf",
+       "cta": "Q4 Result 17-18"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 17-18 Q3 Result 17-18",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q3-Result-1718.pdf",
+       "cta": "Q3 Result 17-18"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 17-18 Q2 Result 17-18",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q2-Result-1718.pdf",
+       "cta": "Q2 Result 17-18"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 17-18 Q1 Result 17-18",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q1-Result-1718.pdf",
+       "cta": "Q1 Result 17-18"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results 2016-17"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 16-17 Q4 Result 16-17",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q4-Result-1617.pdf",
+       "cta": "Q4 Result 16-17"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 16-17 Q3 Result 16-17",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q3-Result-1617.pdf",
+       "cta": "Q3 Result 16-17"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 16-17 Q2 Result 16-17",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q2-Result-1617.pdf",
+       "cta": "Q2 Result 16-17"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 16-17 Q1 Result 16-17",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q1-Result-1617.pdf",
+       "cta": "Q1 Result 16-17"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results 2015-16"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 15-16 Q4 Result 15-16",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q4-Result-1516.pdf",
+       "cta": "Q4 Result 15-16"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 15-16 Q3 Result 15-16",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q3-Result-1516.pdf",
+       "cta": "Q3 Result 15-16"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 15-16 Q2 Result 15-16",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q2-Result-1516.pdf",
+       "cta": "Q2 Result 15-16"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 15-16 Q1 Result 15-16",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q1-Result-1516.pdf",
+       "cta": "Q1 Result 15-16"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Quarterly Financial Results 2014-15"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q4 Result 14-15 Q4 Result 14-15",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q4-Result-1415.pdf",
+       "cta": "Q4 Result 14-15"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q3 Result 14-15 Q3 Result 14-15",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q3-Result-1415.pdf",
+       "cta": "Q3 Result 14-15"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q2 Result 14-15 Q2 Result 14-15",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q2-Result-1415.pdf",
+       "cta": "Q2 Result 14-15"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Q1 Result 14-15 Q1 Result 14-15",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Q1-Result-1415.pdf",
+       "cta": "Q1 Result 14-15"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "Audit Report for Q1 Result<br> 2016-17"
+    },
+    {
+     "type": "text",
+     "html": "Q1 Result 16-17 Q1 Result 16-17"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Annual Financial Report"
+    },
+    {
+     "type": "text",
+     "html": "Issued Report"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "text",
+     "html": "Annual Financial Report"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2025-26 Report 2025-26",
+       "href": "https://gacl.com/wp-content/uploads/2026/08/GACL_53rd_AR_2025-26.pdf",
+       "cta": "Report 2025-26"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2024-25 Report 2024-25",
+       "href": "https://gacl.com/wp-content/uploads/2025/09/Report-2024-25-.pdf",
+       "cta": "Report 2024-25"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2023-24 Report 2023-24",
+       "href": "https://gacl.com/wp-content/uploads/2024/08/Final-AR_2024_29082024.pdf",
+       "cta": "Report 2023-24"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2022-23 Report 2022-23",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/2c00a_Annual-Financial-Report-2022-23.pdf",
+       "cta": "Report 2022-23"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2021-22 Report 2021-22",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/10dfd_Final-GACL-AR-2021-22_31-08-2022.pdf",
+       "cta": "Report 2021-22"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2020-21 Report 2020-21",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2020-21.pdf",
+       "cta": "Report 2020-21"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2019-20 Report 2019-20",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2019-20.pdf",
+       "cta": "Report 2019-20"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2018-19 Report 2018-19",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2018-19.pdf",
+       "cta": "Report 2018-19"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2017-18 Report 2017-18",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2017-18.pdf",
+       "cta": "Report 2017-18"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2016-17 Report 2016-17",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2016-17.pdf",
+       "cta": "Report 2016-17"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2015-16 Report 2015-16",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2015-16.pdf",
+       "cta": "Report 2015-16"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2014-15 Report 2014-15",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2014-15.pdf",
+       "cta": "Report 2014-15"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2013-14 Report 2013-14",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2013-14.pdf",
+       "cta": "Report 2013-14"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2012-13 Report 2012-13",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2012-13.pdf",
+       "cta": "Report 2012-13"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2011-12 Report 2011-12",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2011-12.pdf",
+       "cta": "Report 2011-12"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2010-11 Report 2010-11",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2010-11.pdf",
+       "cta": "Report 2010-11"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Report 2009-10 Report 2009-10",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Annual-Financial-Report-2009-10.pdf",
+       "cta": "Report 2009-10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Consolidated Disclosure of Related Party Transactions (Half-Yearly)"
+    },
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "text",
+     "html": "2026"
+    },
+    {
+     "type": "text",
+     "html": "Mar 31, 2026 Mar 31, 2026"
+    },
+    {
+     "type": "text",
+     "html": "2025"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Sept 30, 2025 Sept 30, 2025",
+       "href": "https://gacl.com/wp-content/uploads/2025/12/rpt-sep-2025.pdf",
+       "cta": "Sept 30, 2025"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Mar 31, 2025 Mar 31, 2025",
+       "href": "https://gacl.com/wp-content/uploads/2025/05/RPT.pdf",
+       "cta": "Mar 31, 2025"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2024"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Sept 30, 2024 Sept 30, 2024",
+       "href": "https://gacl.com/wp-content/uploads/2024/11/Sep-30-2024.pdf",
+       "cta": "Sept 30, 2024"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Mar 31, 2024 Mar 31, 2024",
+       "href": "https://gacl.com/wp-content/uploads/2024/08/March-31-2024.pdf",
+       "cta": "Mar 31, 2024"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2023"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Sept 30, 2023 Sept 30, 2023",
+       "href": "https://gacl.com/wp-content/uploads/2024/01/For-September-30-2023.pdf",
+       "cta": "Sept 30, 2023"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Mar 31, 2023 Mar 31, 2023",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/For-March-31-2023.pdf",
+       "cta": "Mar 31, 2023"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2022"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Sept 30, 2022<br>(PDF Format) Sept 30, 2022<br>(PDF Format)",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/For-September-30-2022.pdf",
+       "cta": "Sept 30, 2022 (PDF Format)"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Mar 31, 2022 <br>(PDF Format) Mar 31, 2022 <br>(PDF Format)",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/For-March-31-2022-PDF-Format.pdf",
+       "cta": "Mar 31, 2022 (PDF Format)"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Mar 31, 2022<br> (XBRL Format) Mar 31, 2022<br> (XBRL Format)",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/For-March-31-2022-XBRL-Format.html",
+       "cta": "Mar 31, 2022 (XBRL Format)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2021"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Sept 30, 2021 Sept 30, 2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/For-September-30-2021-1.html",
+       "cta": "Sept 30, 2021"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Mar 31, 2021 Mar 31, 2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/For-March-31-2021.pdf",
+       "cta": "Mar 31, 2021"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2020"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Sept 30, 2020 Sept 30, 2020",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/For-September-2020.pdf",
+       "cta": "Sept 30, 2020"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Mar 31, 2020 Mar 31, 2020",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/For-March-31-2020.pdf",
+       "cta": "Mar 31, 2020"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2019"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Sept 30, 2019 Sept 30, 2019",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/For-September-30-2019.pdf",
+       "cta": "Sept 30, 2019"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Mar 31, 2019 Mar 31, 2019",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/For-March-31-2019.pdf",
+       "cta": "Mar 31, 2019"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "financials",
+ "path": "/financials/"
+}

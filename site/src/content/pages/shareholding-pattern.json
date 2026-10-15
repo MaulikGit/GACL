@@ -1,0 +1,478 @@
+{
+ "title": "Shareholding Pattern",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Shareholding Pattern"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "text",
+     "html": "2026-27"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As on 30.09.2026 As on 30.09.2026",
+       "href": "https://gacl.com/wp-content/uploads/2026/10/As-on-30.09.2026.html",
+       "cta": "As on 30.09.2026"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As on 30.06.2026 As on 30.06.2026",
+       "href": "https://gacl.com/wp-content/uploads/2026/07/As-on-30.06.2026.html",
+       "cta": "As on 30.06.2026"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2025-26"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.03.2026 As On 31.03.2026",
+       "href": "https://gacl.com/wp-content/uploads/2026/04/As-On-31.03.2026.html",
+       "cta": "As On 31.03.2026"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.12.2025 As On 31.12.2025",
+       "href": "https://gacl.com/wp-content/uploads/2026/01/As-On-31.1.2.2025.html",
+       "cta": "As On 31.12.2025"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.09.2025 As On 30.09.2025",
+       "href": "https://gacl.com/wp-content/uploads/2025/10/N-BSE-SHP-300925-WEBSITE.html",
+       "cta": "As On 30.09.2025"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.06.2025 As On 30.06.2025",
+       "href": "https://gacl.com/wp-content/uploads/2025/07/As-on-30.06.2025.html",
+       "cta": "As On 30.06.2025"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2024-25"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.03.2025 As On 31.03.2025",
+       "href": "https://gacl.com/wp-content/uploads/2025/04/As-On-31.03.2025.html",
+       "cta": "As On 31.03.2025"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.12.2024 As On 31.12.2024",
+       "href": "https://gacl.com/wp-content/uploads/2025/01/Shareholding-Pattern.xlsm.html",
+       "cta": "As On 31.12.2024"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.09.2024 As On 30.09.2024",
+       "href": "https://gacl.com/wp-content/uploads/2024/10/W_Shareholding-Pattern.xlsm.html",
+       "cta": "As On 30.09.2024"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.06.2024 As On 30.06.2024",
+       "href": "https://gacl.com/wp-content/uploads/2024/07/WEBSITE-Shareholding-Pattern.html",
+       "cta": "As On 30.06.2024"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2023-24"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.03.2024 As On 31.03.2024",
+       "href": "https://gacl.com/wp-content/uploads/2024/04/FOR-WEBSITE-Shareholding-Pattern.xlsm.html",
+       "cta": "As On 31.03.2024"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.12.2023 As On 31.12.2023",
+       "href": "https://gacl.com/wp-content/uploads/2024/01/Shareholding-Pattern.xlsm-WEBSITE.html",
+       "cta": "As On 31.12.2023"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.09.2023 As On 30.09.2023",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As_on_30_09_2023.html",
+       "cta": "As On 30.09.2023"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.06.2023 As On 30.06.2023",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2023.htm",
+       "cta": "As On 30.06.2023"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2022-23"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.03.2023 As On 31.03.2023",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2023.htm",
+       "cta": "As On 31.03.2023"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.12.2022 As On 31.12.2022",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2022.html",
+       "cta": "As On 31.12.2022"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.09.2022 As On 30.09.2022",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2022.html",
+       "cta": "As On 30.09.2022"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.06.2022 As On 30.06.2022",
+       "href": "https://gacl.com/wp-content/uploads/2024/03/As-On-30.06.2022.html",
+       "cta": "As On 30.06.2022"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2021-22"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.03.2022 As On 31.03.2022",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2022.html",
+       "cta": "As On 31.03.2022"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.12.2021 As On 31.12.2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2021.html",
+       "cta": "As On 31.12.2021"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.09.2021 As On 30.09.2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2021.html",
+       "cta": "As On 30.09.2021"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.06.2021 As On 30.06.2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2021.html",
+       "cta": "As On 30.06.2021"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2020-21"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.03.2021 As On 31.03.2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2021.htm",
+       "cta": "As On 31.03.2021"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.12.2020 As On 31.12.2020",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2020.htm",
+       "cta": "As On 31.12.2020"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.09.2020 As On 30.09.2020",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2020.htm",
+       "cta": "As On 30.09.2020"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.06.2020 As On 30.06.2020",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2020.htm",
+       "cta": "As On 30.06.2020"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2019-20"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.03.2020 As On 31.03.2020",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2020.htm",
+       "cta": "As On 31.03.2020"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.12.2019 As On 31.12.2019",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2019.htm",
+       "cta": "As On 31.12.2019"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.09.2019 As On 30.09.2019",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2019.htm",
+       "cta": "As On 30.09.2019"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.06.2019 As On 30.06.2019",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2019.htm",
+       "cta": "As On 30.06.2019"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2018-19"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.03.2019 As On 31.03.2019",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2019.htm",
+       "cta": "As On 31.03.2019"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.12.2018 As On 31.12.2018",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2018.htm",
+       "cta": "As On 31.12.2018"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.09.2018 As On 30.09.2018",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2018.htm",
+       "cta": "As On 30.09.2018"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.06.2018 As On 30.06.2018",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2018.htm",
+       "cta": "As On 30.06.2018"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2017-18"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.03.2018 As On 31.03.2018",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2018.htm",
+       "cta": "As On 31.03.2018"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.12.2017 As On 31.12.2017",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2017.htm",
+       "cta": "As On 31.12.2017"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.09.2017 As On 30.09.2017",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2017.htm",
+       "cta": "As On 30.09.2017"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.06.2017 As On 30.06.2017",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.06.2017.htm",
+       "cta": "As On 30.06.2017"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2016-17"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.03.2017 As On 31.03.2017",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.03.2017.htm",
+       "cta": "As On 31.03.2017"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 31.12.2016 As On 31.12.2016",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-31.12.2016.htm",
+       "cta": "As On 31.12.2016"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "As On 30.09.2016 As On 30.09.2016",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/As-On-30.09.2016.htm",
+       "cta": "As On 30.09.2016"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "shareholding-pattern",
+ "path": "/shareholding-pattern/"
+}

@@ -1,0 +1,151 @@
+{
+ "title": "HYDRAZINE HYDRATE",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Hydrazine Hydrate Group"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "HYDRAZINE HYDRATE (HH) (N 2 H 4 .H 2 O)"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Specifications"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Sr No",
+       "Characteristics",
+       "Specification"
+      ],
+      [
+       "1",
+       "Purity",
+       "80% W/W Min"
+      ],
+      [
+       "2",
+       "Balance Water",
+       ""
+      ],
+      [
+       "3",
+       "Appearance",
+       "Clear Colourless Liquid"
+      ],
+      [
+       "4",
+       "Density",
+       "1.02 To 1.07"
+      ],
+      [
+       "5",
+       "Active Content",
+       "Minimum 80% As Hydrazine Hydrate"
+      ],
+      [
+       "6",
+       "Metals",
+       "&lt; 10 ppm"
+      ],
+      [
+       "7",
+       "Ammonia",
+       "&lt; 50 Ppm"
+      ],
+      [
+       "8",
+       "Ph",
+       "&gt; 10 As Supplied"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<strong>Caution :</strong> : Store in a cool, dry and well-ventilated place. Use personal<br>protective equipment during the application."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/HYDRAZINE-HYDRATE-HH.pdf\">Leaflet</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Hydrazine-Hydrate.pdf\">MSDS</a>"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Enquiry",
+     "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMjA1IiwidG9nZ2xlIjpmYWxzZX0%3D"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "HYDRAZINE HYDRATE (HH) (N 2 H 4 .H 2 O)"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Applications"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Oxygen Scavenger",
+      "Blowing Agents",
+      "Pesticides Industries",
+      "Agrochemicals",
+      "Water Treatment",
+      "Pharmaceutical Industry",
+      "Lubricant Additives",
+      "Recovery of Precious Metals",
+      "Flame-retardants",
+      "Synthesis of Active Ingredients",
+      "Fine Chemicals",
+      "Anti-corrosion Processes",
+      "Metal Treatments",
+      "Polymers and Composites",
+      "Fibres and Foam Compounds"
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "hydrazine-hydrate",
+ "path": "/hydrazine-hydrate/"
+}

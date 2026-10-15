@@ -1,0 +1,511 @@
+{
+ "title": "Corporate Governance",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Corporate Governance"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Code of Conduct"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/CODE-OF-PRACTICES-AND-PROCEDURES-FOR-FAIR-DISCLOSURE-OF-UNPUBLISHED-PRICE-SENSITIVE-INFORMATION.pdf\">CODE OF PRACTICES AND PROCEDURES FOR FAIR DISCLOSURE OF UNPUBLISHED PRICE SENSITIVE INFORMATION</a>"
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Corporate Governance Report"
+    },
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "text",
+     "html": "2026-27"
+    },
+    {
+     "type": "text",
+     "html": "CG Report Q1 2026-27 CG Report Q1 2026-27"
+    },
+    {
+     "type": "text",
+     "html": "2025-26"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q4 2025-26 CG Report Q4 2025-26",
+       "href": "https://gacl.com/wp-content/uploads/2026/06/website-update.pdf",
+       "cta": "CG Report Q4 2025-26"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q3 2025-26 CG Report Q3 2025-26",
+       "href": "https://gacl.com/wp-content/uploads/2026/01/cgweb.pdf",
+       "cta": "CG Report Q3 2025-26"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q2 2025-26 CG Report Q2 2025-26",
+       "href": "https://gacl.com/wp-content/uploads/2025/10/cg-report.pdf",
+       "cta": "CG Report Q2 2025-26"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q1 2025-26 CG Report Q1 2025-26",
+       "href": "https://gacl.com/wp-content/uploads/2025/07/CG-REPORT_30.06.2025.pdf",
+       "cta": "CG Report Q1 2025-26"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2024-25"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q4 2024-25 CG Report Q4 2024-25",
+       "href": "https://gacl.com/wp-content/uploads/2025/04/WEBSITE-GACL_Integrated-Governance_31032025.pdf",
+       "cta": "CG Report Q4 2024-25"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q3 2024-25 CG Report Q3 2024-25",
+       "href": "https://gacl.com/wp-content/uploads/2025/01/CG-REPORT-Q3.pdf",
+       "cta": "CG Report Q3 2024-25"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q2 2024-25 CG Report Q2 2024-25",
+       "href": "https://gacl.com/wp-content/uploads/2024/10/CG_Sept2024_W-1.pdf",
+       "cta": "CG Report Q2 2024-25"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q1 2024-25 CG Report Q1 2024-25",
+       "href": "https://gacl.com/wp-content/uploads/2024/07/CG-June-2024.pdf",
+       "cta": "CG Report Q1 2024-25"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2023-24"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q4 2023-24 CG Report Q4 2023-24",
+       "href": "https://gacl.com/wp-content/uploads/2024/05/CG-2024.pdf",
+       "cta": "CG Report Q4 2023-24"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q3 2023-24 CG Report Q3 2023-24",
+       "href": "https://gacl.com/wp-content/uploads/2024/01/CG-Report-Q3-2023-24.pdf",
+       "cta": "CG Report Q3 2023-24"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q2 2023-24 CG Report Q2 2023-24",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q2-2023-24.pdf",
+       "cta": "CG Report Q2 2023-24"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q1 2023-24 CG Report Q1 2023-24",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q1-2023-24.pdf",
+       "cta": "CG Report Q1 2023-24"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2022-23"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q4 2022-23 CG Report Q4 2022-23",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q4-2022-23.pdf",
+       "cta": "CG Report Q4 2022-23"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q3 2022-23 CG Report Q3 2022-23",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q3-2022-23.pdf",
+       "cta": "CG Report Q3 2022-23"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q2 2022-23 CG Report Q2 2022-23",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q2-2022-23.pdf",
+       "cta": "CG Report Q2 2022-23"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q1 2022-23 CG Report Q1 2022-23",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q1-2022-23.pdf",
+       "cta": "CG Report Q1 2022-23"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2021-22"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q4 2021-22 CG Report Q4 2021-22",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q4-2021-22.html",
+       "cta": "CG Report Q4 2021-22"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q3 2021-22 CG Report Q3 2021-22",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q3-2021-22.pdf",
+       "cta": "CG Report Q3 2021-22"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q2 2021-22 CG Report Q2 2021-22",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q2-2021-22.pdf",
+       "cta": "CG Report Q2 2021-22"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q1 2021-22 CG Report Q1 2021-22",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q1-2021-22.pdf",
+       "cta": "CG Report Q1 2021-22"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2020-21"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q4 2020-21 CG Report Q4 2020-21",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q4-2020-21.pdf",
+       "cta": "CG Report Q4 2020-21"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q3 2020-21 CG Report Q3 2020-21",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q3-2020-21.pdf",
+       "cta": "CG Report Q3 2020-21"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q2 2020-21 CG Report Q2 2020-21",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q2-2020-21.pdf",
+       "cta": "CG Report Q2 2020-21"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q1 2020-21 CG Report Q1 2020-21",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q1-2020-21.pdf",
+       "cta": "CG Report Q1 2020-21"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2019-20"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q4 2019-20 CG Report Q4 2019-20",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q4-2019-20.pdf",
+       "cta": "CG Report Q4 2019-20"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q3 2019-20 CG Report Q3 2019-20",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q3-2019-20.pdf",
+       "cta": "CG Report Q3 2019-20"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q2 2019-20 CG Report Q2 2019-20",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q2-2019-20.pdf",
+       "cta": "CG Report Q2 2019-20"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q1 2019-20 CG Report Q1 2019-20",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q1-2019-20.pdf",
+       "cta": "CG Report Q1 2019-20"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2018-19"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q4 2018-19 CG Report Q4 2018-19",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q4-2018-19.pdf",
+       "cta": "CG Report Q4 2018-19"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG REPORT Q3 2018-19 CG REPORT Q3 2018-19",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-REPORT-Q3-2018-19.pdf",
+       "cta": "CG REPORT Q3 2018-19"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q2 2018-19 CG Report Q2 2018-19",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q2-2018-19.pdf",
+       "cta": "CG Report Q2 2018-19"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q1 2018-19 CG Report Q1 2018-19",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q1-2018-19.pdf",
+       "cta": "CG Report Q1 2018-19"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2017-18"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q4 2017-18 CG Report Q4 2017-18",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q4-2017-18.pdf",
+       "cta": "CG Report Q4 2017-18"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q3 2017-18 CG Report Q3 2017-18",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q3-2017-18.pdf",
+       "cta": "CG Report Q3 2017-18"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q2 2017-18 CG Report Q2 2017-18",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q2-2017-18.pdf",
+       "cta": "CG Report Q2 2017-18"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q1 2017-18 CG Report Q1 2017-18",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q1-2017-18.pdf",
+       "cta": "CG Report Q1 2017-18"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2016-17"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG REPORT Q4-2016-17 CG REPORT Q4-2016-17",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-REPORT-Q4-2016-17-ANN-I-II.pdf",
+       "cta": "CG REPORT Q4-2016-17"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q3 2016-17 CG Report Q3 2016-17",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q3-2016-17.pdf",
+       "cta": "CG Report Q3 2016-17"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q2 2016-17 CG Report Q2 2016-17",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q2-2016-17-Ann.-IIII.pdf",
+       "cta": "CG Report Q2 2016-17"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q1 2016-17 CG Report Q1 2016-17",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q1-2016-17.pdf",
+       "cta": "CG Report Q1 2016-17"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2015-16"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "CG Report Q4 31-Mar-16 Ann.I&amp;II CG Report Q4 31-Mar-16 Ann.I&amp;II",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/CG-Report-Q4-31-Mar-16-Ann.III_.pdf",
+       "cta": "CG Report Q4 31-Mar-16 Ann.I&II"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Quarterly Compliance Report On Corporate Governance For The Third Quarter Ended On 31.12.2015 Quarterly Compliance Report On Corporate Governance For The Third Quarter Ended On 31.12.2015",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Quarterly-Compliance-Report-On-Corporate-Governance-For-The-Third-Quarter-Ended-On-31.12.2015.pdf",
+       "cta": "Quarterly Compliance Report On Corporate Governance For The Third Quarter Ended On 31.12.2015"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "corporate-governance",
+ "path": "/corporate-governance/"
+}

@@ -1,0 +1,152 @@
+{
+ "title": "Hydrogen Peroxide Group",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Hydrogen Peroxide Group"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "HYDROGEN PEROXIDE (H 2 O 2 )"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Specifications"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Sr No",
+       "Characteristics",
+       "Grade",
+       "35% H<sub>2</sub>O<sub>2</sub> w/w",
+       "50% H<sub>2</sub>O<sub>2</sub> w/w",
+       "60% H<sub>2</sub>O<sub>2</sub> w/w"
+      ],
+      [
+       "1",
+       "Stability",
+       "ml. of O /25 ml at 2 100°C for 30 mins",
+       "0.30 max",
+       "0.30 max",
+       "0.30 max"
+      ],
+      [
+       "2",
+       "Acidity (as H<sub>2</sub>SO<sub>4</sub>)",
+       "g/100 m",
+       "0.03 max",
+       "0.03 max",
+       "0.07 max"
+      ],
+      [
+       "3",
+       "Iron (as Fe)",
+       "ppm",
+       "1.00 max",
+       "1.00 max",
+       "1.00 max"
+      ],
+      [
+       "4",
+       "Copper (as Cu)",
+       "ppm",
+       "0.10 max",
+       "0.10 max",
+       "0.10 max"
+      ],
+      [
+       "5",
+       "Arsenic (as As)",
+       "ppm",
+       "2.00 max",
+       "2.00 max",
+       "2.00 max"
+      ],
+      [
+       "6",
+       "Lead (as Pb)",
+       "ppm",
+       "10.0 max",
+       "10.0 max",
+       "10.0 max"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "html": "For 2 to 6 : COA (Certificate of Analysis) as &amp; when required by Customer"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Applications"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "As aBleaching agentforPulp,Paper,Textiles, Sugar, Coir & Tobacco Industries",
+      "Antiseptic agent in Pharmaceuticals",
+      "Sterilizing agent in Aseptic packing",
+      "As raw material for Organic and Inorganic chemicals, Dyestuffs and Pesticides",
+      "Effluent treatment",
+      "Propellant for Rockets & Aircrafts",
+      "Oxidizing agent for Silver ornaments",
+      "Neutralizing agent in wine distillation",
+      "Chemical reagent for extraction of different metals: Cobalt, Uranium, Tungsten, etc.",
+      "As an etching & cleaning agent in Electronic industry and Process equipments"
+     ]
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/HYDROGEN-PEROXIDE.pdf\">Leaflet</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Hydrogen-Peroxide.pdf\">MSDS</a>"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Enquiry",
+     "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMjA1IiwidG9nZ2xlIjpmYWxzZX0%3D"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "hydrogen-peroxide-group",
+ "path": "/hydrogen-peroxide-group/"
+}

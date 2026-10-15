@@ -1,0 +1,647 @@
+{
+ "title": "Safety & Compliance",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Safety & Health"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Safety First, Always"
+    },
+    {
+     "type": "gallery",
+     "images": [
+      {
+       "src": "/media/safety-compliance_2-2048x1371-e4702d.webp",
+       "alt": "safety & compliance_2"
+      },
+      {
+       "src": "/media/safety-compliance_1-2048x1365-c0ba67.webp",
+       "alt": "safety & compliance_1"
+      },
+      {
+       "src": "/media/safety-compliance_3-2048x1360-641605.webp",
+       "alt": "safety & compliance_3"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "In the realm of the chemical industry, safety is the cornerstone that underpins every facet of our work. Ensuring the well-being of our team, our premises, and the environment isn’t just a priority; it’s an absolute necessity. Neglecting safety could lead to severe consequences—human harm, economic setbacks, environmental damage, and facility destruction. Recognizing its significance, we have taken decisive steps to embed safety across all our operations."
+    },
+    {
+     "type": "text",
+     "html": "Our Commitments to Safety and Health"
+    },
+    {
+     "type": "text",
+     "html": "As part of our aim of ‘No Harm’, our strategy is focussed on key challenges and risks related to safety and health. Our Top Management is committed to nurturing safety culture as is evident from our policies and practices. We take pride in adopting a collective safety culture wherein every member is accountable for safe operation. Derivation of annual performance of each individual as well as the organization is linked to the safety."
+    },
+    {
+     "type": "text",
+     "html": "We strictly adhere to all regulations and also certified with Integrated Management System having ISO 9001, 14001, 45001 and 50001. Also, we have Principal Safety Committee (having members across cadres including senior management), internal safety audit team and cross-functional audit teams for safety improvement. We provide regular training to all stakeholders across value chain, to nearby community and publish safety related literature and bulletins. Regular mock drills are conducted in line with identified Maximum Credible Scenarios (MCA)."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "At GACL, our commitment goes beyond just compliance; it’s about fostering a culture of excellence in safety. Our continuous efforts align with sustainability goals, ensuring a safer, better future for all stakeholders.."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Environment Compliances"
+    },
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "Nov 2025",
+       "html": "Nov 2025 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2025/11/EC-compliance-April-to-Sep-25.pdf",
+       "cta": "Nov 2025 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "May 2025",
+       "html": "May 2025 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2025/06/EC-compliance-October-2024-to-March-2025_compressed.pdf",
+       "cta": "May 2025 EC Compliance"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2024"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "Nov 2024",
+       "html": "Nov 2024 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2024/11/EC-compliance-half-yearly-December-2024.pdf",
+       "cta": "Nov 2024 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "May 2024",
+       "html": "May 2024 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2024/05/EC-Compliance-23.05.2024.pdf",
+       "cta": "May 2024 EC Compliance"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2023"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "text": "May 2023"
+    },
+    {
+     "type": "text",
+     "html": "May 2023 EC Compliance EC Compliance"
+    },
+    {
+     "type": "text",
+     "html": "2022"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "May 2022",
+       "html": "May 2022 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/0b19b_Compliance_EC_20052022-may-2022.pdf",
+       "cta": "May 2022 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Nov 2022",
+       "html": "Nov 2022 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/a5da5_EC-Compliance-Nov-22.pdf",
+       "cta": "Nov 2022 EC Compliance"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2021"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "May 2021",
+       "html": "May 2021 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/93a08_EC-compliance-MAY-2021.pdf",
+       "cta": "May 2021 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Nov 2021",
+       "html": "Nov 2021 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/0f34e_Compliance-of-EC-conditions-nov-2021.pdf",
+       "cta": "Nov 2021 EC Compliance"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2020"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "May 2020",
+       "html": "May 2020 EC Compliance - 2008 EC Compliance - 2008",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/0ff20_Compliance-of-EC-may-2020-EC-2008-Baroda.pdf",
+       "cta": "May 2020 EC Compliance - 2008"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "May 2020",
+       "html": "May 2020 EC Compliance - 2011 EC Compliance - 2011",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/0c843_Compliance-of-EC-new-may-2020-EC-2011-Baroda.pdf",
+       "cta": "May 2020 EC Compliance - 2011"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "May 2020",
+       "html": "May 2020 EC Compliance - 2015 EC Compliance - 2015",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/2d33d_Compliance-may-2020-EC-2015-Baroda.pdf",
+       "cta": "May 2020 EC Compliance - 2015"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Nov 2020",
+       "html": "Nov 2020 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/07270_EC-Compliance-report-Nov_2020_-vadodara.pdf",
+       "cta": "Nov 2020 EC Compliance"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2019"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "Nov 2019",
+       "html": "Nov 2019 EC Compliance - 2008 EC Compliance - 2008",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/26134_Compliance-of-Environment-clearance2008-NOV-2019.pdf",
+       "cta": "Nov 2019 EC Compliance - 2008"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Nov 2019",
+       "html": "Nov 2019 EC Compliance - 2011 EC Compliance - 2011",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/6e312_Compliance-of-Environment-clearance2011-nov-2019.pdf",
+       "cta": "Nov 2019 EC Compliance - 2011"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Nov 2019",
+       "html": "Nov 2019 EC Compliance - 2015 EC Compliance - 2015",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/82b62_Compliance-of-Environment-clearance2015-NOV-2019.pdf",
+       "cta": "Nov 2019 EC Compliance - 2015"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dahej Plot No 3"
+    },
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "text",
+     "html": "2025"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "Sep 2025",
+       "html": "Sep 2025 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2026/04/EC_Compliance_Plot-3_April-to-Sept-25.pdf",
+       "cta": "Sep 2025 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Sep 2025",
+       "html": "Sep 2025 CRZ Compliance CRZ Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2026/04/CRZ_Compliance_Plot-3_April-to-September-2025.pdf",
+       "cta": "Sep 2025 CRZ Compliance"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2024"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "Dec 2024",
+       "html": "Dec 2024 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2025/01/EC_Compliance_Plot-3_Apr-to-Sept-24.pdf",
+       "cta": "Dec 2024 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "May 2024",
+       "html": "May 2024 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2024/06/EC_Cmp_GACL_Plot-3.pdf",
+       "cta": "May 2024 EC Compliance"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2023"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "Jan 2023",
+       "html": "Jan 2023 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/bbae5_EC_Compliance_JAN-2023.pdf",
+       "cta": "Jan 2023 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Feb 2023",
+       "html": "Feb 2023 EC Copy EC Copy",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/29788_EC-Plot-3_2022-feb-2023.pdf",
+       "cta": "Feb 2023 EC Copy"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "July 2023",
+       "html": "July 2023 CRZ Cmp CRZ Cmp",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/dbcdb_CRZ-Cmp-JULY-2023.pdf",
+       "cta": "July 2023 CRZ Cmp"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "July 2023",
+       "html": "July 2023 Plot 3 EC Cmp Plot 3 EC Cmp",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/34c4a_Plot-3_EC-Cmp-Oct-to-March-23-JULY-2023.pdf",
+       "cta": "July 2023 Plot 3 EC Cmp"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2022"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "Jan 2022",
+       "html": "Jan 2022 Plot 3 CRZ Cmp Plot 3 CRZ Cmp",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/7d655_Plot-3-CRZ-cmp-final-jan-2022.pdf",
+       "cta": "Jan 2022 Plot 3 CRZ Cmp"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Jan 2022",
+       "html": "Jan 2022 Plot 3 EC Compliance Plot 3 EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/5f02b_Plot-3-EC-compliance-JAN-2022.pdf",
+       "cta": "Jan 2022 Plot 3 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "June 2022",
+       "html": "June 2022 Environment Celebration Day Report Environment Celebration Day Report",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/cd923_World-Env-Day-22-Report-june-2022.pdf",
+       "cta": "June 2022 Environment Celebration Day Report"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "July 2022",
+       "html": "July 2022 CRZ Compliance Report CRZ Compliance Report",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/6b852_CRZ-Compliance-Report-july-2022.pdf",
+       "cta": "July 2022 CRZ Compliance Report"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "July 2022",
+       "html": "July 2022 EC Compliance Report EC Compliance Report",
+       "href": "#",
+       "cta": "July 2022 EC Compliance Report"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2021"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "July 2021",
+       "html": "July 2021 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/92a1c_EC-Cmp-report-july-2021.pdf",
+       "cta": "July 2021 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "July 2021",
+       "html": "July 2021 CRZ Compliance CRZ Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/96fc4_CRZ_Cmp_report-JULY-2021.pdf",
+       "cta": "July 2021 CRZ Compliance"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2020"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "text": "Oct 2020"
+    },
+    {
+     "type": "text",
+     "html": "Oct 2020 EC Compliance EC Compliance"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dahej Plot No DII/9"
+    },
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "text": "Sep 2025"
+    },
+    {
+     "type": "text",
+     "html": "Sep 2025 EC Compliance EC Compliance"
+    },
+    {
+     "type": "text",
+     "html": "2019-2024"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "Nov 2024",
+       "html": "Nov 2024 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2025/01/EC-compliance-DII-9-April-24-to-Sept-24.pdf",
+       "cta": "Nov 2024 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "May 2024",
+       "html": "May 2024 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2024/06/EC-Cmp_GACL-DII-9.pdf",
+       "cta": "May 2024 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "July 2023",
+       "html": "July 2023 Plot DII-9 EC Cmp Plot DII-9 EC Cmp",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/e8171_Plot-D2-9-EC-CMP_Oct22-to-March-23-jan-2023.pdf",
+       "cta": "July 2023 Plot DII-9 EC Cmp"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Jan 2022",
+       "html": "Jan 2022 Plot No DII-9-CLM Plot No DII-9-CLM",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/37fde_Plot-no-DII-9-CLM-jan_2022.pdf",
+       "cta": "Jan 2022 Plot No DII-9-CLM"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "June 2020",
+       "html": "June 2020 EC For Bifurcation Of Plot DII/9 EC For Bifurcation Of Plot DII/9",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/df7fe_Split-EC-D-II-9-jun-2020.pdf",
+       "cta": "June 2020 EC For Bifurcation Of Plot DII/9"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Dec 2019",
+       "html": "Dec 2019 EC For 65 MW CCPP At Plot No. DII/9 EC For 65 MW CCPP At Plot No. DII/9",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/95c8f_EC-65-MW-CCPP-dec_2019.pdf",
+       "cta": "Dec 2019 EC For 65 MW CCPP At Plot No. DII/9"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dahej Plot No DIII/3"
+    },
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "text": "Sep 2025"
+    },
+    {
+     "type": "text",
+     "html": "Sep 2025 EC Compliance EC Compliance"
+    },
+    {
+     "type": "text",
+     "html": "2020-2024"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "Dec 2024",
+       "html": "Dec 2024 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2025/01/EC-Complaince-DIII-Apr-to-Sept-24.pdf",
+       "cta": "Dec 2024 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "May 2024",
+       "html": "May 2024 EC Compliance EC Compliance",
+       "href": "https://gacl.com/wp-content/uploads/2024/06/EC-Cmp_GACL_D-III.pdf",
+       "cta": "May 2024 EC Compliance"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "July 2023",
+       "html": "July 2023 Plot DIII/3 EC Cmp Plot DIII/3 EC Cmp",
+       "href": "#",
+       "cta": "July 2023 Plot DIII/3 EC Cmp"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "Jan 2022",
+       "html": "Jan 2022 Plot No D III 3 Plot No D III 3",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/71599_Plot-no-D-III-3-jan-2022.pdf",
+       "cta": "Jan 2022 Plot No D III 3"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "June 2020",
+       "html": "June 2020 EC Of Plot-DIII/3 EC Of Plot-DIII/3",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/83cb2_Plot_no_D_III-3_EC-jun-2020.pdf",
+       "cta": "June 2020 EC Of Plot-DIII/3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "safety-compliance",
+ "path": "/safety-compliance/"
+}

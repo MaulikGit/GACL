@@ -1,0 +1,79 @@
+{
+ "title": "Registrar Agent",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Registrar & Transfer Agent"
+    },
+    {
+     "type": "text",
+     "html": "Share transfer and other communication regarding Share Certificates, Dividends, Change of Address etc. may be addressed to the company’s Registrar &amp; Share Transfer Agent."
+    },
+    {
+     "type": "text",
+     "html": "<strong>Name of compliance officer</strong> : Mr. Alpesh Gandhi"
+    },
+    {
+     "type": "text",
+     "html": "<strong>Address</strong> : MUFG Intime India Private Limited, “Geetakunj” 1, Bhakti Nagar Society, Behind ABS Tower, Old Padra Road, Vadodara – 390 015."
+    },
+    {
+     "type": "text",
+     "html": "<strong>Phone No</strong>. : (0265) 3566768"
+    },
+    {
+     "type": "text",
+     "html": "<strong>E-mail</strong> : <a href=\"mailto:investor.helpdesk@in.mpms.mufg.com\">investor.helpdesk@in.mpms.mufg.com</a>"
+    },
+    {
+     "type": "text",
+     "html": "<strong>Website</strong> : <a href=\"https://in.mpms.mufg.com/\">https://in.mpms.mufg.com/</a>"
+    },
+    {
+     "type": "text",
+     "html": "<strong>View</strong> : <a href=\"https://gacl.com/wp-content/uploads/2023/12/5063b_registrar_agent-1.pdf\">Compliance Letter</a>"
+    },
+    {
+     "type": "button",
+     "text": "Model Tripartite Agreement",
+     "href": "https://gacl.com/wp-content/uploads/2023/12/Model-Tripartite-Agreement-SEBI-Circular.pdf"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://web.linkintime.co.in/EmailReg/Email_Register.html\">Updation of e-mail address, Permanent Account Number and Bank Account details (for physical folios)</a>",
+      "<a href=\"https://web.linkintime.co.in/formsreg/submission-of-form-15g-15h.html\">Submission of form 15H / 15G / 10F or relevant forms for non deduction of Tax on payment of dividend</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "/media/CHECMICAL-cta-scaled-92edd8.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "slug": "registrar-agent",
+ "path": "/registrar-agent/"
+}

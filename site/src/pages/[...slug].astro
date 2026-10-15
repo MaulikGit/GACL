@@ -1,0 +1,48 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "../components/PageHero.astro";
+import Section from "../components/Section.astro";
+import ProductGroup from "../components/ProductGroup.astro";
+import { pages, nav, type Page } from "../lib/content";
+import { groups } from "../lib/products";
+
+export function getStaticPaths() {
+  return pages.map((page) => ({ params: { slug: page.path.replace(/^\/|\/$/g, "") }, props: { page } }));
+}
+
+const { page } = Astro.props as { page: Page };
+const group = groups.find((g) => g.slug === page.slug);
+const parent = nav.find((g) => g.children.some((c) => c.href === page.path))?.label;
+
+// The page's own first heading usually repeats the title; use it as the hero title.
+let sections = page.sections;
+let title = page.title;
+const first = sections[0]?.blocks;
+if (first?.[0]?.type === "heading" && first.length <= 3 && !group) {
+  title = first[0].text;
+}
+const strip = (s: typeof sections) => {
+  if (s[0]?.blocks[0]?.type === "heading" && s[0].blocks[0].text === title) {
+    const rest = s[0].blocks.slice(1);
+    return rest.length ? [{ ...s[0], blocks: rest }, ...s.slice(1)] : s.slice(1);
+  }
+  return s;
+};
+sections = strip(sections);
+const isPost = /^\d|gacl-|honourable|international|notice/.test(page.slug) && !parent;
+---
+
+<Base title={page.title} description={page.description} image={page.hero}>
+  {
+    group ? (
+      <ProductGroup group={group} page={page} />
+    ) : (
+      <>
+        <PageHero title={title} eyebrow={parent ?? (isPost ? "GACL News" : undefined)} image={page.hero} />
+        {sections.map((s, i) => (
+          <Section section={s} index={i} alt={i % 2 === 0} />
+        ))}
+      </>
+    )
+  }
+</Base>

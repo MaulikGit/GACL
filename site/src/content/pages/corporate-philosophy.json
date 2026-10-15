@@ -1,0 +1,118 @@
+{
+ "title": "Corporate Philosophy",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "/media/Vision-0d641e.webp",
+       "title": "Vision",
+       "html": "To continue to be identified and recognized as a dynamic, modern and eco-friendly chemical company with enduring ethics and values.",
+       "href": "",
+       "cta": ""
+      },
+      {
+       "type": "card",
+       "image": "/media/01-Mission-222557.webp",
+       "title": "Mission",
+       "html": "",
+       "href": "",
+       "cta": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Pillars Of Our Growth"
+    },
+    {
+     "type": "text",
+     "html": "Welcome to Gujarat Alkalies and Chemicals Limited (GACL), where our success story is written with the purity of salt and the strength of our principles. Established in 1973 in Vadodara, Gujarat, we have traversed a remarkable journey of 50 years, guided by our unwavering commitment to four essential pillars of growth: Integrity, Excellence, Corporate Governance, and Social Responsibility."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Integrity"
+    },
+    {
+     "type": "text",
+     "html": "At GACL, integrity is the cornerstone of our corporate philosophy. We uphold the highest ethical standards in all our interactions, ensuring transparency, honesty, and accountability in every endeavor. We are dedicated to fostering trust and credibility, both within our organization and with our stakeholders."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Excellence"
+    },
+    {
+     "type": "text",
+     "html": "Striving for excellence is ingrained in our DNA. We continually push boundaries, embrace innovation, and pursue the highest standards of quality in our products and services. Through relentless dedication to excellence, we deliver superior value to our customers, setting new benchmarks in the chemical manufacturing industry."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Corporate Governance"
+    },
+    {
+     "type": "text",
+     "html": "Corporate Governance forms the backbone of our operations. We adhere to the best practices, ensuring robust internal controls, responsible decision-making, and prudent financial management. By maintaining a strong governance framework, we provide a secure and conducive environment for our employees, shareholders, and partners, fostering sustainable growth."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Social Responsibility"
+    },
+    {
+     "type": "text",
+     "html": "Social Responsibility is at the heart of our corporate identity. We recognize our role as a responsible corporate citizen and actively contribute to the well-being of society. Through various initiatives, we support education, healthcare, environmental conservation, and community development. We are committed to making a positive impact on the communities we serve, thereby fulfilling our duty towards society."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "At GACL, these four pillars guide our actions, inspire our innovations, and fuel our aspirations. With Integrity as our compass, Excellence as our driving force, Corporate Governance as our foundation, and Social Responsibility as our commitment, we are not just a chemical manufacturing company; we are a force for positive change."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "corporate-philosophy",
+ "path": "/corporate-philosophy/"
+}

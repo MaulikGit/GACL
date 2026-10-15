@@ -1,0 +1,54 @@
+{
+ "title": "Dr. T Natarajan, IAS",
+ "description": "",
+ "hero": "/media/09-1024x1024-69df0d.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dr. T Natarajan, IAS"
+    },
+    {
+     "type": "text",
+     "html": "Dr. T Natarajan has completed his graduation in Engineering from College of Engineering Guindy, Anna University and M.B.A. in Finance from Bharathidasan Institute of Management, Tamil Nadu, India. Later, he acquired additional education qualifications including Masters in International Development at Duke University in USA."
+    },
+    {
+     "type": "text",
+     "html": "Dr. T. Natarajan is a 1996 batch Indian Administrative Officer from Gujarat Cadre. He held a range of responsibilities in Gujarat Government including District Collector and District Development Officer. He has served in the departments of Finance, Revenue, Industry &amp; Mining and Technical Education and held leadership positions in Public Sector Undertakings."
+    },
+    {
+     "type": "text",
+     "html": "Dr. T. Natarajan was entrusted with the responsibility of Senior Advisor to the Executive Director of India in the International Monetary Fund at Washington DC by the Government of India. Before the current assignment as Additional Chief Secretary, Finance Department, Government of Gujarat he served as Additional Secretary, Defence Production. He also served as Additional Secretary in the Department of Economic Affairs in Government of India."
+    },
+    {
+     "type": "text",
+     "html": "He is holding Directorships in various companies viz., Gujarat Narmada Valley Fertilizers &amp; Chemicals Limited, Gujarat State Investment Limited, Gujarat State Fertilizers &amp; Chemicals Limited, Sardar Sarovar Narmada Nigam Limited, Gujarat Metro Rail Corporation Limited, Gujarat International Finance – Tech City Limited (GIFTCL), Gujarat Energy Limited and Gujarat State Financial Services Limited."
+    }
+   ]
+  },
+  {
+   "bg": "/media/CHECMICAL-cta-scaled-92edd8.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "slug": "team__dr-t-natarajan-ias",
+ "path": "/team/dr-t-natarajan-ias/"
+}

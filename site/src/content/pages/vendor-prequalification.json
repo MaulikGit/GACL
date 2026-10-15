@@ -1,0 +1,111 @@
+{
+ "title": "Vendor Prequalification",
+ "description": "",
+ "hero": "/media/shutterstock_2329811725-1-scaled-qito3nmubhj4qlld1wt0vx9orky-a84f4b.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Vendor Pre-Qualification"
+    },
+    {
+     "type": "text",
+     "html": "GACL is one of the largest producers of Caustic Soda, Chlorine,Ortho Phosphoric Acid, Hydrogen Peroxide, Chloromethanes, Hydrazine Hydrate, Anhydrous Aluminium Chloride,Poly Aluminum Chloride, Stable Bleaching Powder and Sodium Chlorate in India. It has a product portfolio of more than 35 items, with manufacturing facilities located at two sites: Vadodara and Dahej. Explore our Pre-Qualification of Vendors section to partner with excellence. Join our esteemed network by meeting our stringent criteria. Become a trusted collaborator in our journey towards innovation and quality. Together, let’s elevate standards and redefine success in business."
+    },
+    {
+     "type": "text",
+     "html": "To meet the diverse requirements for various materials and services across a spectrum of categories, GACL warmly welcomes pre-qualification applications from prospective vendors and service providers."
+    },
+    {
+     "type": "text",
+     "html": "For the convenience of interested parties, we kindly request the submission of Pre-Qualification forms exclusively through our online portal Vendor Registration Section."
+    },
+    {
+     "type": "button",
+     "text": "REGISTER NOW",
+     "href": "https://gaclportal.gacl.co.in/ePortal/vndreg"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Documents required for Technical and commercial assessment for Vendor Registration"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2026/02/Pre-qualification-and-Registration-Form-of-Industrial-Caterer.pdf\">Pre-qualification and Registration of Industrial Caterers Form</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/248b7_pre_q_vendor_docs.pdf\">Documents Required For Technical And Commercial Assessment For Vendor Registration</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/a3041_pre_q_vendor_tnc.pdf\">General Terms And Condition For Vendor Registration</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/bf712_pre_q_vendor_ANNEX_1.pdf\">Annexure -1 (Mandatory Document For Mech. Instr & Elec. Category Vendors)</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Purchase Procedure"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/19fff_purchase_procedure.pdf\">Guidelines for the Purchase Procedure</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Procedure for participating in online bidding on SRM"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/12559_Registering_for_contact_person.pdf\">Registering For Contact Person</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/64914_TakePartInAuction.pdf\">Take Part In An Auction</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/75839_TakePartInRFX_WithConditions.pdf\">Take Part In RFX With Conditions</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "vendor-prequalification",
+ "path": "/vendor-prequalification/"
+}

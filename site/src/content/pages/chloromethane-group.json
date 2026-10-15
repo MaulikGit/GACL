@@ -1,0 +1,449 @@
+{
+ "title": "Chloromethane Group",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Chloromethane Group"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "METHYLENE CHLORIDE (CH 2 Cl 2 - Dichloromethane)"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Specifications"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Sr No",
+       "Characteristics",
+       "Specification"
+      ],
+      [
+       "1",
+       "Colour",
+       "APHA 10.00 max"
+      ],
+      [
+       "2",
+       "Sp. Gravity (15°C/4°C)",
+       "1.332/1.340"
+      ],
+      [
+       "3",
+       "Purity",
+       "% 99.90 min"
+      ],
+      [
+       "4",
+       "Methyl Chloride",
+       "ppm 20.00 max"
+      ],
+      [
+       "5",
+       "Chloroform",
+       "ppm 40.00 max"
+      ],
+      [
+       "6",
+       "Carbon Tetrachloride",
+       "ppm 10.00 max"
+      ],
+      [
+       "7",
+       "Trans 1-2 Dichloroethylene",
+       "ppm 80.00 max"
+      ],
+      [
+       "8",
+       "Moisture",
+       "ppm 200.00 max"
+      ],
+      [
+       "9",
+       "Free Chlorine",
+       "ppm 1.00 max"
+      ],
+      [
+       "10",
+       "Acidity as HCL",
+       "ppm 1.00 max"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<strong>Caution :</strong> Threshold limit 50 ppm as per ACGIH norms"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Applications"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Manufacturing of Polycarbonates, Phenolics, Rayon yarn",
+      "Solvent for Cellulose Acetates, Photo-resist, Tablet film coatings",
+      "Paint & Grease removing agent",
+      "Fire fighting agent",
+      "Extractant for Edible fats, Cocoa, Butter and Essences",
+      "Adhesives for Polymethyl Methacrylate",
+      "Aerosol Propellant, Refrigerant",
+      "Chemical reaction media",
+      "Low temperature heat transfer medium",
+      "Pharmaceutical Industry - API/Bulk Drugs"
+     ]
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/METHYLENE-CHLORIDE.pdf\">Leaflet</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Methylene-Chloride.pdf\">MSDS</a>"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Enquiry",
+     "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMjA1IiwidG9nZ2xlIjpmYWxzZX0%3D"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "CARBON TETRACHLORIDE (CCl 4 - Tetrachloromethane)"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Specifications"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Sr No",
+       "Characteristics",
+       "Specification"
+      ],
+      [
+       "1",
+       "Colour",
+       "APHA 10.00 max"
+      ],
+      [
+       "2",
+       "Sp. Gravity (15˚C/4˚C)",
+       "1.600/1.608"
+      ],
+      [
+       "3",
+       "Purity",
+       "% 99.90 min"
+      ],
+      [
+       "4",
+       "Methylene Chloride",
+       "ppm 10.00 max"
+      ],
+      [
+       "5",
+       "Chloroform",
+       "ppm 100.00 max"
+      ],
+      [
+       "6",
+       "Trichloroethylene",
+       "ppm 100.00 max"
+      ],
+      [
+       "7",
+       "Moisture",
+       "ppm 50.00 max"
+      ],
+      [
+       "8",
+       "Free Chlorine",
+       "ppm 1.00 max"
+      ],
+      [
+       "9",
+       "Acidity as HCL",
+       "ppm 1.00 max"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<strong>Caution :</strong> Threshold limit 10 ppm as per ACGIH norms<br>Hydrolyzes to from Hydrochloric Acid with Water"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Applications"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Fluorocarbon refrigerants and propellants",
+      "Grain fumigants and flour bleaching",
+      "Solvent in chlorinated rubber manufacturing and petroleum refining industry",
+      "Grease removing agent for machinery and tool",
+      "Dry-cleaning fluid",
+      "Fire extinguisher",
+      "Flotation fluid, synthesis of nylon-7",
+      "Pharmaceutical preparations",
+      "Agro chemicals"
+     ]
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/CARBON-TETRACHLORIDE.pdf\">Leaflet</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Carbon-Tetra-Chloride.pdf\">MSDS</a>"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Enquiry",
+     "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMjA1IiwidG9nZ2xlIjpmYWxzZX0%3D"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "METHYL CHLORIDE (CH 3 Cl - Monochloromethane)"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Specifications"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Sr No",
+       "Characteristics",
+       "Specification"
+      ],
+      [
+       "1",
+       "Colour",
+       "APHA 10.00 max"
+      ],
+      [
+       "2",
+       "Purity",
+       "% 99.9% min"
+      ],
+      [
+       "3",
+       "Menthylene Chloride",
+       "ppm 80 max"
+      ],
+      [
+       "4",
+       "Chloroform",
+       "%ppm 20.00 max"
+      ],
+      [
+       "5",
+       "Carbon Tetrachloride",
+       "%ppm 10.00 max"
+      ],
+      [
+       "6",
+       "Acidity as HCL",
+       "%ppm 1 max"
+      ],
+      [
+       "7",
+       "Free Chlorine",
+       "%ppm 1 max"
+      ]
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Applications"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Chlorosilanes monomer manufacture",
+      "Manufacture of Paraquet",
+      "Drug & Pharmaceuticals",
+      "Manufacture of Tetramethyl lead",
+      "Refrigerant",
+      "Methyl Cellulose",
+      "Butyl Rubber",
+      "Aniline dyes"
+     ]
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/METHYLENE-CHLORIDE.pdf\">Leaflet</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Methyl-Chloride.pdf\">MSDS</a>"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Enquiry",
+     "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMjA1IiwidG9nZ2xlIjpmYWxzZX0%3D"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "CHLOROFORM (CHCl 3 - Trichloromethane)"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Specifications"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Sr No",
+       "Characteristics",
+       "Specification"
+      ],
+      [
+       "1",
+       "Colour",
+       "APHA 10.00 max"
+      ],
+      [
+       "2",
+       "Sp. Gravity (15˚C/4˚C)",
+       "1.498/1.502"
+      ],
+      [
+       "3",
+       "Purity",
+       "% 99.90min"
+      ],
+      [
+       "4",
+       "Methylene Chloride",
+       "ppm 40.00 max"
+      ],
+      [
+       "5",
+       "Carbon Tetrachloride",
+       "ppm 40.00 max"
+      ],
+      [
+       "6",
+       "1.1 Dichloroethane",
+       "ppm 80.00 max"
+      ],
+      [
+       "7",
+       "CIS 1-2 Dichloroethene",
+       "ppm 130.00 max"
+      ],
+      [
+       "8",
+       "Moisture",
+       "ppm 100.00 max"
+      ],
+      [
+       "9",
+       "Free Chlorine",
+       "ppm 1.00 max"
+      ],
+      [
+       "10",
+       "Acidity as HCL",
+       "ppm 1.00 max"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<strong>Caution :</strong> Threshold limit 10 ppm as per ACGIH norms"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Applications"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Fluorocarbon Refrigerants and Resins",
+      "Fire fighting Agent",
+      "Solvent in Dye and Perfume manufacturing",
+      "Extract ant for Penicillin, Essential Oils, and Alkaloids, Nicotine, etc.",
+      "Soil Fumigants, Mildew Preventives",
+      "Pharmaceutical preparations"
+     ]
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/CHLOROFORM.pdf\">Leaflet</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Chloroform.pdf\">MSDS</a>"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Enquiry",
+     "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMjA1IiwidG9nZ2xlIjpmYWxzZX0%3D"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "chloromethane-group",
+ "path": "/chloromethane-group/"
+}

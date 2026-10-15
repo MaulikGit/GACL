@@ -1,0 +1,124 @@
+{
+ "title": "Certificates",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Certificates"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "/media/ISO-9001_page-0001-f90cf2.webp",
+     "alt": "Avatar"
+    },
+    {
+     "type": "text",
+     "html": "ISO 9001 : 2015"
+    },
+    {
+     "type": "image",
+     "src": "/media/ISO-14001_page-0001-b309ff.webp",
+     "alt": "Avatar"
+    },
+    {
+     "type": "text",
+     "html": "ISO 14001 : 2015"
+    },
+    {
+     "type": "image",
+     "src": "/media/ISO-45001_page-0001-2e900a.webp",
+     "alt": "Avatar"
+    },
+    {
+     "type": "text",
+     "html": "ISO 45001 : 2018"
+    },
+    {
+     "type": "image",
+     "src": "/media/ISO-50001_page-0001-93a9b9.webp",
+     "alt": "Avatar"
+    },
+    {
+     "type": "text",
+     "html": "ISO 50001 : 2018"
+    },
+    {
+     "type": "image",
+     "src": "/media/PPA-FSSAI-Certificate_page-0001-edf0b5.webp",
+     "alt": "Avatar"
+    },
+    {
+     "type": "text",
+     "html": "FASSAI PHOSPHORIC ACID"
+    },
+    {
+     "type": "image",
+     "src": "/media/BIS-Certificate-79530d.webp",
+     "alt": "Avatar"
+    },
+    {
+     "type": "text",
+     "html": "BIS ORTHOPHOSPHORIC ACID"
+    },
+    {
+     "type": "image",
+     "src": "/media/NSF-C0538655-060-1_page-0001-4c4c33.webp",
+     "alt": "Avatar"
+    },
+    {
+     "type": "text",
+     "html": "NFS POLYALUMINUM CHLORIDE"
+    },
+    {
+     "type": "image",
+     "src": "/media/NSF-Certificate-C0538655_page-0001-1-082424.webp",
+     "alt": "Avatar"
+    },
+    {
+     "type": "text",
+     "html": "NFS C0538655 – 01"
+    },
+    {
+     "type": "image",
+     "src": "/media/Gujarat-Alkalies-and-Chemicals-Limited-ISMS-S-1-FINAL_page-0-055f67.webp",
+     "alt": "Avatar"
+    },
+    {
+     "type": "text",
+     "html": "ISO 27001 : 2022"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "certificates",
+ "path": "/certificates/"
+}

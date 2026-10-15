@@ -1,0 +1,58 @@
+{
+ "title": "Dr. Hasmukh Adhia, IAS (Retd.)",
+ "description": "",
+ "hero": "/media/Dr-Hasmukh-Adia-5cf245.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dr. Hasmukh Adhia, IAS (Retd.)"
+    },
+    {
+     "type": "text",
+     "html": "Dr. Hasmukh Adhia is an officer of Indian Administrative Service, who retired on 30<sup>th</sup> November 2018 as Union Finance Secretary &amp; Revenue Secretary in Government of India. At present he is Principal Advisor to the Chief Minister of Gujarat since January 2023. He is Chairman of Gujarat Administrative Reforms Commission."
+    },
+    {
+     "type": "text",
+     "html": "Dr. Adhia is also Non-Executive Chairman of three State owned companies. These companies are GIFT (Gujarat International Finance Tech City Ltd), Gujarat Alkalies and Chemicals Ltd (GACL) and Gujarat Mineral Development Corporation (GMDC)."
+    },
+    {
+     "type": "text",
+     "html": "He is associated with number of educational institutions including Central University of Gujarat (CUG) as Chancellor, Indian Institute of Management Bangalore (IIMB) as member of Board of Governors, and with School of Ultimate Leadership (SOUL) as Vice-Chairman."
+    },
+    {
+     "type": "text",
+     "html": "Dr. Adhia has a post-Graduate degree in Accountancy. He is a gold medalist from the Indian Institute of Management, Bangalore and holds a Ph.D. in Yoga from Swami Vivekanand Yoga University, Bangalore."
+    },
+    {
+     "type": "text",
+     "html": "As Finance and Revenue Secretary, he was credited with the successful implementation of GST in India. On his superannuation in November 2018, Late Shri Arun Jaitley, the then Finance Minister of India praised Dr. Adhia’s contribution in a Facebook post. He said “Dr. Adhia was unquestionably a highly competent, disciplined, no-nonsense civil servant and of course, with impeccable integrity.”"
+    }
+   ]
+  },
+  {
+   "bg": "/media/CHECMICAL-cta-scaled-92edd8.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "slug": "team__dr-hasmukh-adhia",
+ "path": "/team/dr-hasmukh-adhia/"
+}

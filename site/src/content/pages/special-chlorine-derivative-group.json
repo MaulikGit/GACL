@@ -1,0 +1,160 @@
+{
+ "title": "Special Chlorine Derivative Group",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Special Chlorine Derivative Group"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "ANHYDROUS ALUMINIUM CHLORIDE (AlCl 3 )"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Specifications"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Sr No",
+       "Characteristics",
+       "Unit",
+       "Anhydrous ALC Powder",
+       "Grain I GA",
+       "Grain II GB"
+      ],
+      [
+       "1",
+       "Purity Min.",
+       "%",
+       "99.0",
+       "99.3",
+       "99.3"
+      ],
+      [
+       "2",
+       "Water Insoluble Max.",
+       "%",
+       "0.02",
+       "0.01",
+       "0.01"
+      ],
+      [
+       "3",
+       "Non- Volatile Max.",
+       "%",
+       "0.9",
+       "0.7",
+       "0.9"
+      ],
+      [
+       "4",
+       "Free Aluminium Max.",
+       "ppm",
+       "50",
+       "ppm",
+       "ppm"
+      ],
+      [
+       "5",
+       "Iron as Fe<sup>+++</sup> Max",
+       "ppm",
+       "50",
+       "10",
+       "10"
+      ],
+      [
+       "6",
+       "All other metals Max.",
+       "ppm",
+       "150",
+       "150",
+       "150"
+      ],
+      [
+       "7",
+       "Particle Size",
+       "mm",
+       "0-0.85 &amp; 0-1.41",
+       "1.41-4.76",
+       "4.76-10"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<strong>Caution :</strong> Hygroscopic and corrosive.<br>Reacts with water generates heat."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Applications"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Reforming Hydrocarbons",
+      "Elecrolytic production of Aluminium",
+      "Manufacturing of Dodecylbenzene",
+      "Ethylbenzene for Styrene",
+      "Anthraquinones",
+      "Acetophenone & Benzophenone",
+      "Titanium Dioxide",
+      "Aromatic Chemicals",
+      "Pesticides & Pharmaceuticals",
+      "Dyes & Pigments"
+     ]
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/ANHYDROUS-ALUMINIUM-CHLORIDE.pdf\">Leaflet</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/ANHYDROUS-ALUMINIUM-CHLORIDE-1.pdf\">MSDS</a>"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Enquiry",
+     "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMjA1IiwidG9nZ2xlIjpmYWxzZX0%3D"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "special-chlorine-derivative-group",
+ "path": "/special-chlorine-derivative-group/"
+}

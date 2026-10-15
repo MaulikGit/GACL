@@ -1,0 +1,164 @@
+{
+ "title": "BRSR Reports",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRSR Reports"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "text",
+     "html": "2025-2026"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRSR FY 2025-26"
+    },
+    {
+     "type": "text",
+     "html": "2024-2025"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRSR FY 2024-25"
+    },
+    {
+     "type": "text",
+     "html": "2023-2024"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRSR FY 2023-24"
+    },
+    {
+     "type": "text",
+     "html": "2022-2023"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRSR FY 2022-23"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRR Reports"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "text",
+     "html": "2021-2022"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRR FY 2021-22"
+    },
+    {
+     "type": "text",
+     "html": "2020-2021"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRR FY 2020-21"
+    },
+    {
+     "type": "text",
+     "html": "2019-2020"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRR FY 2019-20"
+    },
+    {
+     "type": "text",
+     "html": "2018-2019"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRR FY 2018-19"
+    },
+    {
+     "type": "text",
+     "html": "2017-2018"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRR FY 2017-18"
+    },
+    {
+     "type": "text",
+     "html": "2016-2017"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "BRR FY 2016-17"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "brsr-reports",
+ "path": "/brsr-reports/"
+}

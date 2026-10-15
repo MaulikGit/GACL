@@ -1,0 +1,8 @@
+.elementor-22389 .elementor-element.elementor-element-e12334a{--display:flex;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-22389 .elementor-element.elementor-element-e12334a.e-con{--e-con-transform-rotateZ:90deg;--flex-grow:0;--flex-shrink:0;}@media(min-width:576px){.elementor-22389 .elementor-element.elementor-element-e12334a{--width:max-content;}}@media(max-width:1600px) and (min-width:576px){.elementor-22389 .elementor-element.elementor-element-e12334a{--width:183.406;}}/* Start custom CSS for container, class: .elementor-element-e12334a */#popup_btn_id{
+    position: fixed;
+    bottom: 50%;
+    right: -36px;
+    z-index: 99999;
+    
+    
+}/* End custom CSS */

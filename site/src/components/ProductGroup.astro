@@ -1,0 +1,337 @@
+---
+import type { Page } from "../lib/content";
+import { href, nav } from "../lib/content";
+import { productSlug, splitName, type Group } from "../lib/products";
+import Section from "./Section.astro";
+
+interface Props {
+  group: Group;
+  page: Page;
+}
+const { group, page } = Astro.props;
+// Keep any non-product sections from the original page (e.g. the closing call to action).
+const tail = page.sections.filter((s) => !s.blocks.some((b) => b.type === "table") && s.blocks.some((b) => b.type === "button"));
+const siblings = nav.find((g) => g.label === "Products")?.children ?? [];
+const isUnit = (s: string) => /^(%|ppm|mm|gm|kg|°|deg|[\d.<>~-])/i.test(s.trim());
+---
+
+<section class="pg-hero">
+  <div class="wrap wrap--text pg-hero__copy">
+    <p class="t-eyebrow">Products</p>
+    <h1 class="t-hero">{group.title}</h1>
+    <ul class="pg-jump" aria-label="Products in this group">
+      {
+        group.products.map((p) => (
+          <li>
+            <a href={`#${productSlug(p.name)}`}>{splitName(p.name).base}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+  {
+    group.image && (
+      <div class="wrap pg-hero__media">
+        <img src={group.image} alt={group.title} fetchpriority="high" />
+      </div>
+    )
+  }
+</section>
+
+{
+  group.products.map((p, i) => {
+    const { base, formula } = splitName(p.name);
+    return (
+      <section class:list={["sec", "pg-prod", { "sec--alt": i % 2 === 0 }]} id={productSlug(p.name)}>
+        <div class="wrap">
+          <header class="pg-prod__head reveal">
+            <div>
+              <h2 class="t-display">{base}</h2>
+              {formula && <p class="pg-prod__formula">{formula}</p>}
+            </div>
+            <div class="actions">
+              {p.documents.map((d) => (
+                <a class="pill pill--ghost pill--sm" href={d.url} target="_blank" rel="noopener">
+                  {d.label}
+                </a>
+              ))}
+              <a class="pill pill--sm" href={href("/fill-inquiry-form/")}>Enquiry</a>
+            </div>
+          </header>
+
+          <div class="pg-prod__grid reveal" style="--d:.06s">
+            {p.specs.length > 0 && (
+              <div class="pg-card">
+                <h3 class="pg-card__title">Specifications{p.note && <span> · {p.note}</span>}</h3>
+                {p.specs.map((table) => {
+                  const [head, ...rows] = table;
+                  const skip = head[0]?.toLowerCase().startsWith("sr");
+                  return (
+                    <table class="pg-spec">
+                      <thead>
+                        <tr>{(skip ? head.slice(1) : head).map((c) => <th>{c}</th>)}</tr>
+                      </thead>
+                      <tbody>
+                        {rows.map((r) => (
+                          <tr>
+                            {(skip ? r.slice(1) : r).map((c, j) => (
+                              <td class:list={{ num: j > 0 && isUnit(c) }}>{c}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  );
+                })}
+              </div>
+            )}
+            <div class="pg-side">
+              {p.applications.length > 0 && (
+                <div class="pg-card">
+                  <h3 class="pg-card__title">Applications</h3>
+                  <ul class="pg-apps">
+                    {p.applications.map((a) => <li>{a}</li>)}
+                  </ul>
+                </div>
+              )}
+              {p.caution && (
+                <div class="pg-caution">
+                  <strong>Caution</strong>
+                  <p>{p.caution}</p>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  })
+}
+
+<section class="sec sec--tight pg-more">
+  <div class="wrap">
+    <h2 class="t-sub center">Explore more products</h2>
+    <ul class="pg-more__list">
+      {
+        siblings
+          .filter((s) => s.href !== page.path)
+          .map((s) => (
+            <li>
+              <a href={href(s.href)}>{s.label}</a>
+            </li>
+          ))
+      }
+    </ul>
+  </div>
+</section>
+
+{tail.map((s, i) => <Section section={s} index={i} alt={false} />)}
+
+<style>
+  .pg-hero {
+    padding-top: clamp(56px, 9vw, 120px);
+    text-align: center;
+  }
+
+  .pg-hero__copy {
+    display: grid;
+    gap: 18px;
+    justify-items: center;
+    animation: rise 1s var(--ease) both;
+  }
+
+  .pg-jump {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    list-style: none;
+    margin: 12px 0 0;
+    padding: 0;
+  }
+
+  .pg-jump a {
+    display: block;
+    padding: 8px 16px;
+    border-radius: 980px;
+    background: var(--alt);
+    color: var(--ink);
+    font-size: 14px;
+    transition: background 0.2s;
+  }
+
+  .pg-jump a:hover {
+    background: var(--alt-2);
+    text-decoration: none;
+  }
+
+  .pg-hero__media {
+    margin-top: clamp(40px, 6vw, 72px);
+    margin-bottom: clamp(48px, 6vw, 80px);
+    animation: rise 1.2s 0.1s var(--ease) both;
+  }
+
+  .pg-hero__media img {
+    width: 100%;
+    aspect-ratio: 21 / 9;
+    object-fit: cover;
+    border-radius: var(--r-lg);
+  }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+  }
+
+  .pg-prod__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: clamp(28px, 4vw, 48px);
+  }
+
+  .pg-prod__formula {
+    margin-top: 10px;
+    font-size: 19px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .pg-prod__grid {
+    display: grid;
+    gap: 20px;
+  }
+
+  @media (min-width: 960px) {
+    .pg-prod__grid {
+      grid-template-columns: 1.55fr 1fr;
+    }
+  }
+
+  .pg-card {
+    padding: clamp(24px, 3vw, 36px);
+    border-radius: var(--r-lg);
+    background: #fff;
+  }
+
+  .pg-prod:not(.sec--alt) .pg-card {
+    background: var(--alt);
+  }
+
+  .pg-card__title {
+    font-size: 21px;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+
+  .pg-card__title span {
+    font-weight: 400;
+    color: var(--muted);
+    font-size: 15px;
+  }
+
+  .pg-spec {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+
+  .pg-spec + .pg-spec {
+    margin-top: 20px;
+  }
+
+  .pg-spec th {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--muted);
+    padding: 0 12px 10px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .pg-spec td {
+    padding: 13px 12px 13px 0;
+    border-bottom: 1px solid var(--hair);
+    vertical-align: top;
+  }
+
+  .pg-spec tr:last-child td {
+    border-bottom: 0;
+  }
+
+  .pg-spec td.num {
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+
+  .pg-side {
+    display: grid;
+    gap: 20px;
+    align-content: start;
+  }
+
+  .pg-apps {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .pg-apps li {
+    padding: 8px 14px;
+    border-radius: 980px;
+    background: var(--alt);
+    font-size: 14px;
+  }
+
+  .pg-prod:not(.sec--alt) .pg-apps li {
+    background: #fff;
+  }
+
+  .pg-caution {
+    padding: 20px 24px;
+    border-radius: var(--r);
+    background: #fff4e5;
+    color: #7a4b00;
+    font-size: 15px;
+  }
+
+  .pg-caution strong {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 13px;
+  }
+
+  .pg-more__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin: 28px 0 0;
+    padding: 0;
+  }
+
+  .pg-more__list a {
+    display: block;
+    padding: 10px 18px;
+    border-radius: 980px;
+    border: 1px solid var(--line);
+    color: var(--ink);
+    font-size: 15px;
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .pg-more__list a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+  }
+</style>

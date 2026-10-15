@@ -1,0 +1,47 @@
+{
+ "title": "Online Vendor Registration",
+ "description": "",
+ "hero": "/media/Online-vendor-registration-8532e8.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Online Vendor Registration"
+    },
+    {
+     "type": "text",
+     "html": "Welcome to our Online Vendor Registration platform! We invite prospective vendors and service providers to join our network. Register now to explore exciting business opportunities with us. Be a part of our dynamic community and collaborate with a leading industry player. Join us in shaping a sustainable and prosperous future together."
+    },
+    {
+     "type": "button",
+     "text": "REGISTER NOW",
+     "href": "https://gaclportal.gacl.co.in/ePortal/vndreg/"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "online-vendor-registration",
+ "path": "/online-vendor-registration/"
+}

@@ -1,0 +1,83 @@
+{
+ "title": "Environment",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "As a leading chemical company, GACL is committed to revolutionizing our industry by prioritizing sustainability and fostering a healthier planet for future generations. At GACL, innovation meets environmental responsibility. We recognize the critical role we play in minimizing environmental impact. Our commitment to sustainability is woven into every aspect of our operations, from research and development to production and distribution."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Innovative Solutions"
+    },
+    {
+     "type": "text",
+     "html": "Our team of experts continually explores innovative solutions that prioritize environmental health without compromising performance or quality. From eco-friendly formulations to biodegradable products, we aim to offer solutions that contribute positively to the planet while meeting the diverse needs of our customers. The use of renewable energy sources is an integral part of GACL, with a current total installed wind power capacity of 171.45 MW and a solar power capacity of 36.62 MW."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Partnerships and Collaboration"
+    },
+    {
+     "type": "text",
+     "html": "We actively pursue collaborations to address global environmental challenges. Partnering with GAIL, we’re establishing a 500 KLD Bioethanol Plant using eco-friendly technology with maize and broken rice as feedstock. This plant aims to combat air pollution by using bioethanol as a petrol additive, benefiting both the environment and farmers. Additionally, we’ve signed an MoU with NTPC Renewable Energy for 100 MW of round-the-clock green power and will collaborate in synthesizing Green Chemicals such as Methanol and Ammonia for captive use."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Environmental Stewardship"
+    },
+    {
+     "type": "text",
+     "html": "We are dedicated to reducing our ecological footprint by implementing cutting-edge technologies and sustainable practices. Our processes prioritize energy efficiency, waste reduction, and responsible resource management. By constantly reassessing and refining our methods, we strive to exceed environmental regulations and set new standards for sustainability within our industry. We were the pioneers in the caustic soda industry to replace the Mercury Cell Technology with the environment-friendly membrane cell technology way back in 1989."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Community Engagement"
+    },
+    {
+     "type": "text",
+     "html": "Beyond our business goals, we engage with local communities to support environmental initiatives, educational programs, and projects that promote sustainability. By actively participating in community efforts, we aim to make a meaningful and positive impact beyond our immediate sphere of influence. Both our Vadodara and Dahej complexes boast substantial green areas. We have also undertaken mangrove plantation in a 40-hectare area in Dahej and regularly conduct tree plantation drives in neighbouring villages to contribute to a healthier planet."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "environment",
+ "path": "/environment/"
+}

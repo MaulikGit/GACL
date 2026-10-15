@@ -1,0 +1,232 @@
+---
+import type { Section } from "../lib/content";
+import { plain } from "../lib/content";
+import Blocks from "./Blocks.astro";
+
+interface Props {
+  section: Section;
+  index: number;
+  alt: boolean;
+}
+const { section, index, alt } = Astro.props;
+const blocks = section.blocks;
+const images = blocks.filter((b) => b.type === "image");
+const wide = blocks.some((b) => ["cards", "gallery", "table", "accordion"].includes(b.type));
+const textLen = blocks.reduce((n, b) => n + (b.type === "text" ? plain(b.html).length : 0), 0);
+const hasButton = blocks.some((b) => b.type === "button");
+
+// Layout choice, Apple-style:
+//  cta    – short heading + text + button (e.g. "Striving for change") → centered band
+//  split  – exactly one image beside text → two columns, alternating sides
+//  stack  – everything else → centered headline, readable column, wide media
+let layout: "cta" | "split" | "stack" | "timeline" = "stack";
+const isYear = (b: (typeof blocks)[number]) => b.type === "heading" && /^\d{4}$/.test(b.text.trim());
+const yearCount = blocks.filter(isYear).length;
+type Entry = { year: string; blocks: typeof blocks; image?: string };
+const entries: Entry[] = [];
+const intro: typeof blocks = [];
+if (yearCount >= 3) {
+  layout = "timeline";
+  for (const b of blocks) {
+    if (isYear(b) && b.type === "heading") entries.push({ year: b.text.trim(), blocks: [] });
+    else if (!entries.length) intro.push(b);
+    else if (b.type === "image" && !entries[entries.length - 1].image) entries[entries.length - 1].image = b.src;
+    else entries[entries.length - 1].blocks.push(b);
+  }
+} else if (blocks.length <= 4 && hasButton && textLen < 320 && images.length === 0 && !wide) layout = "cta";
+else if (images.length === 1 && blocks.length > 1 && !wide) layout = "split";
+
+const rest = blocks.filter((b) => b !== images[0]);
+const firstIsHeading = blocks[0]?.type === "heading" || (blocks[0]?.type === "eyebrow" && blocks[1]?.type === "heading");
+const headCount = blocks[0]?.type === "eyebrow" ? 2 : 1;
+const head = layout === "stack" && firstIsHeading ? blocks.slice(0, headCount) : [];
+const body = layout === "stack" && firstIsHeading ? blocks.slice(headCount) : blocks;
+const flip = index % 2 === 1;
+---
+
+<section
+  class:list={["sec", "page-sec", { "sec--alt": alt && layout !== "cta", "page-sec--cta": layout === "cta", "page-sec--bg": section.bg }]}
+  style={section.bg ? `--bg-img:url(${section.bg})` : undefined}
+>
+  {
+    layout === "cta" && (
+      <div class="wrap wrap--read center cta reveal">
+        <Blocks blocks={blocks} firstHeadingLarge />
+      </div>
+    )
+  }
+  {
+    layout === "split" && images[0]?.type === "image" && (
+      <div class:list={["wrap", "split", { "split--flip": flip }]}>
+        <div class="split__media reveal">
+          <img src={images[0].src} alt={images[0].alt} loading={index < 2 ? "eager" : "lazy"} />
+        </div>
+        <div class="split__copy blocks reveal" style="--d:.08s">
+          <Blocks blocks={rest} firstHeadingLarge />
+        </div>
+      </div>
+    )
+  }
+  {
+    layout === "timeline" && (
+      <div class="wrap">
+        {intro.length > 0 && (
+          <div class="stack-head reveal">
+            <Blocks blocks={intro} firstHeadingLarge />
+          </div>
+        )}
+        <ol class="tl">
+          {entries.map((e) => (
+            <li class="tl__item reveal">
+              <div class="tl__year">{e.year}</div>
+              <div class="tl__body blocks">
+                <Blocks blocks={e.blocks} />
+              </div>
+              {e.image && (
+                <div class="tl__media media-frame">
+                  <img src={e.image} alt={`GACL in ${e.year}`} loading="lazy" />
+                </div>
+              )}
+            </li>
+          ))}
+        </ol>
+      </div>
+    )
+  }
+  {
+    layout === "stack" && (
+      <>
+        {head.length > 0 && (
+          <div class="wrap wrap--text stack-head reveal">
+            <Blocks blocks={head} firstHeadingLarge />
+          </div>
+        )}
+        <div class:list={["wrap", wide ? "" : "wrap--read", "blocks", "stack-body", "reveal"]}>
+          <Blocks blocks={body} />
+        </div>
+      </>
+    )
+  }
+</section>
+
+<style>
+  .page-sec + .page-sec:not(.sec--alt):not(.page-sec--cta) {
+    padding-top: calc(var(--sec) * 0.5);
+  }
+
+  .blocks {
+    display: grid;
+    gap: 18px;
+  }
+
+  .stack-head {
+    display: grid;
+    gap: 12px;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: clamp(32px, 4vw, 56px);
+  }
+
+  .split {
+    display: grid;
+    gap: clamp(32px, 5vw, 80px);
+    align-items: center;
+  }
+
+  @media (min-width: 900px) {
+    .split {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .split--flip .split__media {
+      order: 2;
+    }
+  }
+
+  .split__media img {
+    width: 100%;
+    border-radius: var(--r-lg);
+    aspect-ratio: 4 / 3.2;
+    object-fit: cover;
+    box-shadow: var(--shadow);
+  }
+
+  .cta {
+    display: grid;
+    gap: 18px;
+    justify-items: center;
+  }
+
+  .page-sec--cta {
+    background: var(--ink);
+    color: #f5f5f7;
+  }
+
+  .page-sec--cta :global(h2),
+  .page-sec--cta :global(h3) {
+    color: #fff;
+  }
+
+  .page-sec--cta :global(.rich) {
+    color: #a1a1a6;
+  }
+
+  .page-sec--cta :global(.more) {
+    color: #2997ff;
+  }
+
+  .stack-body :global(.b-img img) {
+    width: auto;
+    max-width: 100%;
+    max-height: 520px;
+  }
+
+  .tl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .tl__item {
+    display: grid;
+    gap: 16px 48px;
+    padding: clamp(32px, 4vw, 56px) 0;
+    border-top: 1px solid var(--line);
+  }
+
+  @media (min-width: 900px) {
+    .tl__item {
+      grid-template-columns: 200px 1fr 360px;
+      align-items: start;
+    }
+
+    .tl__year {
+      position: sticky;
+      top: calc(var(--nav-h) + 24px);
+    }
+  }
+
+  .tl__year {
+    font-size: clamp(44px, 5vw, 72px);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    background: linear-gradient(120deg, #0a5ba3, #1a8cff 60%, #2f8f3a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .tl__body :global(.b-list) {
+    gap: 12px;
+  }
+
+  .tl__media {
+    aspect-ratio: 4 / 3;
+  }
+
+  .page-sec--bg {
+    position: relative;
+  }
+</style>

@@ -1,0 +1,58 @@
+{
+ "title": "Smart ODR Links",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Smart ODR Quick Links"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Master Circular"
+    },
+    {
+     "type": "button",
+     "text": "View",
+     "href": "https://gacl.com/wp-content/uploads/2023/12/MASTER-CIRCULAR-FOR-ONLINE-RESOLUTION-OF-DISPUTES.pdf"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Smart ODR Login"
+    },
+    {
+     "type": "button",
+     "text": "Visit",
+     "href": "https://smartodr.in/login"
+    }
+   ]
+  },
+  {
+   "bg": "/media/pan12-cd4ab1.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "smart-odr-links",
+ "path": "/smart-odr-links/"
+}

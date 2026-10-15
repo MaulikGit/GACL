@@ -35,33 +35,29 @@ The last crawl (15 Oct 2026) saved 140 of 143 pages and 739 images, and listed 8
 
 ## 2. The new site (`site/`)
 
-A static multi-page site built with [Astro](https://astro.build): white background, GACL blue as the single accent colour, and green reserved for sustainability. It has 29 pages.
+An Astro static site with an Apple-inspired design: system San Francisco/Inter type, white and light-grey (`#f5f5f7`) bands, large headlines, rounded image tiles, a translucent global nav with full-width flyout menus, and subtle scroll reveals. **All text and images are GACL's own, imported from the crawl**. Nothing is rewritten.
 
 ```bash
-cd site
-npm install
-npm run dev       # http://localhost:4321
-npm run build     # static output in site/dist/
+# 1. import content from the crawl (re-run after a new crawl)
+python scraper/build_products.py           # product specs   -> site/src/data/products.json
+python scraper/extract_pages.py            # every page      -> site/src/content/pages/*.json + site/public/media/*.webp
+cd scraper && python extract_home.py       # homepage, menu, footer -> site/src/content/{home,nav,footer}.json
+
+# 2. run / build the site
+cd site && npm install && npm run dev      # http://localhost:4321
+npm run build                              # static output in site/dist/
 ```
 
-| Section | Pages |
+How it fits together:
+
+| Piece | What it does |
 | --- | --- |
-| Home | Hero, key numbers, company intro, product bento grid, industries, sustainability, timeline, news, investors |
-| Company | Corporate World, Philosophy, Governing Body, Journey (timeline + archive photos), Honours & Recognitions |
-| Products | Overview with live product finder, plus one page per group (10) with spec tables, applications, cautions, leaflet & MSDS links |
-| Sustainability | Environment, Safety & Health, CSR, Governance & Certificates |
-| Investors | Filings links, tickers, grievance redressal contact |
-| Partners | Materials & Services, Tenders (open/closed status computed at build), searchable Dealer Network |
-| Careers, Media, Contact | Life at GACL, news & events, enquiry form that routes to the right desk |
+| `scraper/extract_pages.py` | Walks each page's Elementor document and turns it into ordered sections of typed blocks (heading, text, list, image, cards, table, accordion, gallery, button, video, map). Reads background images from the page CSS and converts every image to WebP. |
+| `scraper/extract_home.py` | Pulls the homepage's custom sections (10-slide hero, key figures, company intro and video, product cards, client logos, sustainability, Materials & Services, media, testimonials, investor strip, quick links), plus the menu and footer. |
+| `site/src/pages/index.astro` | The homepage, laid out section by section. |
+| `site/src/pages/[...slug].astro` | Every other page, at the **same URL as on gacl.com** (e.g. `/the-corporate-world/`). |
+| `site/src/components/Section.astro` | Chooses a layout per section: centered headline + reading column, split image/text, card grid, year timeline (Our Journey), or a dark call-to-action band. |
+| `site/src/components/ProductGroup.astro` | The product-group pages: specification tables, applications, cautions, and Leaflet/MSDS/Enquiry buttons. |
+| `site/src/components/Nav.astro`, `Footer.astro` | Global nav with flyouts (from the original menu) and footer (original columns, addresses and legal lines). |
 
-Where the content comes from:
-
-- `site/src/data/products.json`, `dealers.json` and `tenders.json` are generated from the crawl by the scripts above.
-- `site/src/data/site.ts` holds facts taken from the crawl (figures, timeline, board, awards, addresses, emails). The descriptive copy was rewritten for the new design.
-- `site/public/images/` holds 27 photos from the crawl, converted to WebP (2.8 MB in total).
-
-Links for investor filings, vendor registration, current openings and login portals still point to the matching pages on gacl.com until those systems are migrated.
-
-### Design system
-
-Tokens live in `site/src/styles/global.css`: colours, type (Manrope display, Inter body), radii, shadows and spacing. Shared pieces are in `site/src/components/`: `Header` (sticky, mega-menu, mobile drawer), `Footer`, `PageHero` and `Icon` (a hand-drawn line icon set). Section patterns were inspired by 21st.dev: a lamp-glow hero, a bento grid, a marquee and a framed CTA footer. All of them are re-implemented here in plain Astro and CSS, with no React dependency.
+66 pages are imported. The 6 Safety "services" pages have no body text on the live site, so they aren't generated. Their links, and links to anything not imported (logins, forms), go to the page on gacl.com.

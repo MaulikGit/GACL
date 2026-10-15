@@ -1,0 +1,46 @@
+{
+ "title": "Smt. Shridevi Shukla",
+ "description": "",
+ "hero": "/media/Smt.-Shridevi-Shukla-1024x1024-c2c397.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Smt. Shridevi Shukla"
+    },
+    {
+     "type": "text",
+     "html": "Smt. Shridevi Shukla has done B.A. in Economics. She has wide administrative and corporate experience. Prior to her retirement, she held various senior level positions in various departments of Government of Gujarat viz., Industries and Mines, Finance, Science and Technology and General Administration etc. Subsequent to her retirement, she was appointed as Officer on Special Duty (Industries and Mines) and Appellate Authority (Mines), Industries and Mines Department from September, 2010 to February, 2014. Thereafter, she was appointed as State Information Commissioner, Gujarat from May, 2014 to February, 2015."
+    },
+    {
+     "type": "text",
+     "html": "She had also served as Independent Director in Other Government Companies. Smt. Shridevi Shukla is also a member in India-Brazil Business Council (WICCI)."
+    }
+   ]
+  },
+  {
+   "bg": "/media/CHECMICAL-cta-scaled-92edd8.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "slug": "team__smt-shridevi-shukla",
+ "path": "/team/smt-shridevi-shukla/"
+}

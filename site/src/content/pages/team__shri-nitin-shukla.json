@@ -1,0 +1,62 @@
+{
+ "title": "Shri Nitin Shukla",
+ "description": "",
+ "hero": "/media/Shri-Nitin-Shukla-1024x1024-9e3dfc.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Shri Nitin Shukla"
+    },
+    {
+     "type": "text",
+     "html": "Shri Nitin Shukla holds a Bachelor’s degree in Mechanical Engineering and brings with him over four decades of rich and diverse experience in the energy and infrastructure sectors. He has served for over 18 years in leadership roles as Managing Director and CEO of joint ventures of multinational corporations in India."
+    },
+    {
+     "type": "text",
+     "html": "He retired from the Shell Group in September 2016 as Managing Director &amp; CEO of Hazira LNG Pvt. Ltd. and Hazira Port Pvt. Ltd. He led the business from the time Shell took its Final Investment Decision (FID) in December 2001. Under his leadership, the Hazira LNG terminal was successfully developed using an innovative spot cargo model, later transitioning to a service-provider-based structure combined with spot and short-term contracts. He also played a key role in the development of non-LNG cargo operations at Hazira Port through a sub-concession route awarded via international competitive bidding."
+    },
+    {
+     "type": "text",
+     "html": "Prior to his association with Shell, Shri Shukla served as Managing Director of Gujarat Powergen Energy Corporation Ltd. (a PowerGen UK group company) from July 1999 to February 2002. He also served as Executive Director of Gujarat Torrent Energy Corporation Ltd. (GTEC) from December 1997 to July 1999, where he was instrumental in the successful implementation of a 655 MW dual-fuel gas-based power project, completed on schedule and within budget. Earlier in his career, he worked with Engineers India Ltd. on large and complex projects and was associated with the initial stages of Nirma Ltd.’s soda ash and linear alkyl benzene projects."
+    },
+    {
+     "type": "text",
+     "html": "Shri Nitin Shukla has been actively involved with various industry and academic bodies. He has held positions such as: Chairman, CII Gujarat; Member, National Hydrocarbon Council (CII and FICCI); Member, Advisory Council, CSIR-NEERI; Member, Advisory Committee to Gujarat Electricity Regulatory Commission; Member, Gujarat Energy Research &amp; Management Institute; Member, Standing Committee &amp; Audit Committee, Pandit Deendayal Energy University (PDEU); Chairman, Gujarat Grassroots Innovation Augmentation Network (GIAN)."
+    },
+    {
+     "type": "text",
+     "html": "He has served as a Director on the boards of several prominent companies, including Shell India Pvt. Ltd., Shell Hazira Gas Pvt. Ltd., Shell India Markets Pvt. Ltd., Gujarat Mineral Development Corporation Ltd., Dahej SEZ Ltd., Gujarat Foundation for Entrepreneurial Excellence (iCreate), Cotton Connect (South Asia) Pvt. Ltd. He is holding Directorship in ACC Limited."
+    },
+    {
+     "type": "text",
+     "html": "In the not-for-profit sector, he serves as a Trustee of Gujarat Vishwakosh Trust, Sabarmati Ashram Preservation and Memorial Trust (Gandhi Ashram), Darshak Itihas Nidhi, and as Director of Anuvad Academy and Research Foundation."
+    }
+   ]
+  },
+  {
+   "bg": "/media/CHECMICAL-cta-scaled-92edd8.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "slug": "team__shri-nitin-shukla",
+ "path": "/team/shri-nitin-shukla/"
+}

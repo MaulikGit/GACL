@@ -1,0 +1,127 @@
+{
+ "title": "CSR",
+ "description": "",
+ "hero": "/media/15-2cc86b.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Corporate Social Responsibility"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "At GACL, we comprehend the profound impact that businesses can exert on society. Therefore, social responsibility is not merely an obligation; it is our ethos. By weaving social responsibility into our business model, we aim to create a positive and enduring impact on the world around us. Key highlights of our CSR initiatives encompass:"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "text": "Community Engagement"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "text": "Diverse CSR Initiative"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "text": "Alignment with Government Initiatives"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "gallery",
+     "images": [
+      {
+       "src": "/media/HMDC-Vadodara-feb815.webp",
+       "alt": ""
+      },
+      {
+       "src": "/media/AGRICULTURE-AND-ANIMAL-HUSBANDRY-PROJECT-1-scaled-71a355.webp",
+       "alt": ""
+      },
+      {
+       "src": "/media/EDUCATION-PROGRAM-02c476.webp",
+       "alt": ""
+      },
+      {
+       "src": "/media/EMPOWERING-ADOLESCENT-GIRLS-6505cb.webp",
+       "alt": ""
+      },
+      {
+       "src": "/media/NUTRITION-AWARENESS-SESSION-UNDER-MID-DAY-MEAL-PROGRAM-2-sca-512bd9.webp",
+       "alt": ""
+      },
+      {
+       "src": "/media/Science-Education-and-Awareness-1-scaled-122068.webp",
+       "alt": ""
+      },
+      {
+       "src": "/media/Self-Defense-Training-scaled-78fe6e.webp",
+       "alt": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "CSR Documents"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/CSR_POLICY-1.pdf\">CSR Policy</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2026/05/CSR-Projects-Approved-By-The-Board-for-The-Financial-Year-2025-26.pdf\">CSR Projects Approved By The Board For F.Y. 2025-26</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2024/10/CSR-Projects-Approved-By-The-Board-for-The-Financial-Year-2024-25.pdf\">CSR Projects Approved By The Board For F.Y. 2024-25</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/CSR-Projects-Approved-By-The-Board-For-F-Y-2023-24-1.pdf\">CSR Projects Approved By The Board For F.Y. 2023-24</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/f19e7_CSR_BOARD_APPROVED_PROJECTS_2022-23-1.pdf\">CSR Projects Approved By The Board For F.Y. 2022-23</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Website-CSR-Projects-Approved-by-the-Board-2021-22.pdf\">CSR Projects Approved By The Board For F.Y. 2021-22</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2026/08/Impact-Assessment-Report-FY-2025-26.pdf\">Impact Assessment Report FY 2025-26</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2025/06/Impact-assessment-report-2024-25.pdf\">Impact Assessment Report FY 2024-25.</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/edcdf_GACL_Impact_Assessment_Report-1.pdf\">Impact Assessment Report FY 2022-23</a>",
+      "<a href=\"https://gaclfoundationtrust.org/\">GACL Foundation Trust : A CSR Arm Of Gujarat Alkalies And Chemicals Limited</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "csr",
+ "path": "/csr/"
+}

@@ -1,0 +1,207 @@
+{
+ "title": "Credit Rating",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Credit Rating"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "Issued Year"
+    },
+    {
+     "type": "text",
+     "html": "Subject"
+    },
+    {
+     "type": "text",
+     "html": "2026"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Credit Rating 03.08.2026 Credit Rating 03.08.2026",
+       "href": "https://gacl.com/wp-content/uploads/2026/08/SELETTER_S-1.pdf",
+       "cta": "Credit Rating 03.08.2026"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Credit Rating 29.07.2026 Credit Rating 29.07.2026",
+       "href": "https://gacl.com/wp-content/uploads/2026/07/SELETTER_S-1.pdf",
+       "cta": "Credit Rating 29.07.2026"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2025"
+    },
+    {
+     "type": "text",
+     "html": "Credit Rating 01.08.2025 Credit Rating 01.08.2025"
+    },
+    {
+     "type": "text",
+     "html": "2024"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Credit Rating 30.07.2024 Credit Rating 30.07.2024",
+       "href": "https://gacl.com/wp-content/uploads/2024/07/SE_Credit_Rating_s.pdf",
+       "cta": "Credit Rating 30.07.2024"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Credit Rating 14.02.2024 Credit Rating 14.02.2024",
+       "href": "https://gacl.com/wp-content/uploads/2024/02/SE_Letter_Credit_Rating_S.pdf",
+       "cta": "Credit Rating 14.02.2024"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Credit Rating 09.02.2024 Credit Rating 09.02.2024",
+       "href": "https://gacl.com/wp-content/uploads/2024/02/Credit_Ratings_SE_Letter_S.pdf",
+       "cta": "Credit Rating 09.02.2024"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2023"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Credit Rating 13.09.2023 Credit Rating 13.09.2023",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Credit-Rating-13.09.2023.pdf",
+       "cta": "Credit Rating 13.09.2023"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Credit Rating 23.06.2023 Credit Rating 23.06.2023",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Credit-Rating-23.06.2023.pdf",
+       "cta": "Credit Rating 23.06.2023"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2022"
+    },
+    {
+     "type": "text",
+     "html": "Credit Rating 22.06.2022 Credit Rating 22.06.2022"
+    },
+    {
+     "type": "text",
+     "html": "2021"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Credit Rating 01.07.2021 Credit Rating 01.07.2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Credit-Rating-01.07.2021.pdf",
+       "cta": "Credit Rating 01.07.2021"
+      },
+      {
+       "type": "card",
+       "image": "",
+       "title": "",
+       "html": "Credit Rating 06.05.2021 Credit Rating 06.05.2021",
+       "href": "https://gacl.com/wp-content/uploads/2023/12/Credit-Rating-06.05.2021.pdf",
+       "cta": "Credit Rating 06.05.2021"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "html": "2020"
+    },
+    {
+     "type": "text",
+     "html": "Credit Rating 01.10.2020 Credit Rating 01.10.2020"
+    },
+    {
+     "type": "text",
+     "html": "2019"
+    },
+    {
+     "type": "text",
+     "html": "Credit Rating 04.10.2019 Credit Rating 04.10.2019"
+    },
+    {
+     "type": "text",
+     "html": "2018"
+    },
+    {
+     "type": "text",
+     "html": "Credit Rating- 08.10.2018 Credit Rating- 08.10.2018"
+    },
+    {
+     "type": "text",
+     "html": "2017"
+    },
+    {
+     "type": "text",
+     "html": "Credit Rating- 04.10.2017 Credit Rating- 04.10.2017"
+    }
+   ]
+  },
+  {
+   "bg": "/media/CHECMICAL-cta-scaled-92edd8.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "slug": "credit-rating",
+ "path": "/credit-rating/"
+}

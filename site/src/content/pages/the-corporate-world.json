@@ -1,0 +1,157 @@
+{
+ "title": "Corporate World",
+ "description": "",
+ "hero": "/media/IMG_2955-scaled-qito47d8mpuglxhvkewh3zen8tlqo3tjig2bvadzp8-74e722.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Our Company"
+    },
+    {
+     "type": "text",
+     "html": "Welcome to Gujarat Alkalies and Chemicals Limited (GACL): Elevating Industrial and Economic Growth in India and Enriching “Atmanirbhar Bharat”."
+    },
+    {
+     "type": "text",
+     "html": "<strong>Roots in Gujarat, Nourishing India</strong>"
+    },
+    {
+     "type": "text",
+     "html": "GACL, a leader in the Chlor-Alkali sector, was established in 1973 in Vadodara, the cultural city of Gujarat. GACL has emerged as a shining beacon of self-reliance and an indispensable contributor to the industrial and economic growth of Gujarat and India as a whole. Our journey, nurtured under the auspices of the Government of Gujarat, has been marked by an unwavering dedication to cutting-edge technology, pioneering research and development, and strategic diversification."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "At GACL, we deeply understand the importance of responsible corporate practices. Our commitment to environmental stewardship, sustainability, and Corporate Social Responsibility (CSR) is ingrained in every aspect of our operations. We prioritize these values to ensure that our business is not only successful but also contributes positively to society and the environment."
+    },
+    {
+     "type": "text",
+     "html": "We firmly believe that sustainable business practices and responsible corporate citizenship are fundamental to crafting a resilient and principled enterprise. Join us in our pursuit of a more sustainable future, where our commitment to fostering a greener world and uplifting society aligns harmoniously with our vision for an empowered and self-reliant nation – an “Atmanirbhar Bharat.”"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "A Leader in Caustic Soda Industry"
+    },
+    {
+     "type": "text",
+     "html": "Today, GACL stands tall as one of the country’s largest caustic soda manufacturers, commanding over 20% of the domestic market. Our remarkable growth journey, from a modest initial capacity of 37,425 Tonnes Per Annum, has now culminated in a towering capacity of 8,52,400 Tonnes Per Annum (Including our subsidiary Company). We operate across four expansive complexes in Vadodara and Dahej, offering an extensive product portfolio of over 35 diverse products."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Setting New Benchmarks"
+    },
+    {
+     "type": "text",
+     "html": "With a widespread dealer network, in-house research and development capabilities, and proximity to vital raw materials and markets, GACL consistently sets new benchmarks. In our pursuit of growth, we have seamlessly harmonized the interests of the environment, society, employees, customers, stakeholders, and shareholders, imparting deeper meaning to our achievements."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Diverse Offerings and Global Presence"
+    },
+    {
+     "type": "text",
+     "html": "Over more than five decades, we have transformed into a competitive corporation, providing products with applications in Textile, Alumimium, Pharmaceuticals, Water Treatment/Purification, Rubber, Soaps &amp; Detergent, Paper, Dyes, Sugar, Edible Oil, Beverages, PVC, Polymer, Leather, Glass, Petroleum Products, Agrochemicals, Fertilizers, Paint, Refrigerant, Fragrance, Metal and many more, touching lives daily. GACL continues to diversify its offerings, introduce new products, and expand existing capacities. With a clientele of over 5,000 customers, including renowned global corporations, our presence is deeply felt across various regions worldwide."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Commitment to National Prosperity"
+    },
+    {
+     "type": "text",
+     "html": "Our commitment to the nation’s prosperity is unyielding. In collaboration with the CSIR-Indian Institute of Chemical Technology, Hyderabad, we have achieved a significant milestone by developing an eco-friendly process for producing the super-specialty chemical, Hydrazine Hydrate (H6N2O). This pioneering accomplishment has garnered patents from both the Government of India and the United States. Leveraging this technology, we have set up a 10,000 MTA Hydrazine Hydrate commercial-scale plant at our Dahej unit, making us India’s first manufacturer of this vital chemical. This development not only reduces our reliance on imports but also resonates with the vision of our Hon’ble Prime Minister towards “Atmanirbhar Bharat.”"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "A Visionary Approach"
+    },
+    {
+     "type": "text",
+     "html": "With an unwavering focus on the future, we are actively exploring the manufacturing of various Chlorine-based products to optimize Caustic Soda production while maintaining our leadership in Chlor-Alkali and downstream products. Furthermore, we are diligently pursuing opportunities to establish plants for producing value-added products with applications in pharmaceuticals, cosmetics, personal care products, detergents, epoxy resins, and other promising fields."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "Our journey is a testament to innovation, self-sufficiency, and an enduring commitment to fostering industrial and economic growth in India, while actively contributing to the vision of an “Atmanirbhar Bharat.” Join us in our mission to shape a brighter, more self-reliant future."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "GACL – A Catalyst in the Growth of India's Chemical Industry"
+    },
+    {
+     "type": "text",
+     "html": "At Gujarat Alkalies and Chemicals Limited (GACL), we take immense pride in our pioneering contributions that have propelled India’s chemical industry to new heights. Since our establishment, we have been at the forefront of innovation and sustainable practices, setting industry standards and leaving a lasting impact on the global stage. Here’s how we have catalyzed the growth of India’s chemical industry:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "The first Company in India to replace Mercury Cell Technology with eco-friendly Membrane Cell technology in 1989.",
+      "The first Company in India to manufacture an import substitute super-speciality chemical Hydrazine Hydrate with its R&D setup, indigenously developed patented environmental friendly technology in collaboration with IICT, Hyderabad.",
+      "The first Company to receive The Bureau of Indian Standards (BIS) license for its product Ortho Phosphoric Acid.",
+      "The first Company to transport caustic soda to Southern and Eastern parts of India through railways from Western India. Also, the first to establish a 1.6 km pipeline network to load various liquid products into Rail Containers at Dahej railway yard for supplies to consumers across India.",
+      "GACL Dahej unit is home to the largest Chlorine filling station in Asia. Additionally, it is the only unit in India manufacturing Hydrazine Hydrate and Sodium Chlorate.",
+      "GACL is also the largest producer of Ortho Phosphoric Acid and Hydrogen Peroxide in India, with a total installed capacity of 60,600 Tonnes Per Annum and 54,210 Tonnes Per Annum respectively.",
+      "We are the second-largest producer of Chloromethanes, with a total installed capacity of 1,61,100 Tonnes per annum.",
+      "We have a customer base of more than 5,000, including some of the finest global corporations.",
+      "We reach out to global markets in Africa, North America, South America, Europe, Turkey, the Middle East, Russia, Asia Pacific, Southeast Asia, Japan, and other regions.",
+      "Our manufacturing setup is spread over 2 strategic locations with 2 complexes in Vadodara and 2 complexes in Dahej."
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "the-corporate-world",
+ "path": "/the-corporate-world/"
+}

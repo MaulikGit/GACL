@@ -1,0 +1,49 @@
+{
+ "title": "Notice for Special Window for re-lodgement of Transfer Requests of Physical Shares",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "/media/smiling-young-businesswoman-businessman-looking-digital-tabl-db7d3c.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Notice for Special Window"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 3,
+     "text": "Notice for Special Window for re-lodgement of Transfer Requests of Physical Shares"
+    },
+    {
+     "type": "text",
+     "html": "SEBI vide its Circular No. <a href=\"https://www.sebi.gov.in/legal/circulars/jul-2025/ease-of-doing-investment-special-window-for-re-lodgement-of-transfer-requests-of-physical-shares_94973.html\">SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/97 dated 2 July 2025</a> has open a special window for re-lodgement of transfer deeds, which were lodged prior to the deadline of 1 April 2019 and rejected/returned/not attended due to deficiency in the documents/process/or otherwise, for a period of six months from 7 July 2025 till 6 January 2026, in order to facilitate investors and to secure the rights of investors in the securities which were purchased by them. During this period, the securities that are re-lodged for transfer shall be issued only in demat mode. Due process shall be followed for such transfer-cum-demat requests."
+    },
+    {
+     "type": "text",
+     "html": "Relevant investors are encouraged to take advantage of this Special window. The transfer request of physical shares can be re-lodged with our Registrar and Share Transfer Agenda (RTA) within the above-mentioned period at the following address:"
+    },
+    {
+     "type": "text",
+     "html": "<b>MUFG Intime India Private Limited</b><br><b>“Geetakunj” 1 Bhakti Nagar Society,</b><b><br></b><b>Behind Abs Tower, Old Padra Road,</b><b><br></b><b>Vadodara – 390015, Gujarat, India.</b>"
+    },
+    {
+     "type": "text",
+     "html": "<b>Tel No.: +91 265 3566 768</b>"
+    },
+    {
+     "type": "text",
+     "html": "<b>E-mail: </b><a href=\"mailto:vadodara@in.mpms.mufg.com\"><b>vadodara@in.mpms.mufg.com</b><b></b></a>"
+    }
+   ]
+  }
+ ],
+ "slug": "notice-for-special-window-for-re-lodgement-of-transfer-requests-of-physical-shares",
+ "path": "/notice-for-special-window-for-re-lodgement-of-transfer-requests-of-physical-shares/"
+}

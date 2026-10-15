@@ -1,36 +1,16 @@
 ---
 import Base from "../layouts/Base.astro";
-import Icon from "../components/Icon.astro";
 ---
 
 <Base title="Page not found">
-  <section class="section nf">
-    <div class="container nf__inner">
-      <p class="eyebrow">Error 404</p>
-      <h1 class="display">This page has reacted away.</h1>
-      <p class="lead">The page you’re looking for doesn’t exist or has moved. Try one of these instead.</p>
-      <div class="nf__links">
-        <a href="/" class="btn">Home <Icon name="arrow" /></a>
-        <a href="/products/" class="btn btn--ghost">Products</a>
-        <a href="/contact/" class="btn btn--ghost">Contact</a>
+  <section class="sec">
+    <div class="wrap wrap--text head">
+      <p class="t-eyebrow">404</p>
+      <h1 class="t-hero">Page not found.</h1>
+      <div class="actions actions--center">
+        <a class="pill" href="/">Go to Home</a>
+        <a class="more" href="/products/">Products</a>
       </div>
     </div>
   </section>
 </Base>
-
-<style>
-  .nf__inner {
-    display: grid;
-    gap: 20px;
-    justify-items: center;
-    text-align: center;
-    max-width: 760px;
-  }
-
-  .nf__links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-  }
-</style>

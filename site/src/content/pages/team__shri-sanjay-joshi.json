@@ -1,0 +1,54 @@
+{
+ "title": "Shri Sanjay Joshi",
+ "description": "",
+ "hero": "/media/Mr.-Sanjay-Joshi-18a5a4.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Shri Sanjay Joshi"
+    },
+    {
+     "type": "text",
+     "html": "Mr. Sanjay Joshi is a chemical engineer and brings over four decades of diverse professional experience in leadership roles across multiple industries. He has global exposure in engineering and project management, with a focus on oil and gas, refining, petrochemicals, chemical projects and energy transition. He played a key role to expand Aker Solutions’ business in the upstream oil and gas sector and established India as execution centre across the value chain of oil and gas industry to serve subsea, greenfield, brownfield projects in the North Sea."
+    },
+    {
+     "type": "text",
+     "html": "Beginning his career in 1980 after graduating in chemical engineering, Mr. Joshi has held a variety of positions at both working and leadership levels with leading Engineering companies in India, Oman, Abu Dhabi and the United Kingdom."
+    },
+    {
+     "type": "text",
+     "html": "In recognition of his outstanding contributions to the engineering sector in India, he was honoured with the “<strong>Business Leader of the Year in Engineering Services</strong>” award by the ChemTECH Foundation in 2015."
+    },
+    {
+     "type": "text",
+     "html": "Currently, he is an independent Director at Ion Exchange (India) Ltd. and Ion Exchange Engineering and Projects Limited. He is also working as non-executive Director at SLB Capturi India Private Ltd. (formerly Aker Carbon Capture India Private Limited). He is also a member of Audit committee, Risk management committee and chairman of the CSR committee at Ion Exchange (India) Ltd."
+    }
+   ]
+  },
+  {
+   "bg": "/media/CHECMICAL-cta-scaled-92edd8.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "slug": "team__shri-sanjay-joshi",
+ "path": "/team/shri-sanjay-joshi/"
+}

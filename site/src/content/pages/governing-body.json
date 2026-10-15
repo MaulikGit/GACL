@@ -1,0 +1,120 @@
+{
+ "title": "Governing Body",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Governing Body"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dr. Hasmukh Adhia, IAS (Retd.)"
+    },
+    {
+     "type": "text",
+     "html": "Chairman"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dr. T Natarajan, IAS"
+    },
+    {
+     "type": "text",
+     "html": "Director"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Shri Bimal Julka, IAS (Retd.)"
+    },
+    {
+     "type": "text",
+     "html": "Independent Director"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Shri Nitin Shukla"
+    },
+    {
+     "type": "text",
+     "html": "Independent Director"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Smt. Shridevi Shukla"
+    },
+    {
+     "type": "text",
+     "html": "Independent Director"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dr. Chinmay Ghoroi"
+    },
+    {
+     "type": "text",
+     "html": "Independent Director"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Shri Sanjay Joshi"
+    },
+    {
+     "type": "text",
+     "html": "Independent Director"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Smt. Avantika Singh, IAS"
+    },
+    {
+     "type": "text",
+     "html": "Managing Director"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "governing-body",
+ "path": "/governing-body/"
+}

@@ -1,0 +1,54 @@
+{
+ "title": "Dr. Chinmay Ghoroi",
+ "description": "",
+ "hero": "/media/Dr.-Chinmay-Ghoroi-839461.webp",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dr. Chinmay Ghoroi"
+    },
+    {
+     "type": "text",
+     "html": "Dr. Chinmay Ghoroi is B. S. Gelot Chair Professor in the Department of Chemical Engineering, Associated Faculty in Dr. Kiran C. Patel Centre for Sustainable Development and Coordinator of Centre for Safety Engineering at IIT Gandhinagar. He completed his PhD from IIT Bombay. He was Research Associate at the New Jersey Institute of Technology (NJIT) and Visiting Scholar at Texas A&amp;M University. Dr. Ghoroi also worked in the Process Industry and Simulation Industry for few years before moving to IIT Gandhinagar."
+    },
+    {
+     "type": "text",
+     "html": "He has established a Common Research &amp; Technology Development Hub (CRTDH) at IIT Gandhinagar for MSME. Dr. Ghoroi is also the Associate Editor of Particulate Science and Technology and serving in several committees of Gujarat Pollution Control Board (GPCB), Member of multiple committees of National Green Tribunal (NGT) and Expert Committee Member of Hydrogen Safety Committee of Ministry of New and Renewable Energy (MNRE)."
+    },
+    {
+     "type": "text",
+     "html": "He has received several Excellence Awards such as Excellence in Research Award, Excellence in Institution Building Award, Excellence in Outreach Activities Award at IIT Gandhinagar, R.G. Manudhane PhD Excellence Award for best PhD thesis from Chemical Engineering, IIT Bombay, and the Employee Excellence Award from Invensys Process System, HITEC City, Hyderabad."
+    },
+    {
+     "type": "text",
+     "html": "He is holding Directorship in GACL-NALCO Alkalies &amp; Chemicals Private Limited."
+    }
+   ]
+  },
+  {
+   "bg": "/media/CHECMICAL-cta-scaled-92edd8.webp",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "#"
+    }
+   ]
+  }
+ ],
+ "slug": "team__dr-chinmay-ghoroi",
+ "path": "/team/dr-chinmay-ghoroi/"
+}

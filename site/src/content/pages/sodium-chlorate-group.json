@@ -1,0 +1,127 @@
+{
+ "title": "Sodium Chlorate Group",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Sodium Chlorate Group"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "SODIUM CHLORATE (NaClO 3 )"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Specifications"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Sr No",
+       "Characteristics",
+       "Specification",
+       "Typical"
+      ],
+      [
+       "1",
+       "NaClO<sub>3</sub>",
+       "% 99.00 min",
+       "99.5"
+      ],
+      [
+       "2",
+       "Nacl",
+       "% 0.20 max",
+       "0.10"
+      ],
+      [
+       "*3",
+       "Moisture",
+       "% 0.10 max",
+       "0.10"
+      ],
+      [
+       "4",
+       "Na<sub>2</sub>SO<sub>4</sub>",
+       "ppm 0.02 max",
+       "0.02"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "html": "* As and when required"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/SODIUM-CHLORATE.pdf\">Leaflet</a>",
+      "<a href=\"https://gacl.com/wp-content/uploads/2023/12/Sodium-Chlorate.pdf\">MSDS</a>"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Enquiry",
+     "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExMjA1IiwidG9nZ2xlIjpmYWxzZX0%3D"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "SODIUM CHLORATE (NaClO 3 )"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Applications"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Bleaching agent for Pulp & Paper industry",
+      "Rocket Propellants",
+      "Water Treatment",
+      "Manufacture of Sodium Chlorite",
+      "Chemical Oxygen generation",
+      "As an Intermediate for the synthesis of other Chlorates, Perchlorates"
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "sodium-chlorate-group",
+ "path": "/sodium-chlorate-group/"
+}

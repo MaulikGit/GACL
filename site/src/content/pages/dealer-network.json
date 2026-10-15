@@ -1,0 +1,500 @@
+{
+ "title": "Dealer Network",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Our Dealers"
+    },
+    {
+     "type": "text",
+     "html": "Discover seamless access to our wide range of products through a network of authorized dealers. For convenient procurement, you have the option to reach out to us directly or connect with our esteemed business partners strategically located across various states and regions in India. The contact details of our regional partners are provided on this page, categorized by state/region."
+    },
+    {
+     "type": "text",
+     "html": "For international inquiries and requirements outside India, our dedicated Export Department is at your service. Feel free to reach out using the provided contact details below. Whether you’re seeking our products domestically or internationally, our network is ready to assist you. Choose the channel that best suits your needs and experience the efficiency and reliability of our dealer network."
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Let's Connect to Grow Together"
+    },
+    {
+     "type": "text",
+     "html": "<strong>Mr. Pankaj Mittal<br></strong>General Manager (Marketing)"
+    },
+    {
+     "type": "text",
+     "html": "<strong>Business Partner’s Address :</strong> GUJARAT ALKALIES AND CHEMICALS LIMITED, PO. RANOLI, DIST.VADODARA, VADODARA-391 350.<br><strong><br>Phone No :</strong> 0265-2230092<br><strong><br>Email :<br></strong>For Domestic:<a href=\"mailto:headmarketing@gacl.co.in\">headmarketing@gacl.co.in</a><br><strong>For Export: <a href=\"mailto:export@gacl.co.in\">export@gacl.co.in</a><br></strong>"
+    },
+    {
+     "type": "image",
+     "src": "/media/IMG_4707-scaled-bf58d4.webp",
+     "alt": "",
+     "caption": "",
+     "href": ""
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Dealers Network"
+    },
+    {
+     "type": "accordion",
+     "items": [
+      {
+       "title": "ANDHRA PRADESH",
+       "blocks": [
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>RAM NATH &amp; CO. PRIVATE LTD.</strong><br>1-8-156/160, PLOT NO. 10, PRENDERGHAST ROAD, SECUNDERABAD – 500003<br>Mr. K. A. SRINIVASAN , Mr. CHANDAN BARADIA",
+           "<a href=\"mailto:ramnathap@ram-nath.com\">ramnathap@ram-nath.com</a>, <a href=\"mailto:srinivasanka@ram-nath.com\">srinivasanka@ram-nath.com</a>, <a href=\"mailto:ramnathap@eth.net\">ramnathap@eth.net</a>, <a href=\"mailto:chandan@ram-nath.com\">chandan@ram-nath.com</a> <a href=\"http://www.ram-nath.com/\">www.ram-nath.com</a>"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "title": "DELHI",
+       "blocks": [
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>PUNJAB CHEMICALS AGENCY</strong><br>14, NAJAFGARH ROAD, Nr. ZAKHIRA CHOWK, NEW DELHI – 110015<br>Mr. HARVINDERSINGH GOGI",
+           "<a href=\"mailto:hsg@ndf.vsnl.net.in\">hsg@ndf.vsnl.net.in</a>"
+          ],
+          [
+           "<strong>SURESH TRADING CO.</strong><br>2280, Wali Hinga Beg, Tilak Bazar, Delhi- 110 006.<br>Mr. SURESH KEJRIWAL",
+           "<a href=\"mailto:kejriwalindia@gmail.com\">kejriwalindia@gmail.com</a>"
+          ],
+          [
+           "<strong>SHIVAM CHEMICALS</strong><br>C – 172, VIVEK VIHAR, NEW DELHI- 100 092<br>Mr. RAVI BANSAL",
+           "<a href=\"mailto:shivamchems@rediffmail.com\">shivamchems@rediffmail.com</a>"
+          ],
+          [
+           "<strong>BHATIA ACID PVT. LTD.</strong><br>WELCOME HOUSE, 855, G. T. ROAD, SHEELAMPUR, NEAR DWARKAJI TEMPLE, Delhi- 110 053<br>Mr. KUMAR BHATIA, Mr. ASHOK BHATIA",
+           "<a href=\"mailto:hbbhatia@ndb.vsnl.net.in\">hbbhatia@ndb.vsnl.net.in</a>"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "title": "GUJARAT",
+       "blocks": [
+        {
+         "type": "heading",
+         "level": 2,
+         "text": "REGION: AHMEDABAD / NORTH GUJARAT"
+        },
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>APUKA ENGINEERS</strong><br>4C &amp; 4D, 4th FLOOR, PATEL AVENUE, NEAR GURUDWARA, OPP. PREMIER HOUSE, S. G. ROAD AHMEDABAD – 380059<br>Mr. SANATBHAI M SHAH",
+           "<a href=\"mailto:apukaengineers@yahoo.com\">apukaengineers@yahoo.com</a>"
+          ],
+          [
+           "<strong>AGRAWAL AGENICES<br></strong>W1, Office No. 103, New York Timber Street, Opp. PSP House, Ambli – Bopal Road, Ahmedabad – 380 058<br>Mr. OM AGRAWAL",
+           "<a href=\"mailto:agrawalagencies2021@gmail.com\">agrawalagencies2021@gmail.com</a><br><a href=\"http://www.agrawalgroup.com/\">www.agrawalgroup.com</a>"
+          ],
+          [
+           "<strong>BLEACH CHEM</strong><br>7th FLOOR, SHIVALIK, OPP. CENTRE POINT, PANCHVATI, C. G. ROAD, AHMEDABAD – 380006<br>Mr. KEYUR SHAH",
+           "<a href=\"mailto:kshah.bleachchem@gmail.com\">kshah.bleachchem@gmail.com</a>"
+          ],
+          [
+           "<strong>JAY DYES &amp; CHEMICALS IND.,</strong><br>21, ROOPA, 2nd FLOOR, SONA ROOPA COMP., OPP. LAL BUNGLOW, C. G. ROAD, AHMEDABAD – 380006<br>Mr. ANIL C. BAROT, Mr. SAURABH A. BAROT",
+           "<a href=\"mailto:jaydyes@hotmail.com\">jaydyes@hotmail.com</a>"
+          ],
+          [
+           "<strong>JAI ENTERPRISE (SANGHVI)</strong><br>ADMN. OFFICE, 5, STADIUM COMP., 2nd FLOOR, ABOVE HAVMOR, NAVRANGPURA AHMEDABAD – 380009<br>Mr. NIKETAN SANGHVI",
+           "<a href=\"mailto:jaienterprise@rediffmail.com\">jaienterprise@rediffmail.com</a>"
+          ],
+          [
+           "<strong>NATIONAL CHEMICALS</strong><br>74, SUNRISE PARK, Opp. DRIVE IN CINEMA, THALTEJ ROAD, AHMEDABAD – 380054<br>Mr. NIGAM DAVE",
+           "<a href=\"mailto:nigamad1@sancharnet.in\">nigamad1@sancharnet.in</a>"
+          ],
+          [
+           "<strong>POLYCHEM AGENCY</strong><br>1, 2 &amp; 3, GRAND HOTEL BLDG. OPP. DINESH G TOWER, LAL DARWAJA, AHMEDABAD – 380007<br>Mr. HEMAL SHETH",
+           "<a href=\"mailto:polychemagency@yahoo.com\">polychemagency@yahoo.com</a>"
+          ],
+          [
+           "<strong>SEEGMA AGENCY</strong><br>3/B, KALARTH APPARTMENT, OPP. SEEMA HALL, 100 FT RING ROAD, SATELLITE, AHMEDABAD – 380015<br>Mr. RAKESH SHAH, Mr. RAJ SHAH",
+           "<a href=\"mailto:seegmaagency@gmail.com\">seegmaagency@gmail.com</a>"
+          ]
+         ]
+        },
+        {
+         "type": "heading",
+         "level": 2,
+         "text": "REGION: ANKLESHWAR / BHARUCH / NAVSARI / SURAT"
+        },
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>KORCHEMS</strong><br>PLOT NO. 307 TO 311/8, NR. RAMDEV PIR CROSS ROAD, G.I.D.C. ESTATE, ANKLESHWAR – 393002.<br>Mr. SANJAY SONI, Mr. PRASHIL SONI",
+           "<a href=\"mailto:marketing@korchems.com\">marketing@korchems.com, </a> <a href=\"mailto:korchems@yahoo.com\">korchems@yahoo.com</a><a href=\"mailto:apukaengineers@yahoo.com\"> </a><a href=\"/www.korchems.com%20\">www.korchems.com </a>"
+          ],
+          [
+           "<strong>MADHU GRAPHICS PVT LTD</strong><br>SHED NO. A/2-5513, G.I.D.C. ESTATE, ANKLESHWAR, BHARUCH<br>Mr. HITEN ANANDPURA, Mr. MANOJ ANANDPURA, Mr. NIKET ANANDPURA, Mr. MANJEET KAPADIA",
+           "<a href=\"mailto:mgpl2001ank@gmail.com,%20niket.anandpura@gmail.com\">mgpl2001ank@gmail.com, niket.anandpura@gmail.com</a>"
+          ]
+         ]
+        },
+        {
+         "type": "heading",
+         "level": 2,
+         "text": "REGION: VADODARA/ KHEDA"
+        },
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>PRAKASH CHEMICALS AGENCIES PRIVATE LIMITED</strong><br>“Prakash House”, 39/40, Krishna Industrial Estate, Opp. BIDC, Gorwa Road, Vadodara – 390016, Gujarat (India).<br>Mr. DILIP KUMARBHAI SHAH",
+           "<a href=\"mailto:mkt@prakashchemicals.com\">mkt@prakashchemicals.com</a><br><a href=\"mailto:dilip@prakashchemicals.com\">dilip@prakashchemicals.com</a>"
+          ],
+          [
+           "<strong>SURUCHI CHEMICALS</strong><br>214/B, PARADISE COMPLEX, SAYAJIGANJ, VADODARA – 390005<br>Mr. BHUPENDRABHAI",
+           "<a href=\"mailto:suruchichemicals@yahoo.com\">suruchichemicals@yahoo.com</a>"
+          ],
+          [
+           "<strong>SHREE CHEMICALS</strong><br>RAMAYA BLDG., OPP. Dr. RAKESH SHAH X-RAY CLINIC, SIYAPURA, VADODARA<br>Mr. ISHIT THAKORE",
+           "<a href=\"mailto:shreechemicalsindia@gmail.com\">shreechemicalsindia@gmail.com</a>"
+          ],
+          [
+           "<strong>SHREE PRAKESH AGENCIES</strong><br>RAMRATAN CHAMBERS, 3RD FLOOR, OPP BANK OF MAHARASHTRA DANDIA BAZAR VADODARA – 390001<br>Mr. SUBODH AGRAWAL, Mr. DHIREN PANDYA",
+           "<a href=\"mailto:shreeprakashagency@yahoo.com,%20shriprakashagencies@yahoo.co.in\">shreeprakashagency@yahoo.com, shriprakashagencies@yahoo.co.in</a>"
+          ],
+          [
+           "<strong>CHINTAN ENTERPRISE</strong><br>6, PUNIT NAGAR, NEW SAMA ROAD, VADODARA – 390008<br>Mr. CHINTAK THAKKAR",
+           "<a href=\"mailto:sales@chintan.co.in\">sales@chintan.co.in</a>"
+          ],
+          [
+           "<strong>PURVI CHEMICALS</strong><br>S/132, PATOLIA POLE, GHADIALI POLE, VADODARA – 390001<br>Mr. BHUPENDRA LAKHAWALA",
+           "<a href=\"mailto:purvichemicals@yahoo.co.in\">purvichemicals@yahoo.co.in</a>"
+          ],
+          [
+           "<strong>PILOT ENTERPRISE</strong><br>“PILOT HOUSE”, 3rd FLOOR, B-3, AJANTA SCOIETY, RACE COURSE ROAD, ELLORAPARK, VADODARA-390023.<br>Mr. Ramesh Turakhia, Mr. Rushabh Turakhia",
+           "<a href=\"mailto:pilot_chem@yahoo.com\">pilot_chem@yahoo.com</a><br><a href=\"http://www.pilotgroup.co.in/\">www.pilotgroup.co.in</a>"
+          ],
+          [
+           "<strong>UMIYA CHEMICAL INDUSTRIES</strong><br>SHREE NARSINHJI INDUSTRIAL ESTATE, WADI YAMUNA MILL ROAD, PRATAPNAGAR, VADODARA – 390 004<br>Mr. Bhadreshbhai R Patel, Mr.Sagarbhai R Patel",
+           "<a href=\"mailto:umiya.chemical@gmail.com,%20bhadresh1007@yahoo.co.in\">umiya.chemical@gmail.com, bhadresh1007@yahoo.co.in</a>"
+          ]
+         ]
+        },
+        {
+         "type": "heading",
+         "level": 2,
+         "text": "REGION: BULSAR / SILVASSA / VAPI"
+        },
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>KIRTI CHEMICALS</strong><br>PB NO. 48,SELVASA ROAD, Nr. HIGH SCHOOL, VAPI – 396 191<br>Mr. HEMANT SHAH",
+           "<a href=\"mailto:vpi@vapiproducts.com\">vpi@vapiproducts.com</a>"
+          ],
+          [
+           "<strong>M. J. CORPORATION</strong><br>TIRUPATI TOWERS, SILVASA ROAD, PB NO – 88, GIDC CHAR RASTA, VAPI – 396195<br>Mr. KETAN SHAH",
+           "<a href=\"mailto:mjc-ad1@sancharnet.in\">mjc-ad1@sancharnet.in</a>"
+          ],
+          [
+           "<strong>RONAK TRADERS</strong><br>NO.201, BHANU KIRAN APT., ODHAVRAM NAGAR,CHNIPWAD, VALSAD – 396001<br>Mr. HARSHAD KATARIA",
+           "<a href=\"mailto:ronaktraders@gmail.com\">ronaktraders@gmail.com</a>"
+          ]
+         ]
+        },
+        {
+         "type": "heading",
+         "level": 2,
+         "text": "REGION: KUTCH / SAURASHTRA"
+        },
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>NAZARALLY NOORBHAI PATEL</strong><br>\\’BILKHA PLAZA\\’, KASTURBA ROAD, RAJKOT – 360001<br>Mr. SHABBIR N. PATEL, Mr. SIRAJ S. PATEL",
+           "<a href=\"mailto:nnp_gacl@yahoo.com\">nnp_gacl@yahoo.com</a>"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "title": "HARYANA",
+       "blocks": [
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>PREMIER CHEMICALS</strong><br>120-A, MODEL TOWN, AMBALA CITY, HARYANA<br>Mr. SUDHIR SAGGAR, Mr. HARISH SAGGAR",
+           "<a href=\"mailto:harish_saggar@yahoo.com\">harish_saggar@yahoo.com</a>"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "title": "KARNATAKA",
+       "blocks": [
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>RAM NATH &amp; CO.</strong><br>B-65, 2nd FLOOR, 1st STAGE, PEENYA INDU. ESTATE, SULTANPET, BANGALORE – 560058<br>Mr. KRISHNAMURTHY, Mr. N. SUNDARESAN",
+           "<a href=\"mailto:blr@ram-nath.com\">blr@ram-nath.com</a>"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "title": "MADHYA PRADESH",
+       "blocks": [
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>KAVITA ENTERPRISES</strong><br>101, SILVER ARC PLAZA, 20/1, NEW PALASIA, INDORE – 452001<br>Mr. HITESH MEHTA",
+           "<a href=\"mailto:jmcpl@sancharnet.in,%20jmcpl@airtelbroadband.in\">jmcpl@sancharnet.in, jmcpl@airtelbroadband.in</a>"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "title": "MAHARASHTRA",
+       "blocks": [
+        {
+         "type": "heading",
+         "level": 2,
+         "text": "REGION: KOKAN / MUMBAI / PUNE / NASIK"
+        },
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>CHEM-MART</strong><br>37, Juhu Supreme shopping Center, Gulmohar Cross Road No 9, Juhu Scheme, MUMBAI – 400049<br>Mr. RIDDHISH K. SHAH",
+           "<a href=\"mailto:chemmart37@yahoo.com\">chemmart37@yahoo.com</a>"
+          ],
+          [
+           "<strong>CRESENT CHEMICALS</strong><br>201, WINDSOR, 2nd FLOOR, CST ROAD, KALINA, SANTACRUZ ( E ). MUMBAI – 400098<br>Mr. G. D. SHAH",
+           "<a href=\"mailto:crescent@crescentindia.com,%20%20gopal@crescentindia.com,%20info@crescentindia.com\">crescent@crescentindia.com, gopal@crescentindia.com, info@crescentindia.com</a><br><a href=\"http://www.crescentindia.com/\">www.crescentindia.com</a>"
+          ],
+          [
+           "<strong>HEETU CHEMICALS &amp; ALKALIES LTD.</strong><br>305, KONARK SHRAM 3rd FLOOR, BEHIND EVEREST BUILDING, TARDEO MAIN ROAD, TARDEO, MUMBAI – 400034<br>Mr. VIVEK SHAH",
+           "<a href=\"mailto:ales@heetu.com,%20heetu@hathway.com\">ales@heetu.com, heetu@hathway.com</a><br><a href=\"http://www.heetu.com/\">www.heetu.com</a>"
+          ],
+          [
+           "<strong>SOVIKA CHEMICALS PVT. LTD.</strong><br>B/2, PAREKH MAHAL, 80 VEER NARIMAN ROAD, CHURCHGATE MUMBAI – 400020<br>Mr. SOHAN MEHTA, Mr. SHIRISH DESAI",
+           "<a href=\"mailto:shirish@sovikagroup.com,%20sovikachem@gmail.com\">shirish@sovikagroup.com, sovikachem@gmail.com</a>"
+          ],
+          [
+           "<strong>MANISH CHEMI NOVA PRIVATE LIMITED</strong><br>711/712, CRYSTAL PARADISE PREMISES CO-OP SOCIETY LIMITED, OFF. VEERA DESAI ROAD, DATTAJI SALVI MARG, ANDHERI(WEST), MUMBAI – 400 053<br>Mr. MANISH Y. THAKKAR",
+           "<a href=\"mailto:manish@manishchemical.com,%20binita@manishchemical.com\">manish@manishchemical.com, binita@manishchemical.com</a>"
+          ],
+          [
+           "<strong>R R INNOVATIVE PRIVATE LIMITED</strong><br>B/10, KANMOOR HOUSE, 281/287, NARSI NATHA STREET, MUMBAI – 400 009<br>Mr. RAJAN RAJNIKANT",
+           "<a href=\"mailto:chem@rrgroupindia.com\">chem@rrgroupindia.com</a>"
+          ],
+          [
+           "<strong>IDEAL CHEMICALS (INDIA) PVT. LTD.</strong><br>GHANSHYAM NIWAS, 1st FLOOR, NR. UNION BANK OF INDIA, FURNITURE BAZAR, ULHASNAGAR – 421 003 DIST. : KALYAN<br>Mr. SAMEER SHARDA",
+           "<a href=\"mailto:ideal_chemicals@vsnl.net,%20idealideal@bsnl.in\">ideal_chemicals@vsnl.net, idealideal@bsnl.in</a>"
+          ],
+          [
+           "<strong>AMAZON CHEM[I] PVT. LTD.</strong><br>SHOP NO. 2, SHRI KRISHNA PURAM, NR. CENTURY CHEMICALS, KALYAN-MURBAD ROAD, SHAHAD(W) – 421301, DIST. THANE<br>Mr. NITIN S. MAHESHWARI",
+           "<a href=\"mailto:info@amazonchem.com\">info@amazonchem.com</a>"
+          ]
+         ]
+        },
+        {
+         "type": "heading",
+         "level": 2,
+         "text": "REGION: MARATHWADA / NAGPUR / VIDHARBHA"
+        },
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>JAIN ACID &amp; CHEMICALS</strong><br>19/A, CENTRAL AVENUE, Nr. RAPID TRANSPORT, GANDHIBAUG, NAGPUR – 440002<br>Mr. SANTOSH JAIN",
+           "<a href=\"mailto:jainacid_ngp@sancharnet.in\">jainacid_ngp@sancharnet.in</a>"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "title": "RAJASTHAN",
+       "blocks": [
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>GULJAG INDUSTRIES LTD.</strong><br>NAHATA BHAVAN, CHOPASANI ROAD, JODHPUR – 342003<br>Mr. Nilesh Dhoot",
+           "<a href=\"mailto:Nilesh.dhoot@guljagind.com\">Nilesh.dhoot@guljagind.com</a>"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "title": "TAMIL NADU",
+       "blocks": [
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>RAM NATH &amp; CO. PRIVATE LTD.</strong><br>C-16,17, THIRU-VI-KA INDU. ESTATE, GUINDY, CHENNI – 600032<br>Mr. N. VENKATESHWARAN",
+           "<a href=\"mailto:vnari@giasmol01.vsnl.net.in,%20info@ram.nath.com,%20hari0710@sify.com\">vnari@giasmol01.vsnl.net.in, info@ram.nath.com, hari0710@sify.com</a>"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "title": "UTTAR PRADESH",
+       "blocks": [
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>D. M. ALKALIES PVT. LTD.</strong><br>415/1, COMMERCIAL MANGAL, PANDEY NAGAR MEERUT – 250002<br>Mr. SUSHIL TYAGI , Mr. ITESH TYAGI",
+           "<a href=\"mailto:dmalkaliespvtltd@indiatimes.com\">dmalkaliespvtltd@indiatimes.com</a>"
+          ],
+          [
+           "<strong>HINDON INDIA PRIVATE LIMITED</strong><br>Hindon House , 2nd Floor , B-18 R.D.C, Raj Nagar, Ghaziabad – 201002, ( Delhi – NCR ), Uttar Pradesh, INDIA<br>Mr. ASHISH DABRAL , Mr. RAJIV SINGHAL",
+           "<a href=\"mailto:mktg4@hindon.co.in,%20%20salescorp@hindon.co.in\">mktg4@hindon.co.in, salescorp@hindon.co.in</a><br><a href=\"http://www.hindon.co.in/\">www.hindon.co.in</a>"
+          ],
+          [
+           "<strong>JAYCO AGENCY PVT. LTD.</strong><br>376-A, 2nd FLOOR KIRANA-MANDI, RAM NAGAR, GHAZIABAD-201001<br>Mr. AJAY SHARMA",
+           "<a href=\"mailto:jaycoagency@gmail.com\">jaycoagency@gmail.com</a>"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "title": "WEST BENGAL",
+       "blocks": [
+        {
+         "type": "table",
+         "rows": [
+          [
+           "Business Partner’s Address",
+           "Email / URL"
+          ],
+          [
+           "<strong>PHARMACHEM TRADERS</strong><br>11, POLLOCK STREET, 3RD FLOOR, ROOM NO. 6, CALCUTTA – 700001<br>Mr. SACHIN PAL",
+           "<a href=\"mailto:ptcal@cal.vsnl.net.in\">ptcal@cal.vsnl.net.in</a><br><a href=\"http://geocitiespharma.com/98362\">geocitiespharma.com/98362</a>"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "dealer-network",
+ "path": "/dealer-network/"
+}

@@ -1,0 +1,155 @@
+{
+ "columns": [
+  {
+   "title": "Company",
+   "links": [
+    {
+     "text": "Company",
+     "href": "/the-corporate-world/"
+    },
+    {
+     "text": "Products",
+     "href": "/caustic-soda-group/"
+    },
+    {
+     "text": "Sustainability",
+     "href": "/environment/"
+    },
+    {
+     "text": "Materials & Services",
+     "href": "/vendor-prequalification/"
+    },
+    {
+     "text": "Investors",
+     "href": "/financials/"
+    },
+    {
+     "text": "Career",
+     "href": "/life-at-gacl/"
+    },
+    {
+     "text": "Media",
+     "href": "/gacl-news/"
+    },
+    {
+     "text": "Contact",
+     "href": "/locations/"
+    }
+   ]
+  },
+  {
+   "title": "Materials & Services",
+   "links": [
+    {
+     "text": "Vendor Pre-Qualification",
+     "href": "/vendor-prequalification/"
+    },
+    {
+     "text": "Vendor Registration",
+     "href": "/online-vendor-registration/"
+    },
+    {
+     "text": "Salt Vendor Registration",
+     "href": "/salt-vendor-registration/"
+    },
+    {
+     "text": "Major Raw Materials",
+     "href": "/major-raw-materials/"
+    },
+    {
+     "text": "Scrap For Disposal",
+     "href": "/scrap-for-disposal/"
+    },
+    {
+     "text": "Tenders",
+     "href": "/tenders/"
+    }
+   ]
+  },
+  {
+   "title": "Quick Links",
+   "links": [
+    {
+     "text": "Executive AMS Login",
+     "href": "https://gaclportal.gacl.co.in/ePortal/dss/"
+    },
+    {
+     "text": "Employees Login",
+     "href": "https://mail.gacl.co.in/webmail/"
+    },
+    {
+     "text": "Dealers/Customers Login",
+     "href": "https://gaclportal.gacl.co.in/ePortal/"
+    },
+    {
+     "text": "Customer Registration",
+     "href": "https://gaclportal.gacl.co.in/ePortal/custreg/"
+    },
+    {
+     "text": "Vendors Login",
+     "href": "https://gaclportal.gacl.co.in/ePortal/"
+    },
+    {
+     "text": "Contractors Login",
+     "href": "https://gaclportal.gacl.co.in/contportal/"
+    },
+    {
+     "text": "Post Retirement Mediclaim Login",
+     "href": "https://gaclportal.gacl.co.in/mediportal/"
+    },
+    {
+     "text": "Smart ODR Link",
+     "href": "/smart-odr-links/"
+    },
+    {
+     "text": "GFT AMS Login",
+     "href": "https://gaclportal.gacl.co.in/gesams"
+    },
+    {
+     "text": "GNAL AMS Login",
+     "href": "https://gaclportal.gacl.co.in/mnugnl"
+    }
+   ]
+  }
+ ],
+ "sites": [
+  {
+   "title": "VADODARA COMPLEX AND COELHO COMPLEX",
+   "text": "P.O.: Ranoli – 391 350, Vadodara, Gujarat, India Phone: +91 265 6111000 Fax: +91 265 6111012"
+  },
+  {
+   "title": "DAHEJ COMPLEX - 1",
+   "text": "P.O. Dahej-392 130, Taluka-Vagra, Dist. Bharuch, Gujarat, India. Phone: +91 2641 613200 (Reception) Phone: +91 2641 613256 (Security Reception)"
+  },
+  {
+   "title": "DAHEJ COMPLEX - 2",
+   "text": "Plot No. DII/9, GIDC Dahej, PCPIR, Near GNFC-TDI Plant, Village: Rahiad, Taluka: Vagra, Dist.: Bharuch, Gujarat-392 130, India."
+  }
+ ],
+ "legal": [
+  "GSTIN : 24AAACG8896M1ZX | CIN : L24110GJ1973PLC002247",
+  "This website belongs to GUJARAT ALKALIES AND CHEMICALS LIMITED, Promoted by Govt. Of Gujarat"
+ ],
+ "social": [
+  {
+   "href": "https://www.linkedin.com/company/90498026/admin/feed/posts/",
+   "label": "Linkedin"
+  },
+  {
+   "href": "https://www.facebook.com/profile.php?id=100064178735577",
+   "label": "Facebook"
+  },
+  {
+   "href": "https://www.instagram.com/gaclindia/",
+   "label": "Instagram"
+  },
+  {
+   "href": "https://twitter.com/AlkaliesAnd",
+   "label": ""
+  },
+  {
+   "href": "https://www.youtube.com/@gacl-informativevideos9404",
+   "label": "Youtube"
+  }
+ ]
+}

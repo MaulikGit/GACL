@@ -1,0 +1,250 @@
+[
+ {
+  "label": "Company",
+  "href": "/",
+  "children": [
+   {
+    "label": "The Corporate World",
+    "href": "/the-corporate-world/",
+    "children": []
+   },
+   {
+    "label": "Corporate Philosophy",
+    "href": "/corporate-philosophy/",
+    "children": []
+   },
+   {
+    "label": "Governing Body",
+    "href": "/governing-body/",
+    "children": []
+   },
+   {
+    "label": "Our Journey",
+    "href": "/our-journey/",
+    "children": []
+   },
+   {
+    "label": "Honours & Recognitions",
+    "href": "/honours-recognitions/",
+    "children": []
+   }
+  ]
+ },
+ {
+  "label": "Products",
+  "href": "/",
+  "children": [
+   {
+    "label": "Caustic Soda Group",
+    "href": "/caustic-soda-group/",
+    "children": []
+   },
+   {
+    "label": "Caustic Potash Group",
+    "href": "/caustic-potash-group/",
+    "children": []
+   },
+   {
+    "label": "Chlorotoluene Group",
+    "href": "/chlorotoluene-group/",
+    "children": []
+   },
+   {
+    "label": "Hydrogen Peroxide Group",
+    "href": "/hydrogen-peroxide-group/",
+    "children": []
+   },
+   {
+    "label": "Special Chlorine Derivative Group",
+    "href": "/special-chlorine-derivative-group/",
+    "children": []
+   },
+   {
+    "label": "Chloromethane Group",
+    "href": "/chloromethane-group/",
+    "children": []
+   },
+   {
+    "label": "Water Treatment Group",
+    "href": "/water-treatment-group/",
+    "children": []
+   },
+   {
+    "label": "Sodium Chlorate Group",
+    "href": "/sodium-chlorate-group/",
+    "children": []
+   },
+   {
+    "label": "Phosphoric Acid Group",
+    "href": "/phosphoric-group/",
+    "children": []
+   },
+   {
+    "label": "Hydrazine Hydrate Group",
+    "href": "/hydrazine-hydrate/",
+    "children": []
+   }
+  ]
+ },
+ {
+  "label": "Sustainability",
+  "href": "/",
+  "children": [
+   {
+    "label": "Environment",
+    "href": "/environment/",
+    "children": []
+   },
+   {
+    "label": "Governance",
+    "href": "/governance/",
+    "children": []
+   },
+   {
+    "label": "CSR",
+    "href": "/csr/",
+    "children": []
+   },
+   {
+    "label": "Our Certificates",
+    "href": "/certificates/",
+    "children": []
+   },
+   {
+    "label": "Safety & Compliances",
+    "href": "/safety-compliance/",
+    "children": []
+   },
+   {
+    "label": "BRSR Reports",
+    "href": "/brsr-reports/",
+    "children": []
+   }
+  ]
+ },
+ {
+  "label": "Materials & Services",
+  "href": "/",
+  "children": [
+   {
+    "label": "Vendor Pre-Qualification",
+    "href": "/vendor-prequalification/",
+    "children": []
+   },
+   {
+    "label": "Vendor Registration",
+    "href": "/online-vendor-registration/",
+    "children": []
+   },
+   {
+    "label": "Salt Vendor Registration",
+    "href": "/salt-vendor-registration/",
+    "children": []
+   },
+   {
+    "label": "Major Raw Materials",
+    "href": "/major-raw-materials/",
+    "children": []
+   },
+   {
+    "label": "Scrap For Disposal",
+    "href": "/scrap-for-disposal/",
+    "children": []
+   },
+   {
+    "label": "Tenders",
+    "href": "/tenders/",
+    "children": []
+   }
+  ]
+ },
+ {
+  "label": "Investors",
+  "href": "/",
+  "children": [
+   {
+    "label": "Financials",
+    "href": "/financials/",
+    "children": []
+   },
+   {
+    "label": "Shareholding Pattern",
+    "href": "/shareholding-pattern/",
+    "children": []
+   },
+   {
+    "label": "Corporate Governance",
+    "href": "/corporate-governance/",
+    "children": []
+   },
+   {
+    "label": "Investors Connect",
+    "href": "/investors-connect/",
+    "children": []
+   },
+   {
+    "label": "Credit Rating",
+    "href": "/credit-rating/",
+    "children": []
+   },
+   {
+    "label": "Other Information",
+    "href": "/other-financial-information/",
+    "children": []
+   }
+  ]
+ },
+ {
+  "label": "Career",
+  "href": "/",
+  "children": [
+   {
+    "label": "Life at GACL",
+    "href": "/life-at-gacl/",
+    "children": []
+   },
+   {
+    "label": "GACL Advantage",
+    "href": "/gacl-advantage/",
+    "children": []
+   },
+   {
+    "label": "Current Openings",
+    "href": "https://gaclportal.gacl.co.in/hrportal/#b",
+    "children": []
+   }
+  ]
+ },
+ {
+  "label": "Media",
+  "href": "/",
+  "children": [
+   {
+    "label": "News",
+    "href": "/gacl-news/",
+    "children": []
+   },
+   {
+    "label": "Events",
+    "href": "/gacl-events/",
+    "children": []
+   }
+  ]
+ },
+ {
+  "label": "Contact",
+  "href": "/",
+  "children": [
+   {
+    "label": "Locations",
+    "href": "/locations/",
+    "children": []
+   },
+   {
+    "label": "Network",
+    "href": "/dealer-network/",
+    "children": []
+   }
+  ]
+ }
+]

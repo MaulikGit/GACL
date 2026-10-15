@@ -1,0 +1,82 @@
+{
+ "title": "Investors Connect",
+ "description": "",
+ "hero": "",
+ "sections": [
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "Investors Grievance Redressal"
+    },
+    {
+     "type": "text",
+     "html": "<b>Name of compliance officer :</b> Shri S. S. Bhatt"
+    },
+    {
+     "type": "text",
+     "html": "<b>Designation :</b> Company Secretary &amp; CGM (Legal, CC &amp; CSR)"
+    },
+    {
+     "type": "text",
+     "html": "<b>Address :</b> Gujarat Alkalies and Chemicals Limited P. O. Ranoli – 391350, Dist. : Vadodara, Gujarat, India."
+    },
+    {
+     "type": "text",
+     "html": "<b>Phone No. :</b> 0265- 6111000"
+    },
+    {
+     "type": "text",
+     "html": "<b>Fax No. :</b> 0265-6111012"
+    },
+    {
+     "type": "text",
+     "html": "<b>E-mail :</b> <a href=\"mailto:investor_relations@gacl.co.in\">investor_relations@gacl.co.in</a>"
+    },
+    {
+     "type": "button",
+     "text": "Notice for Special Window for Transfer and Dematerialisation of Physical Securities",
+     "href": "/notice-for-special-window-for-transfer-and-dematerialisation-of-physical-securities/"
+    },
+    {
+     "type": "button",
+     "text": "Notice for Special Window",
+     "href": "/notice-for-special-window-for-re-lodgement-of-transfer-requests-of-physical-shares/"
+    },
+    {
+     "type": "button",
+     "text": "100 Days Campaign - Saksham Niveshak",
+     "href": "https://gacl.com/wp-content/uploads/2025/09/100-days-campaign-saksham-niveshak.pdf"
+    },
+    {
+     "type": "button",
+     "text": "Second 100 Days Campaign - Saksham Niveshak",
+     "href": "https://gacl.com/wp-content/uploads/2026/05/100-Days-Campaign-Saksham-Niveshak.pdf"
+    }
+   ]
+  },
+  {
+   "bg": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "text": "STRIVING FOR CHANGE"
+    },
+    {
+     "type": "text",
+     "html": "Join us in our journey of unwavering principles and transformative growth. Together, we will continue to write success stories, leaving an indelible mark on the chemical industry and the world at large."
+    },
+    {
+     "type": "button",
+     "text": "Contact Us",
+     "href": "/locations/"
+    }
+   ]
+  }
+ ],
+ "slug": "investors-connect",
+ "path": "/investors-connect/"
+}
